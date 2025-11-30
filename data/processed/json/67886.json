@@ -1,0 +1,85 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west",
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "The bathroom is at the North and west corner position. between living room and master room. it is 10x6 sq ft. The common room is at the East and living position. between master room and living room. it is 10x10 sq ft. Living room is west and south corner it is west facing. between bathroom and common room and master room. it is 10x 20 sq ft. The master room is at the North and east corner position. between bath room and common room. it is 10x16 sq ft.",
+  "total_square_footage": 0,
+  "id": "67886",
+  "source_annotation": "data/raw/annotations/67886.txt",
+  "source_image": "data/raw/images/67886.png"
+}

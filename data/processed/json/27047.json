@@ -1,0 +1,133 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 14,
+  "raw_text": "Bathroom is located at South side of House. Bathroom is located between Living Room and Common Room. The Approximate size of Bathroom is 6' x 10'. Common Room is located at South West corner of House. Common Room is located Left to Bathroom and Rear side of Master Room. The Approximate size of Common Room is 16' x 12'. Kitchen is located at North East side of House. Kitchen is located between Living Room and Master Room. The Approximate size of Kitchen is 8' x 10'. Living Room is located at East side of House. Living Room is located Right to Kitchen and Bathroom. The Approximate size of Living Room is 12' x 26'. Maser Room is located at North West corner of House. Master Room is located in-front of Common Room and Left to Kitchen. The Approximate size of Master Room is 14' x 10;",
+  "total_square_footage": 0,
+  "id": "27047",
+  "source_annotation": "data/raw/annotations/27047.txt",
+  "source_image": "data/raw/images/27047.png"
+}

@@ -1,0 +1,160 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "balcony"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 16,
+  "raw_text": "BALCONY 1 IS LOCATED ON SOUTH EAST CORNER.BALCONY 1 IS LOCATED NEARBY MASTER ROOM.THE FLOOR AREA IS 60 SQUARE FEET. BALCONY 2 IS LOCATED ON NORTH EAST CORNER.BALCONY 2 IS LOCATED NEARBY COMMON ROOM 1. THE FLOOR AREA IS 50 SQUARE FEET. THE BATHROOM IS LOCATED ON EAST SIDE.THE BATHROOM IS LOCATED IN BETWEEN MASTER ROOM AND COMMON ROOM 1.THE FLOOR AREA IS 50 SQUARE FEET. #REF! COMMON ROOM 1 IS LOCATED ON NORTH SIDE.COMMON ROOM 1 IS LOCATED IN BETWEEN BATHROOM AND BALCONY.THE FLOOR AREA IS 80 SQUARE FEET. COMMON ROOM 2 IS LOCATED ON NORTH SIDE.COMMON ROOM 2 IS LOCATED NEARBY KITCHEN.THE FLOOR AREA IS 190 SQUARE FEET. THE KITCHEN IS LOCATED ON NORTH WEST CORNER.THE KITCHEN IS LOCATED NEARBY COMMON ROOM 2.THE FLOOR AREA IS 90 SQUARE FEET. THE LIVING ROOM IS LOCATED ON SOUTH WEST CORNER.THE LIVING ROOM IS LOCATED NEARBY MASTER ROOM.THE FLOOR AREA IS 525 SQUARE FEET. THE MASTER ROOM IS LOCATED ON SOUTH SIDE.THE MASTER ROOM IS LOCATED IN BETWEEN BALCONY AND BATH ROOM.THE FLOOR AREA IS 230 SQUARE FEET.",
+  "total_square_footage": 0,
+  "id": "30449",
+  "source_annotation": "data/raw/annotations/30449.txt",
+  "source_image": "data/raw/images/30449.png"
+}

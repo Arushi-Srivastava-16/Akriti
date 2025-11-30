@@ -1,0 +1,114 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "middle"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west",
+        "south"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west",
+        "center"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 11,
+  "raw_text": "The bathroom is at the North middle position. between kitchen and common room2 and living room. it is 10x8 sq ft. Common room 1 is at the West and south corner position room. between master room and living room. it is 10x10 sq ft. Common room 2 is at the North and east corner position. between bathroom and living room . it is 10x14 sq ft. The kitchen is at the North corner position. between  living room and bathroom. it is 10 x10 sq ft. Living room is west side center position. near all  rooms. it is north face this room size 15x20 sq ft. The master room is at the South and east corner position. between common room 1 and common room2 , living room. it is 10x16 sq ft.",
+  "total_square_footage": 0,
+  "id": "14271",
+  "source_annotation": "data/raw/annotations/14271.txt",
+  "source_image": "data/raw/images/14271.png"
+}

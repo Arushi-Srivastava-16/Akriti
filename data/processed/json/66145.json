@@ -1,0 +1,176 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master bedroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "south",
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "dining room"
+      ],
+      "directions": [
+        "west",
+        "south"
+      ]
+    },
+    {
+      "room": "dining room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "dining room"
+      ],
+      "directions": [
+        "west",
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom",
+        "dining room",
+        "kitchen"
+      ],
+      "directions": [
+        "west",
+        "north"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 16,
+  "raw_text": "Balcony is in the south east corner of the floor plan. To its north is the living room. It's roughly 12ft by 4ft Bathroom is central but on the western edge of the floor plan. To its south is the master bedroom and to its north is common room 1. It's roughly about 8ft by 8ft. Common room 1 is the north western most room on the floor plan. It is larger than common room 2 that is to its east. It's roughly 8ft by 18ft. Common room 2 is on the North facing wall of the floor plan. To its west is common room 1 and to its south is the living room and dining room. It's roughly about 8ft by 8ft. The dining room is in the North East quadrant of the floor plan. To its north is the kitchen and to its south is the living room. It is an 18ft by 10ft room. Kitchen is the North Eastern most room on the floor plan. To its west is common room 2 and to its south is the dining room. It's roughly 9ft by 7ft. Living room is on the east facing wall of the floor plan. Extending to the south of the floor plan. To its west are the bathroom and master bedroom, to its north is the dining room kitchen and common rooms 1 and 2. It's 18ft by 25ft. Master bedroom is in the south west corner of the floor plan. To its north is the bathroom and to its east is the living room. 15ft by 15ft is the rough dimensions of it.",
+  "total_square_footage": 0,
+  "id": "66145",
+  "source_annotation": "data/raw/annotations/66145.txt",
+  "source_image": "data/raw/images/66145.png"
+}

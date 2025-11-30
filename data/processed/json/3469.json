@@ -1,0 +1,65 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 5,
+  "raw_text": "Balcony Room Located on South east corner with living Room on above , Total size of 12 Feet length and 2 Feet Width. Bath Room Located on exact center of the west side with living Room on right , Total size of 4 Feet length and 4 Feet Width. Common Room Located on North east corner with living Room on below , Total size of 12 Feet length and 10 Feet Width. Living Room Located on Covered almost center area of the plan with master Room on below , Total size of 25 Feet length and 20 Feet Width. Master Room Located on South west corner with bath Room on above , Total size of 13 Feet length and 10 Feet Width.",
+  "total_square_footage": 0,
+  "id": "3469",
+  "source_annotation": "data/raw/annotations/3469.txt",
+  "source_image": "data/raw/images/3469.png"
+}

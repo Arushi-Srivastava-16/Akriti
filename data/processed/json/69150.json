@@ -1,0 +1,69 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southeast"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "Bathroom  is entrance from living room .it is 2 feet length and 3 feet width aspect ratio as 1 over 1.It is a small place room.bathroom near room as kicthen. Common room  is entrance from living room .It is northeast corner room.it is 12 feet length and 12 feet width aspect ratio as 4 over  4.It is a square shape room. kitchen is a southeast corner room.it is 2 feet length and 3 feet width aspect ratio as 1 over 1. living room is entrance from south side .it  is 25 feet length and 15 feet width aspect ratio as  7 over 5.living room is the big room compared to all other rooms. Master room is entrance from living room .it is 15 feet length and 15 feet width aspect ratio as 5 over  5 .it is a square shape room.",
+  "total_square_footage": 0,
+  "id": "69150",
+  "source_annotation": "data/raw/annotations/69150.txt",
+  "source_image": "data/raw/images/69150.png"
+}

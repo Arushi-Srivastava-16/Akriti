@@ -1,0 +1,92 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "middle",
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east",
+        "middle",
+        "north",
+        "south"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 9,
+  "raw_text": "BATHROOM IS LOCATED IN MIDDLE OF THE WEST SIDE. IN BETWEEN OF MASTER ROOM 1 AND MASTER ROOM 2. SIZE IS 9X 9 SQ FT. KITCHEN IS LOCATED IN CORNER OF THE NORTH AND EAST SIDE. NEAR TO LIVING ROOM. SIZE IS 20 X 6 SQ FT. EAST SIDE FACING LIVING ROOM IS LOCATED IN MIDDLE OF THE NORTH AND SOUTH SIDE. CENTER OF THE ALL OVER ROOM. SIZE IS 16 X 22 SQ FT. MASTER ROOM 1 IS LOCATED IN CORNER OF THE NORTH AND WEST SIDE. IN BETWEEN OF BATH ROOM AND LIVING ROOM. SIZE IS 14 X 14 SQ FT. MASTER ROOM 2 IS LOCATED IN CORNER OF THE SOUTH AND WEST SIDE. IN BETWEEN OF BATH ROOM AND LIVING ROOM. SIZE IS 20 X 14 SQ FT.",
+  "total_square_footage": 0,
+  "id": "29031",
+  "source_annotation": "data/raw/annotations/29031.txt",
+  "source_image": "data/raw/images/29031.png"
+}

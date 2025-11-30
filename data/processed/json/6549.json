@@ -1,0 +1,175 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "master room"
+      ],
+      "directions": [
+        "east",
+        "north",
+        "south"
+      ]
+    },
+    {
+      "room": "hallway",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "living room"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northeast"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "bathroom"
+      ],
+      "directions": [
+        "southeast",
+        "east",
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northwest"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "north",
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "balcony",
+        "common room",
+        "bathroom",
+        "master bedroom"
+      ],
+      "directions": [
+        "west",
+        "north",
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southeast"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 16,
+  "raw_text": "The balcony is located on the south end of the building directly on the southern end of the living room. It is located southwest of the master room. The balcony measures 11 ft L X 5 ft W. The bathroom is located on the east side of the building with the common room north and the master room directly south. A small hallway leads from the bathroom to the living room on the west side. The bathroom is 9 ft L X 7 ft W. The common room is on the Northeast corner. It is southeast of the kitchen, east of the living room and north of the bathroom. The common room is 10 ft L X 12 ft W. The kitchen is on the northwest end of the building. It is directly north of the living room and north west of the common room. The kitchen is 10 ft L X 5 ft W. The living room is on the west facing side of the building with the kitchen to the north, the balcony on the south, and the common room, bathroom and master bedroom to it's east. The living room is 11 ft L X 37.5 ft W The master room is located in the southeast corner of the building. It is directly south of the bathroom and east of the living room. The master is 11 ft L X 13 ft W.",
+  "total_square_footage": 0,
+  "id": "6549",
+  "source_annotation": "data/raw/annotations/6549.txt",
+  "source_image": "data/raw/images/6549.png"
+}

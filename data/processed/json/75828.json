@@ -1,0 +1,96 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "master room"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "kitchen"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east",
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "northeast"
+      ]
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "The balcony is located on the southwest corner and near to kitchen and common2. size is 4*14 The bathroom is located in the west side and between the common1 and common2. size is 7*7 Common room 1 is located in the north west corner and near to bathroom and master room. size is 16*16 Common room 2 is located on the west side and near to the balcony and kitchen. size is 12*12 The kitchen is located on the south side and near to the balcony and common room2. size is 12*6 The living room is located on the east side and south facing. near to the kitchen, common2 and master room. size is 20*22 The master room is located on the northeast corner and near to the common1 and living room. size is 15*10",
+  "total_square_footage": 0,
+  "id": "75828",
+  "source_annotation": "data/raw/annotations/75828.txt",
+  "source_image": "data/raw/images/75828.png"
+}

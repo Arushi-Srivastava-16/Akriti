@@ -1,0 +1,79 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "north"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "master room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "north"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "The balcony is located at the south eastern corner, which is to the east of the living room. It is about 60 square feet. The bathroom is located at the south western corner, which is adjacent to the living room. It is about 65 square feet. The common room is located at the north western corner, which is to the north of the living room. It is about 130 square feet. The kitchen is located on the northern side and is between the common room and the master room. It is about 60 square feet. The living room is located on the southern side, which is south of the kitchen and the master room. It is about 345 square feet. The master room is located at the north eastern corner, which is to the north of the living room. It is about 145 square feet.",
+  "total_square_footage": 0,
+  "id": "62512",
+  "source_annotation": "data/raw/annotations/62512.txt",
+  "source_image": "data/raw/images/62512.png"
+}

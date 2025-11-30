@@ -1,0 +1,32 @@
+{
+  "rooms": [
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": [
+        "north",
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east",
+        "north"
+      ]
+    }
+  ],
+  "total_rooms": 2,
+  "raw_text": "total area of length is 10 feet with 6 feet breath. total area of length is 10 feet with 6 feet breath. the total area of length is around 30 feet. total area of length is 10 feet with 6 feet breath. total area of length is 10 feet with 6 feet breath. kitchen on north and balcony on south, the total area of length is around 30 feet. Living room located on far east and covers the 50 percentage of the entire plan, exactly located in between Located on far north of the plan, located left side of the bath1, total area of length is 10 feet with 6 feet breath.",
+  "total_square_footage": 0,
+  "id": "10799",
+  "source_annotation": "data/raw/annotations/10799.txt",
+  "source_image": "data/raw/images/10799.png"
+}

@@ -1,0 +1,205 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "common room"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "bathroom"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "balcony"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 21,
+  "raw_text": "Balcony is located on the north west corner of the house situated next to living room. Balcony has access from living room. Approximately area of the balcony was 60 sqft in size. Bathroom 1 is centrally located in the east side of the house between living room and common room 1. area of the bathroom 1 was approximately 70 sqft in size. Bathroom 2 is located on the south east corner of the house. Bathroom 2 is situated between common room 1 and master room. Approximately area of the bathroom 2 was 60 sqft in size. Common room 1 is centrally located on the east side of the house between bathroom 1 and bathroom 2. Area of the common room 1 was 100 sqft approximately. Common room 2 is centrally located on the west side of the house situated between living room and balcony. Area of the common room 2 was 130 sqft approximately in size. Kitchen is located in the north east side of the house. Kitchen is situated in the east side of the living room. Approximately area of the kitchen was 100 sqft in size. Living room is located half of the area of the house on north side. Living room is situated in the north side of common room and bath room. Area of the living room was 300 sqft approximately. Master room is located on the south west corner of the house. Master room is situated next to common room on north side. Approximately area of the master room was 160 sqft in size.",
+  "total_square_footage": 0,
+  "id": "27910",
+  "source_annotation": "data/raw/annotations/27910.txt",
+  "source_image": "data/raw/images/27910.png"
+}

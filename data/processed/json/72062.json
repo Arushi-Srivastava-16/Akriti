@@ -1,0 +1,119 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "east",
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east",
+        "center"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west",
+        "center"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "master room",
+        "common room"
+      ],
+      "directions": [
+        "west",
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "west",
+        "south"
+      ]
+    }
+  ],
+  "total_rooms": 10,
+  "raw_text": "Bathroom is to the north west corner of house.it has living room to the east and kitchen to the south.it's dimensions are 5 feet in length and 15 feet in breadth. Common room is in east center of house.it has master room to the north and living to the south.it's dimensions are 5 feet in length and 12 feet in breadth. kitchen is in west center of house.it has bathroom on top north side and living room in bottom south side.it's dimensions are 8 feet in length and 15 feet in breadth. Living room is in the south side of the house.it has bathroom and kitchen in west side and master room,common room in east side from top to bottom in order.it is 17 feet in length and 35 feet in breadth in average. Master room is to the north east corner.it has living room to the west and common room in south side.it's dimensions are 8 feet to 14 feet in length and breadth.",
+  "total_square_footage": 0,
+  "id": "72062",
+  "source_annotation": "data/raw/annotations/72062.txt",
+  "source_image": "data/raw/images/72062.png"
+}

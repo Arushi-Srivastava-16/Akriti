@@ -1,0 +1,182 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 20,
+  "raw_text": "The absolute location of the balcony is on the south west side.  The balcony is next to the living room.  The width of the balcony is 4 feet and the length is 11 feet. The absolute location of the bathroom room is the north east corner.  The bathroom is in front of the living room. The width of the bathroom is 7 feet and the length is 5 feet. The absolute location of common room 1 is in the east side.  Common room 1 is next to the kitchen.  The width of common room 1 is 12 feet and the length is 11 feet. The absolute location of common room 2 is on the north side.  The common room 2 is between the master room and the bathroom.  The width of common room 2 is 9 feet and the length is 6 feet. The absolute location of the kitchen is on the south east side.  The kitchen is next to the common room 1. The width of the kitchen is 9 feet and the length is 8 feet. The absolute location of the living room is on the south side.  The living room is in between the balcony and the kitchen.  The width of the living room is 20 feet and 17 feet in length. The absolute location of the master is on the north west side.  The master room is in front of the living room and next to the common room 2.  The width of the master room is 19 feet and the length is 10 feet.",
+  "total_square_footage": 0,
+  "id": "36005",
+  "source_annotation": "data/raw/annotations/36005.txt",
+  "source_image": "data/raw/images/36005.png"
+}

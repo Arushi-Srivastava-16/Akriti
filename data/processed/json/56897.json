@@ -1,0 +1,97 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "middle"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 10,
+  "raw_text": "The balcony facing to the south direction. The room is next to the living room. The size of the room is about 3*15 feet The bathroom 1  located in between the master room and common room1 . The bathroom1 facing to the east direction. The size of the room is about 8*15 feet The bathroom2 facing to the  north direction. The room located in between the common room 1 and living room. The size of the room is about 10*10 feet The common room 1 is located between the bathroom1 and bathroom 2. It is facing to the north direction. The size of the room is about 15*15 feet The common room2 is  facing to the south direction. It is located between the living room and master room. The size of the room is about 12*12 feet The kitchen facing to the north west direction. The room located next to the living room. The size of the room is about 10*15 feet The living room located in the middle part of the house. The room facing to both north and south direction. The size of the room is about 20*25 feet The master room located in the between the bathroom1 and common room 2 . It is in the soputh east corner direction. The size of the room is about 12*15 feet",
+  "total_square_footage": 0,
+  "id": "56897",
+  "source_annotation": "data/raw/annotations/56897.txt",
+  "source_image": "data/raw/images/56897.png"
+}

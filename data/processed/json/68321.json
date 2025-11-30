@@ -1,0 +1,89 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "kitchen"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "bathroom"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "north"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "Balcony 1 is located on the west side and near to bathroom and kitchen. size is 3*4 Balcony 2 is located on the south side and behind the living room. size is 14*3 The bathroom is located between kitchen and master room. size is 4*4 The common room is located on the north east corner and near to living room. size is 10*14 The kitchen is located on the north side near to balcony and bathroom. size is 10*6 The living room is located on the north side and north facing. near to all other rooms and except balcony1. size is 16*26 The master room is located on the south west corner and near to bathroom. size is 10*12",
+  "total_square_footage": 0,
+  "id": "68321",
+  "source_annotation": "data/raw/annotations/68321.txt",
+  "source_image": "data/raw/images/68321.png"
+}

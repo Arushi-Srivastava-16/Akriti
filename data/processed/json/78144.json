@@ -1,0 +1,114 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "northeast",
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "common room",
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "bathroom",
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "kitchen",
+        "living room",
+        "bathroom"
+      ],
+      "directions": [
+        "northeast",
+        "north",
+        "west",
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "southwest",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "common room"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "balcony is in the far northeast tip of the plan, adjoined by common room 1 to the south and approximately 4x10 feet in dimension. bathroom 1 is on the eastern edge of the plan, adjoined by bathroom 2 to the south and common room 1 to the north, and living room to the west, approximately 5x5 in dimension. bathroom 1 is on the eastern edge of the plan, adjoined by master room to the south and bathroom 2 to the north, and living room to the west, approximately 5x5 in dimension. common room 1 in the northeast corner of the plan, adjoined by balcony to the north, kitchen and living room to the west, and bathroom 2 to the south, approximately 10x10 feet in dimension. common room 2 is in the southwest corner of the plan, adjoined by living room to the east, and approximately 13x10 feet in dimension. kitchen is in northern half of the plan, adjoined by living room to the south, and common room 1 to its east, approximately 5x10 feet in dimension. living room is in the western-central portion of the plan acting as a central hub to the other rooms in the plan, approximately 20x15 feet in dimension. master room is in the southeastern corner of the plan, adjoined by bathroom 2 to its north and living room to its west, approximately, 15x10 feet in dimension.",
+  "total_square_footage": 0,
+  "id": "78144",
+  "source_annotation": "data/raw/annotations/78144.txt",
+  "source_image": "data/raw/images/78144.png"
+}

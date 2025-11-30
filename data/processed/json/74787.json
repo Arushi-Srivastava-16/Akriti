@@ -1,0 +1,72 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "north",
+        "middle",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "northwest",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "southwest",
+        "south",
+        "east",
+        "north"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "southwest",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 5,
+  "raw_text": "The bathroom borders with the common room to the north and is in the middle of the west wall. It measures about 8 feet long and 16 feet wide The common room makes up the northwest part of the home and has the kitchen to the east side. It measures about 12 feet long and 16 feet wide. The kitchen is 12 x 14 in length and width and has the bathroom to it's south side. It is in the southwest corner of the house The living room is on the south east corner of the home and has the kitchen on it's north. It measures about 24x24 in length and width. The master room is the southwest corner of the house and has the living room to it's east side. It measures in at about 22 feet long and 18 feet wide.",
+  "total_square_footage": 0,
+  "id": "74787",
+  "source_annotation": "data/raw/annotations/74787.txt",
+  "source_image": "data/raw/images/74787.png"
+}

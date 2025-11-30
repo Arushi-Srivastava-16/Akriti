@@ -1,0 +1,88 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northeast"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "northwest"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "middle"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "southeast"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "Bathroom 1 is at the east and in-between bathroom2 and common room2. The size is 4 feet length and 8 feet width. Bathroom2 is at the east and in-between the bathroom1 and the master room. The size is 4 feet length and 8 feet width. Common room 1 is at the southwest corner and next to the living room. The size is 6 feet length and 8 feet width. This room is at the northeast corner and next to the living room. The size is 5 feet length and 8 feet width. The kitchen is at the northwest corner and next to the living room. The size is 5 feet length and 8 feet width. Living room is at the middle of all the rooms. The size is 32 feet length and 20 feet width. Master room is at the southeast corner and next to the living room. The size is 20 feet length and 12 feet width. Storage room is at the west and next to the common room 1. The size is 3 feet length and 8 feet width.",
+  "total_square_footage": 0,
+  "id": "32432",
+  "source_annotation": "data/raw/annotations/32432.txt",
+  "source_image": "data/raw/images/32432.png"
+}

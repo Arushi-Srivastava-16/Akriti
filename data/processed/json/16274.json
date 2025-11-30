@@ -1,0 +1,69 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "master room",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "common room"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "Bathroom is located nearby the living room and kitchen room. Its size should be 5 x 5ft. Common room 1 is located nearby the living room, master room and common room 2. Its size should be 10 x 10ft. Common room 2 is located nearby the living room and common room 1. Its size should be approximately 10 x 10ft. Kitchen room  is located in leftside of the plan, nearby the living room. Its size should be approximately 5 x 10ft. Living room is located in center part of the plan. It merges all rooms. Its size should be approximately 20 x 20ft. Master room is located in right side corner of the plan, nearby the living room and common room 1. Its size should be 10 x 10ft.",
+  "total_square_footage": 0,
+  "id": "16274",
+  "source_annotation": "data/raw/annotations/16274.txt",
+  "source_image": "data/raw/images/16274.png"
+}

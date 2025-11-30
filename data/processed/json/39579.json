@@ -1,0 +1,149 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "master bedroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "balcony"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "master bedroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "bathroom"
+      ],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "living room"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 15,
+  "raw_text": "The balcony is situated at the bottom half of both Common room 1 and the Master bedroom. Through common room 2 and the master room, you have access to the balcony. It is about 20 by 5 feet. The bathroom is situated next to the living and kitchen. Through the bathroom, you have access to both the kitchen and living rooms. It is relatively the same size as the bathroom, at 10 by 8 feet. Common room 1 is situated next to common room 2 and the living room. Through common room 1, you have access to common room 2 and the living room. It is about 10 by 12 feet. Common room 2 is situated between Common room 1 and the master bedroom. Through common room 2, you have access to the living room. It is about 10 by 12 feet. The kitchen is in the northwestern region of the house, situated next to the bath and living rooms. Through the kitchen, you have access to the bath and living rooms. The size is approximately 10 by 8 feet. The living room is right next to the kitchen and bathroom in the center of the house. Towards the bottom half of the living room, you have access to the two common rooms, as well as the master bedroom. In terms of size, it's approximately 20 by 30 feet. The master room is situated right next to common room 2 as well as the living room. Through the master room, you have access to the balcony as well as the living room. In terms of size, it's approximately 10 by 15 feet.",
+  "total_square_footage": 0,
+  "id": "39579",
+  "source_annotation": "data/raw/annotations/39579.txt",
+  "source_image": "data/raw/images/39579.png"
+}

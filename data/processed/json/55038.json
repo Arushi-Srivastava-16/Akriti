@@ -1,0 +1,162 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom"
+      ],
+      "directions": [
+        "north",
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom"
+      ],
+      "directions": [
+        "east",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 16,
+  "raw_text": "The balcony is in the North West corner of the floor plan. To its south is the living room. It's roughly 12ft by 4ft. Bathroom 1 is in the North East corner of the floor plan. To its east is the kitchen and living room. It's roughly 10ft by 6ft. Bathroom 2 is central along the western wall of the floor plan. To its north is the living room and master bedroom to its south. Its roughly 8ft by 6ft. Common room 1 is in the south east corner of the floor plan. To its west is common room 2 and living room. It's roughly 14ft by 20ft. Common room 2 is central along the southern wall of the floor plan. To its east is common room 1 and to its west is the master bedroom. It's roughly 10ft by 12ft. Kitchen is central along the northern wall of the floor plan. To its south is the living room. It's roughly 12ft by 5ft The living room is in the Northern hemisphere of the floor plan. To its north is the kitchen and balcony. It's roughly 25ft by 30ft. Master bedroom is in the south west corner of the floor plan. To its east is common room 2. It's roughly 15ft by 25ft.",
+  "total_square_footage": 0,
+  "id": "55038",
+  "source_annotation": "data/raw/annotations/55038.txt",
+  "source_image": "data/raw/images/55038.png"
+}

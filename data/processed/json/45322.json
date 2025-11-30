@@ -1,0 +1,121 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master bedroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "south",
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master bedroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    }
+  ],
+  "total_rooms": 12,
+  "raw_text": "Balcony is the southern most room on the floor plan. To its north is the living room. It's roughly 15ft by 6ft Bathroom is situated along the eastern wall of the floor plan. To its south is the master bedroom and to its north is common room. It's roughly 9ft by 9ft. Common room is in the North East corner of the floor plan. To its south is bathroom and to its east is the living room. It's roughly 15ft by 15ft. Kitchen is in the North West corner of the floor plan. To its south is the living room. It's roughly 7ft by 12ft The living room is located centrally and extending to the western and northern edges of the floor plan. To its south is the master bedroom. It's roughly 20ft by 25ft. The master bedroom is in the south east corner of the floor plan. To its south is the balcony. It's roughly 15ft by 20ft.",
+  "total_square_footage": 0,
+  "id": "45322",
+  "source_annotation": "data/raw/annotations/45322.txt",
+  "source_image": "data/raw/images/45322.png"
+}

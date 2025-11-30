@@ -1,0 +1,72 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northwest",
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west",
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "southeast"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "The bathroom is above the master room and also on the east wall. It is about 6 feet long and 8 feet wide. Com1 is to the east of Com2 and in the Northeast corner. It is somewhere near 10 feet long and wide. Com2 completes the northwest corner of the house and has the living room to it's south. it is about 10 feet long and 12 feet wide. The kitchen is on the east side of the home with Com1 above it and the bathroom below it. It measures 8 ft in length and 10 feet in width. The living room makes up most of the west side of the home, touches the Southside but not the north. It has the common room to the north and it is about 30 feet long and 20 feet wide. The southeast corner of the house has the master room and the bathroom is above it. It is roughly 18 feet long and 14 feet wide.",
+  "total_square_footage": 0,
+  "id": "47004",
+  "source_annotation": "data/raw/annotations/47004.txt",
+  "source_image": "data/raw/images/47004.png"
+}

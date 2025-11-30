@@ -1,0 +1,58 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northeast"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "north"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southeast"
+      ]
+    }
+  ],
+  "total_rooms": 5,
+  "raw_text": "The bathroom is located in the east side and between the master2 and kitchen. size is 6x8 The kitchen is located on the northeast side and next to the bath. size is 8x8 north facing living The living room is located on the north side and near to all other rooms. size is 22x24 unsized. Master room 1 is located on the southwest side and next to the master2. size is 9x16 Master room 2 is located on the southeast side and next to the bath. size is 11x16",
+  "total_square_footage": 0,
+  "id": "74486",
+  "source_annotation": "data/raw/annotations/74486.txt",
+  "source_image": "data/raw/images/74486.png"
+}

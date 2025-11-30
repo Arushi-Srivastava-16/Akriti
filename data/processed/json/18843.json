@@ -1,0 +1,62 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "kitchen"
+      ],
+      "directions": [
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 5,
+  "raw_text": "Balcony location:North East Corner, Relationship:the location: Next to Kitchen,  Area:50 sqrt feet   Sides: 5 feet width and 10 feet length.. Bathroom location:South West Corner, Relationship:the location: next to com and living,  Area:25 sqrt feet   Sides: 5 feet width and 5 feet length.. Comon room location:West side, Relationship:the location: Next to  bath,  Area:150 sqrt feet   Sides: 10 feet width and 15 feet length.. Kitchen location:South Side, Relationship:the location: Next to  living and master,  Area:50 sqrt feet   Sides: 5 feet width and 10 feet length.. Living room location:Central region, Relationship:the location: relatively in the center of the rooms,  Area:600 sqrt feet   Sides: 30 feet width and 20 feet length.. Master room location:East SIde, Relationship:the location: Next to Balcony, Kitchen and Living,  Area:200 sqrt feet   Sides: 20 feet width and 10 feet length..",
+  "total_square_footage": 0,
+  "id": "18843",
+  "source_annotation": "data/raw/annotations/18843.txt",
+  "source_image": "data/raw/images/18843.png"
+}

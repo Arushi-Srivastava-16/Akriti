@@ -1,0 +1,152 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 16,
+  "raw_text": "Location: Balcony 1 is on the Northern part of the floor plan.\nRelationship: It is on the western side of the kitchen.\nSize: It is about 10 feet by 10 feet. Location: Balcony 2 on the South east side of the floor plan.\nRelationship: It is on the southern side of the living room.\nSize: It is about 12 feet by 4 feet. Location: The bathroom is on the western central part of the floor plan.\nRelationship: It is on the North west of the living room.\nSize: It is about 10 feet by 7 feet. Location: Common room 1 is on the to the West of the floor plan.\nRelationship: It is to the south of the common room_2 and west of the living room.\nSize: It is about 13 feet by 10 feet. Location: Common room 2 is on the west part of the floor plan.\nRelationship: It is to the north of the common room_1 and  west of the living room.\nSize: It is about 13 feet by 10 feet. Location: The kitchen is on the south east of the floor plan.\nRelationship: It is on the North of the living room and east of the balcony_1.\nSize: It is about 8 feet by 10 feet. Location: The living room is on the western part of the part of the floor plan.\nRelationship: It is to the south of the kitchen and balcony_1.\nSize: It is about 430 square feet. Location: The master room is to the south west of the floor plan.\nRelationship: It on the south west side of the living room.\nSize: It is about 109 square feet.",
+  "total_square_footage": 0,
+  "id": "50287",
+  "source_annotation": "data/raw/annotations/50287.txt",
+  "source_image": "data/raw/images/50287.png"
+}

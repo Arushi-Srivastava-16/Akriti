@@ -1,0 +1,164 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "dining room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "dining room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northwest"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northeast"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southeast"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 20,
+  "raw_text": "A bathroom is located at south side of the building. This is placed between common room 1 and 2. And the bathroom size is nearly 4 feet. A common room 1 is located at south side of the building. This is placed to next to the master room. And the size of the common room 1 is nearly 10 feet. A common room 2 is located at southwest corner side of the building. This is placed to next to the bathroom. And the size of the common room 2 is nearly 10 feet. A dining room is located at the north side of the building. And this is placed next to the kitchen. The dining room size is 10 feet. A kitchen room is located at northwest side corner of the building. This is placed next to the common room 2. And the size of the kitchen room is 10 feet. A living room is located from  northeast side of the building. This is placed next to master room. And the size of the living room is nearly 20 feet. A master room is located at southeast corner side of the building. This is placed next to the common room1. The size of the master room is nearly 12 feet.",
+  "total_square_footage": 0,
+  "id": "80164",
+  "source_annotation": "data/raw/annotations/80164.txt",
+  "source_image": "data/raw/images/80164.png"
+}

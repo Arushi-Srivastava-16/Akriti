@@ -1,0 +1,69 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "The balcony is about 10ft long and is locate outside of the master room with private access. The one bathroom is located straight across the living room, between two common rooms and measures about 10x5ft. The first common room is located to the left of the bathroom with about 10x10ft of space. The second common room is located to the right of the bathroom, offering about 10x15ft of space. The kitchen is located directly to the left of the main entrance, measuring about 10x8ft in size. The living room is centrally located and is the room entered from the main door. It measures about 20x20ft but is not a square room. The master room mis located to the right of the main entrance, off of the living room, and is about 15x15ft in size.",
+  "total_square_footage": 0,
+  "id": "1261",
+  "source_annotation": "data/raw/annotations/1261.txt",
+  "source_image": "data/raw/images/1261.png"
+}

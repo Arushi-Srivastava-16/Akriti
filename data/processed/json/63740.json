@@ -1,0 +1,78 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "Bathroom is located at north east corner.  North and South side lenght is 6 feet. East and west side lenght is 12 feet. Common room is located in between kitchen and bathroom.  North and South side lenght is 16 feet. East and west side lenght is 6 feet. Kitchen is located at north west corner.  North and South side lenght is 12 feet. East and west side lenght is 6 feet. Living Room is located at south east corner.  It is located in between kitchen,  common bath and master room. North side lenght is 28 feet. South side lenght is 16 feet. East side lenght is 15 feet. West side lenght is 5 feet above master room. Master room is located at south west corner.  North and South side lenght is 16 feet. East and west side lenght is 15 feet.",
+  "total_square_footage": 0,
+  "id": "63740",
+  "source_annotation": "data/raw/annotations/63740.txt",
+  "source_image": "data/raw/images/63740.png"
+}

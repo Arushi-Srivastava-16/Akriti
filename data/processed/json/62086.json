@@ -1,0 +1,88 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "living room"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "bathroom",
+        "common room",
+        "kitchen"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "bathroom",
+        "common room",
+        "kitchen"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "balcony is in south east corner of the house, next to master room, size is 48 sqft. bathroom is in east side of the house, next to master room and living room, size is 18 sqft. common room is in south west corner of the house, next to master room and living room, size is 190 sqft. kitchen is in north west corner of the house, next to living room, size is 48 sqft. living room is in north side of the house, next to master room, bathroom, common room and kitchen, size is 470 sqft. master room is in south east corner of the house, next to balcony, bathroom, common room and kitchen, size is 144 sqft.",
+  "total_square_footage": 0,
+  "id": "62086",
+  "source_annotation": "data/raw/annotations/62086.txt",
+  "source_image": "data/raw/images/62086.png"
+}

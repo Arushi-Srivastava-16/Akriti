@@ -1,0 +1,38 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "master bedroom",
+        "bathroom",
+        "kitchen",
+        "common room",
+        "balcony",
+        "kitchen",
+        "bathroom",
+        "living room",
+        "kitchen",
+        "master bedroom",
+        "balcony"
+      ],
+      "directions": [
+        "west",
+        "southeast",
+        "west",
+        "north",
+        "west",
+        "east",
+        "southwest"
+      ]
+    }
+  ],
+  "total_rooms": 1,
+  "raw_text": "The balcony number one is on the west side of the apartment next to the common room and it measures 12\u00e2\u0080\u0098 x 5\u00e2\u0080\u0098 The second balconies on the southeast corner of the apartment next to the master bedroom and it measures 12\u00e2\u0080\u0098 x 5\u00e2\u0080\u0098 The bathroom is on the west side of the apartment next to the kitchen and then measures 5\u00e2\u0080\u0098 x 5\u00e2\u0080\u0098 The common room is on the north side of the apartment next to the balcony and it measures 12\u00e2\u0080\u0098 x 12' The kitchen is on the west side of the apartment next to the bathroom and it measures 10\u00e2\u0080\u0098 x 5\u00e2\u0080\u0098 The living room is on the east side of the apartment next to the kitchen and it measures 15\u00e2\u0080\u0098 x 25\u00e2\u0080\u0098 The master bedroom is on the southwest corner of the apartment next to the second balcony and it measures 12\u00e2\u0080\u0098 x 20\u00e2\u0080\u0098",
+  "total_square_footage": 0,
+  "id": "43883",
+  "source_annotation": "data/raw/annotations/43883.txt",
+  "source_image": "data/raw/images/43883.png"
+}

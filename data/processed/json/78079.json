@@ -1,0 +1,98 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "kitchen",
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 10,
+  "raw_text": "The balcony is located in left side corner of the plan. Its connects living room and master room. Its size should be 5 x 15ft. Bathroom 1 is located between master room and bathroom2. Its size should be 5 x 5ft. Bathroom 2 is located between bathroom 1 and common room 2. Its size should be 5 x 5ft. Common room 1 is located between common room 2 and kitchen, nearby the living room. Its size should be 10 x 10ft. Common room 2 is located between common room 1 and bathroom 2. It is located on right side corner of the plan. Its size should be 10 x 10ft. The kitchen is located in right side portion of the plan. It connects living room and common room 1. Its size should be 5 x 5ft. The living room is the majority portion of this plan. It connects all the rooms. Its size should be 25 x 25 ft. The master room is located in left side portion of the plan after the living room. Its size should be 20 x 10ft.",
+  "total_square_footage": 0,
+  "id": "78079",
+  "source_annotation": "data/raw/annotations/78079.txt",
+  "source_image": "data/raw/images/78079.png"
+}

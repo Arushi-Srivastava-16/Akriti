@@ -1,0 +1,161 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "common room",
+        "living room"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "living room"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 17,
+  "raw_text": "Balcony is centrally located on the west side of the house. Balcony is situated between bathroom and living room. Approximately area of the balcony was 40 sqft in size. Bathroom is centrally located in the east side of the house between common room 1, common room 2, and living room. Area of the bathroom was 40 sqft in size. Common room 1 is centrally located on the east side of the house between bathroom and living room. Area of the common room 1 was 110 sqft in size. Common room 2 is located on the north east corner of the house. Common room 2 is situated between bathroom and living room. Area of the common room 2 was 180 sqft in size. Kitchen is centrally located between living room and master room. Approximately area of the kitchen was 60 sqft in size. Living room occupies half of the area on the south side of the house. Entry for the main door is on north side. approximately area of the living room was 220 sqft in size. Master room is located on the north west corner of the house. Mater room is situated between kitchen and living room. Approximately area of the master room was 140 sqft in size.",
+  "total_square_footage": 0,
+  "id": "31030",
+  "source_annotation": "data/raw/annotations/31030.txt",
+  "source_image": "data/raw/images/31030.png"
+}

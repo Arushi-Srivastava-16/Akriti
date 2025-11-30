@@ -1,0 +1,74 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "bathroom",
+        "master room",
+        "common room",
+        "bathroom"
+      ],
+      "directions": [
+        "north",
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "Bathroom 1 is located on the second floor .beside the master room.in south corner Bathroom 2 is located on the first floor . beside the living room in north corner common room 1 is location on the second floor beside the bathroom 1 and south corner master room common room 2 is located on the first floor and front of bathroom 2 . The kitchen room  is located in the staring right corner upside master room there is 10 feet. The absolute location in the room second   floor The master room is located at the left side .master room is behind the living room there is no location and size information .",
+  "total_square_footage": 0,
+  "id": "64765",
+  "source_annotation": "data/raw/annotations/64765.txt",
+  "source_image": "data/raw/images/64765.png"
+}

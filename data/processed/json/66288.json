@@ -1,0 +1,70 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "kitchen",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "Balcony is located at south west corner. North and South side lenght is 15 feet. East and west side lenght is 2 feet. Bathroom is located at north west corner.  North and South side lenght is 6 feet. East and west side lenght is 10 feet. Common room is located at south east corner.  North and South side lenght is 10 feet. East and west side lenght is 15 feet. Kitchen is located at north east corner.  North, east  west and South side lenght is 10 feet. Living Room is located in between bathroom,  kitchen and common room.  North,  east,  west and South side lenght is 16 feet. Master room is located at left side of common room.  North,  east,  west and South side lenght is 15 feet.",
+  "total_square_footage": 0,
+  "id": "66288",
+  "source_annotation": "data/raw/annotations/66288.txt",
+  "source_image": "data/raw/images/66288.png"
+}

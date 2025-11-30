@@ -1,0 +1,67 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "The balcony is about 13ft by 2ft and is in the southwestern corner of the plan. It is located off of the master room. The bathroom if roughly 7ft by 7ft and is centrally located off of the living space on the eastern side of the plan, next to the kitchen. The common room is located to the right of the main entrance, next to the living room and master, in the northwestern corner. It measures about 13ft by 10ft in size. The kitchen is located in the northeastern corner of the floorplan, in the shape of an L. It is located to the left upon entry and measures about 10ft in length along the outer walls with an average 3ft width all the way around. The living room stretches from the northern end of the floorplan to the southern end, offering access to the main entrance, both rooms, kitchen, and bath. It measures about 29ft by 30ft in size. The master is located off of the living room, in the southwestern corner of the plan, and offers access to the balcony. It measures about 13ft by 13ft.",
+  "total_square_footage": 0,
+  "id": "66287",
+  "source_annotation": "data/raw/annotations/66287.txt",
+  "source_image": "data/raw/images/66287.png"
+}

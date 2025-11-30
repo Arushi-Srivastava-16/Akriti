@@ -1,0 +1,132 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master bedroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master bedroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "west",
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bedroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "closet",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 15,
+  "raw_text": "Small bathroom, roughly 10x5 feet. It is attached directly to the master bedroom. It looks like that may be the only way to access that room, although the common room 1 could have an entrance. Common room 1 is the north western room and the smallest of all rooms. It is roughly 15x15 feet. It is attached directly to the living room. It could possibly have an entrance to the bathroom as well. Second largest room after the master bedroom. This room is roughly 10x20 feet or so. It is attached to the west side of the living room, and just south of the kitchen. Kitchen is attached to the west side of the living room. It is roughly 10x10 feet sized. Next to it is the common room two. It appears to be the smallest area of the house, not counting the bathroom. Rectangular shaped room, located at the center of the house. Roughly 20x40 feet. All rooms, aside from master bathroom, are connected to this living room. Front door is also located here. Main bedroom located to the east of the living room. It has the only bathroom attached within it. It is roughly 15x15 feet, with what appears to be a 5x2.5 foot sized closet.",
+  "total_square_footage": 0,
+  "id": "32362",
+  "source_annotation": "data/raw/annotations/32362.txt",
+  "source_image": "data/raw/images/32362.png"
+}

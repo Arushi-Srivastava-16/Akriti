@@ -1,0 +1,181 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northeast",
+        "southeast"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "north",
+        "east",
+        "west",
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "north",
+        "west",
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east",
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "balcony"
+      ],
+      "directions": [
+        "north",
+        "east",
+        "west",
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northwest",
+        "northeast"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "southwest",
+        "southeast"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": [
+        "south",
+        "west",
+        "north"
+      ]
+    }
+  ],
+  "total_rooms": 16,
+  "raw_text": "Balcony 1 is on the west side of the house. To the northeast is the master and to the southeast is the living room. To the north and west are house exterior. To the south is balcony 2. It is about 5 feet wide by 25 feet long. Balcony 2 is in the southwest corner of the house. To the north is balcony 1, to the east is the kitchen, and house exterior to the west and south. It is about 5 by 5 feet. The bath is on the south side of the house. To the north is the living room, to the west is the kitchen, and the house exterior to the south and east. It is about 13 feet wide by 5 feet long. The common room is on the north side of the house. To the north and east are house exterior , to the south is the living room, and the master is to the west. It is about 13 feet wide by 12 feet long. The kitchen is on the south side of the house. To the north is the living room, to the east is the bathroom, to the west is balcony 2, and house exterior to the south. It is about 19 feet wide by 5 feet long. The living room is central to the house. To the northwest is the master and to the northeast is the common room. To the southwest is the kitchen and to the southeast is the bathroom. To the west is balcony 1, and to the east is exterior wall and the main entry. It is about 30 feet wide by 13 feet long. The master is on the north side of the house. To the east is the common room. to the south is the living room, to the west is balcony 1, and the house exterior to the north. It is about 19 feet wide by 12 feet long.",
+  "total_square_footage": 0,
+  "id": "35152",
+  "source_annotation": "data/raw/annotations/35152.txt",
+  "source_image": "data/raw/images/35152.png"
+}

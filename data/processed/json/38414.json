@@ -1,0 +1,93 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "middle"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northeast"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "common room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": [
+        "west",
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "southeast"
+      ]
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "The balcony is on the south edge, in front of the living room. It is around 15 feet wide by 4 feet deep. The bathroom is on the north end, in the middle. It is in back of the living room and near the kitchen. It is around 7' long by 4' deep. The common room is in the northeast corner. It is behind the master room and to the right of the kitchen. It is approximately 15' by 15'. The kitchen is on the north end, in between the living room on one side, and the common room on the other. It is around 8' wide by 10' deep. The living room is on the west side, behind the balcony and west of all of the other rooms. It is approximately 35 feet long and between 10 and 25 feet wide. It is narrowest at the back and widest in the middle. The master room is in the southeast corner, next to the living room. It is a square of around 15' by 15'.",
+  "total_square_footage": 0,
+  "id": "38414",
+  "source_annotation": "data/raw/annotations/38414.txt",
+  "source_image": "data/raw/images/38414.png"
+}

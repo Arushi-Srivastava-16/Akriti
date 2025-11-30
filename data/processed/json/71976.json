@@ -1,0 +1,35 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "kitchen",
+        "bathroom",
+        "bathroom",
+        "balcony",
+        "living room",
+        "common room",
+        "kitchen",
+        "kitchen",
+        "balcony",
+        "living room",
+        "master room",
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "west",
+        "south"
+      ]
+    }
+  ],
+  "total_rooms": 1,
+  "raw_text": "balcony is left to the living room its about fifteen feet and opposite to kitchen and bathroom bathroom is right to the balcony and living room its about five feet batroom is located to left side common room is left to the kitchen and is about ten feet and is located in north kitchen is right to balcony and living room its about ten feet and is located in west side living is about 30 feet and is located centre to all five rooms master room is back to the living room and is about fifteen feet and its located in the south",
+  "total_square_footage": 0,
+  "id": "71976",
+  "source_annotation": "data/raw/annotations/71976.txt",
+  "source_image": "data/raw/images/71976.png"
+}

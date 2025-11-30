@@ -1,0 +1,120 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 12,
+  "raw_text": "THE BALCONY IS LOCATED ON SOUTH WEST CORNER.THE BALCONY IS LOCATED NEARBY MASTER ROOM.THE FLOOR AREA IS 60 SQUARE FEET. THE BATHROOM IS LOCATED ON NORTH EAST CORNER.THE BATHROOM IS LOCATED NEARBY LIVING ROOM.THE FLOOR AREA IS 80 SQUARE FEET. #REF! THE COMMON ROOM IS LOCATED ON NORTH WEST CORNER.THE COMMON ROOM IS LOCATED NEARBY MASTER ROOM.THE FLOOR AREA IS 115 SQUARE FEET. THE KITCHEN IS LOCATED ON NORTH SIDE.THE KITCHEN IS LOCATED NEARBY BATH ROOM.THE FLOOR AREA IS 56 SQUARE FEET. THE LIVING ROOM IS LOCATED ON SOUTH EAST CORNER..THE LIVING ROOM IS LOCATED NEARBY MASTER ROOM.THE FLOOR AREA IS 350 SQUARE FEET. THE MASTER ROOM IS LOCATED ON SOUTH SIDE.THE MASTER ROOM IS LOCATED NEARBY BALCONY.THE FLOOR AREA IS 175 SQUARE FEET.",
+  "total_square_footage": 0,
+  "id": "50710",
+  "source_annotation": "data/raw/annotations/50710.txt",
+  "source_image": "data/raw/images/50710.png"
+}

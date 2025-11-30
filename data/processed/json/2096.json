@@ -1,0 +1,157 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom",
+        "common room",
+        "kitchen",
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "living room"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 16,
+  "raw_text": "The balcony is located in the south west corner. Situated between the master bedroom and the living room. It is around 225 sqrt feet being 15 feet wide and 10 feet in length which means it has an aspect ratio of 3:2 The bathroom 1 is located in the eastern corner. Situated between common room 1 and the master bedroom. It is around 50 sqrt feet being 10 feet wide and 5 feet in length which means it has an aspect ratio of 2:1 The bathroom 2 is located in the north western corner. Situated between the kitchen and the living room. It is around 100 sqrt feet being 10 feet wide and 10 feet in length which means it has an aspect ratio of 1:1 The common room 1 is located in the eastern corner. Situated between bathroom 1, the living room and common room 2. It is around 225 sqrt feet being 15 feet wide and 15 feet in length which means it has an aspect ratio of 1:1 The common room 2 is located in the north eastern corner. Situated between the kitchen, the living room and common room 1. It is around 300 sqrt feet being 15 feet wide and 20 feet in length which means it has an aspect ratio of 3:4 The kitchen is located in the north corner. Situated between bathroom 2, common room 2 and the living room. It is around 100 sqrt feet being 10 feet wide and 15 feet in length which means it has an aspect ratio of 2:3 The living room is located in the western corner. Situated between the balcony,  the master bedroom, common room 1 and 2, the kitchen and the bathroom. It is around 600 sqrt feet being 10-15 feet wide and 50 feet in length which means it has an aspect ratio of around 3:10 The master room is located in the south east corner. Situated between the balcony, bathroom 1 and the living room. It is around 350 sqrt feet being 15 feet wide and 20 feet in length which means it has an aspect ratio of 3:4",
+  "total_square_footage": 0,
+  "id": "2096",
+  "source_annotation": "data/raw/annotations/2096.txt",
+  "source_image": "data/raw/images/2096.png"
+}

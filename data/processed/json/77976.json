@@ -1,0 +1,90 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "northeast"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southwest"
+      ]
+    }
+  ],
+  "total_rooms": 9,
+  "raw_text": "Balcony 1 is about 10x3ft and is located on the northern end of the living room. Balcony 2 is about 10x4ft and is locaate don the southern end of the living room. The bathroom is about 5x5ft and is located on the western side of the living room. Common room 1 is about 8x15ft, on the northern end of the plan, next to the kitchen and living room. Common room 2 is about 10x15ft. It is located on the western side of the living room. The kitchen is located on the northeast corner, off of the living room, and about 10x5ft. The living room is on the east side of the plan, measure roughly 30x10ft, and is easily accessed by all room. The master is located on the southwest corner, near the living room, and is roughly 10x15ft.",
+  "total_square_footage": 0,
+  "id": "77976",
+  "source_annotation": "data/raw/annotations/77976.txt",
+  "source_image": "data/raw/images/77976.png"
+}

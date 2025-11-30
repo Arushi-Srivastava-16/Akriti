@@ -1,0 +1,97 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "middle",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west",
+        "middle",
+        "west",
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 9,
+  "raw_text": "The bathroom is located in MIDDLE OF THE WEST SIDE. IN BETWEEN OF COMMON ROOM AND LIVING ROOM. ROOM SIZE IS 8X8 SQ FT. The common room is located in SOUTH AND WEST SIDE OF THE CORNER SIDE. IN BETWEEN OF MASTER ROOM AND BATHROOM.ROOM SIZE IS  14 X14  SQ FT. The kitchen is located in NORTH AND WEST SIDE OF THE CORNER. NEAR TO LIVING ROOM. SIZE IS  10 X10  SQ FT. WEST FACING LIVING ROOM IS LOCATED IN MIDDLE OF THE WEST AND NORTH EAST CORNER SIDE.CENTER OF THE ALL OVER ROOMS.  SIZE IS  16 X22  SQ FT. The master room is located in SOUTH AND EAST SIDE OF THE CORNER POSSESION. IN BETWEEN OF COMMON ROOM AND LIVING ROOM. SIZE IS 12X 22 SQ FT.",
+  "total_square_footage": 0,
+  "id": "61458",
+  "source_annotation": "data/raw/annotations/61458.txt",
+  "source_image": "data/raw/images/61458.png"
+}

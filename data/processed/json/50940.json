@@ -1,0 +1,186 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "south",
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "east",
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "west",
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "east",
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "north",
+        "south"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "common room"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 16,
+  "raw_text": "The balcony is 5 feet long, 12 feet wide and is located on the south east side of the floor plan. It is south of the living room and south east of common room 1.  It has an approximate area of 60 sqrt feet with an aspect ratio of 5:12. Bathroom 1 is 14 feet long, 8 feet wide and is located on the north side of the floor plan. It is east of common room 1 and west of the kitchen.  It has an approximate area of 112 sqrt feet with an aspect ratio of 7:4. Bathroom 2 is 5 feet long, 5 feet wide and is located on the west side of the floor plan. It is north of the master bedroom and south of common room 1 and west of the living room.  It has an approximate area of 25 sqrt feet with an aspect ratio of 1:1. Common Room 1 is 12 feet long, 15 feet wide and is located on the north west side of the floor plan. It is west of bathroom 1 and north of bathroom 2.  It has an approximate area of 180 sqrt feet with an aspect ratio of 4:5. Common Room 2 is 25 feet long, 10 feet wide and is located on the south side of the floor plan. It is east of the master bedroom and south of bathroom 1.  It has an approximate area of 250 sqrt feet with an aspect ratio of 5:2. The kitchen is 5 feet long, 10 feet wide and is located on the north east side of the floor plan. It is north of the living room and east of bathroom 1.  It has an approximate area of 50 sqrt feet with an aspect ratio of 1:2. The living room is 30 feet long, 25 feet wide and is located on the east side of the floor plan. It is north of the balcony and south of the kitchen.  It has an approximate area of 750 sqrt feet with an aspect ratio of 6:5. The master bedroom is 15 feet long, 12 feet wide and is located on the south west side of the floor plan. It is south of bathroom 2 and common room 1 and west of common room 2.  It has an approximate area of 180 sqrt feet with an aspect ratio of 5:4.",
+  "total_square_footage": 0,
+  "id": "50940",
+  "source_annotation": "data/raw/annotations/50940.txt",
+  "source_image": "data/raw/images/50940.png"
+}

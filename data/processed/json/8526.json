@@ -1,0 +1,90 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "The balcony is on the south side of the apartment next to the living room. It is 12' x 5'. The bathroom is on the north side of the apartment next to the kitchen. It is 10' x 7'. The first common room is on the center of the apartment next to the master room. It is 10' x 8'. The second common room is on the north east side of the apartment next to the bathroom. It is 12' x 15'. The kitchen is on the north west side of the apartment next to the bathroom. It is 10' x 7'. The living room is on the west side of the apartment next to the bathroom. It is 30' x 25'. The master room is on the south east side of the apartment next to the first common room. It is 12' x 15'.",
+  "total_square_footage": 0,
+  "id": "8526",
+  "source_annotation": "data/raw/annotations/8526.txt",
+  "source_image": "data/raw/images/8526.png"
+}

@@ -1,0 +1,77 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom",
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "middle"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "The balcony is at the far end of the living room. It is approximately 10 feet by 3 feet. The bathroom is in between the master bedroom and the kitchen. It is approximately 11 feet by 5 feet. The common room is to the left when walking in. It is across from the kitchen. The common room is approximately 10 feet by 10 feet. the kitchen is to the right as soon as you walk in to the space, across from the common room. It is approximately 9 feet by 5 feet. the living room is in the middle of the floor plan. All the other rooms are surrounding. It is approximately 20 feet by 20 feet. The master bedroom is off to the left of the living room. It is approximately 10 feet by 18 feet.",
+  "total_square_footage": 0,
+  "id": "57835",
+  "source_annotation": "data/raw/annotations/57835.txt",
+  "source_image": "data/raw/images/57835.png"
+}

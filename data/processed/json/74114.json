@@ -1,0 +1,139 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northwest"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northeast"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "bathroom",
+        "master room"
+      ],
+      "directions": [
+        "west",
+        "east",
+        "north"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "north",
+        "west",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 13,
+  "raw_text": "The balcony is approximately 12ft. wide and 3ft. in length. It is the southmost room and is located in the western half of the floor plan, just below the master room. The bathroom is about 5ft wide and 10ft in length and is located centrally along the western most exterior wall. It is above the master room, below the common room and next to the living room to the east. The common room is on the northwest corner of the floor plan and is approximately 12ft. wide and 15ft in length. It next to the bathroom and the living room to the south and the living room to the east. The dinning room is about 5ft wide and 10ft in length and is located in the northern portion of the floor plan, along the eastern most exterior wall, just below the kitchen and just east of the living room. The kitchen covers about 25 square feet and is in the northeast corner of the floorplan. It is next to the dinning room to the south and the living room to the west. The living room is approximately 20ft in width and length and is centrally located in the northern half of the floorplan. It lies to the west of the kitchen and dinning room, and to the east of the common room and the bathroom, and to the north of the master room. The master room is approximately 12ft wide and 15ft in length. It is located in the south portion of the floor plan, north of the balcony and below, from west to east, the bathroom and living room.",
+  "total_square_footage": 0,
+  "id": "74114",
+  "source_annotation": "data/raw/annotations/74114.txt",
+  "source_image": "data/raw/images/74114.png"
+}

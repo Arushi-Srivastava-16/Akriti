@@ -1,0 +1,170 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "middle"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "master bedroom"
+      ],
+      "directions": [
+        "north",
+        "east",
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "living room",
+        "master bedroom"
+      ],
+      "directions": [
+        "east",
+        "south",
+        "east",
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "middle"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "common room"
+      ],
+      "directions": [
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "master room"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "balcony"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 15,
+  "raw_text": "Balcony 1 is in the top right of the floor plan. The room is around 3 feet wide and 6 feet long. To the south of the room is the kitchen, and to the west is the common room. Balcony 2 is in the bottom right of the floor plan. The room is around 3 feet wide and 13 feet long. To the north of the room is the living room and to the west is the master bedroom. The bathroom is in the middle left of the floor plan. The room is around 7 feet wide and 9 feet long. To the north of the room is the common room, to the east is the living room, and to the south is the master bedroom. The common room is in the top left of the floor plan. The room is around 12 feet wide and 15 feet long. To the east of the room you'll find the kitchen and balcony 1, to the south-east the living room, and to the south is the master bedroom. The kitchen is in the top middle of the floor plan. It is around 5 feet wide and 6 feet long. To the north of the room is balcony 1, to the south is the living room, and to the west is the common room. The living room is on the east side of the floor plan. It is around 13 feet wide and 18 feet long. To the north of the room is you'll find the common room and the kitchen. To the south is balcony 2, and to the west is the bathroom and the master room. The master room is in the bottom left of the floor plan. It is around 12 feet wide and 16 feet long. To the north of the room is the bathroom, to the east is the living room and balcony 2.",
+  "total_square_footage": 0,
+  "id": "24487",
+  "source_annotation": "data/raw/annotations/24487.txt",
+  "source_image": "data/raw/images/24487.png"
+}

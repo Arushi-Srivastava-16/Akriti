@@ -1,0 +1,71 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "west",
+        "center",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "northeast",
+        "north"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "northwest",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "east",
+        "south"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "southwest",
+        "south"
+      ]
+    }
+  ],
+  "total_rooms": 5,
+  "raw_text": "The bathroom is located on west elevation towards center, west of living room and is approximately 30 square feet. The common room is located on northeast corner, north of living room and is approximately 120 square feet. The kitchen is located on the top northwest elevation, west of common room and is approximately 70 square feet. The living room is located on the east elevation, south of common room and is 600 square feet. The master room is located on the southwest corner, south of living room and is approximately 150 square feet.",
+  "total_square_footage": 0,
+  "id": "3810",
+  "source_annotation": "data/raw/annotations/3810.txt",
+  "source_image": "data/raw/images/3810.png"
+}

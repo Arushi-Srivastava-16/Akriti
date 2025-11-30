@@ -1,0 +1,153 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "east",
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom",
+        "common room"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "west",
+        "north"
+      ]
+    }
+  ],
+  "total_rooms": 15,
+  "raw_text": "The first balcony is at the northern wall. It is north of the kitchen. Its dimensions are 12ft x 3ft with a area of 30ft. The second balcony is at the western wall. It is west of the living room. Its dimensions are 3ft x 20ft with a area of 46ft. The third balcony is 25ft x 3ft with a area of 56ft. The bathroom is at the south eastern corner. It is east of the common room and south of the living room. Its dimensions are 4ft x 4ft with a area of 16ft The common room is at the western wall. It is north of the third balcony and south of the living room. Its dimensions are 22ft x 15ft with a area of The kitchen is at the west wall. It is north of the living room and east of the master bedroom. Its dimensions are 12ft x 12ft with a area of 48ft. The living room is in the center. It is east of the balcony and in between the master bedroom and common room. Its dimensions are 30ft x 15ft with a area of 90ft The master bedroom is at the north west corner. It is west of the kitchen and north of the living room. Its dimensions are 20ft x 7ft with a area of 54ft.",
+  "total_square_footage": 0,
+  "id": "3138",
+  "source_annotation": "data/raw/annotations/3138.txt",
+  "source_image": "data/raw/images/3138.png"
+}

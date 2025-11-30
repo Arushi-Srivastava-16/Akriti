@@ -1,0 +1,101 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "northwest"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "common room"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "common room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "northeast"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "common room"
+      ],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "southeast"
+      ]
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "Balcony is at the northwest and next to the kitchen. The size is 12 feet length and 10 feet width. Bathroom 1 is at the east and in-between the master room and common room 1. The size is 5 feet length and 7 feet width. Bathroom 2 is at the north and in-between the kitchen and common room 1. The size is 9 feet length and 7 feet width. Common room 1 is at the northeast corner and next to the bathroom 2. The size is 9 feet length and 10 feet width. Common room 2 is at the north and next to the living room. The size is 12 feet length and 12 feet width. Kitchen is at the north and in-between the balcony and bathroom2. The size is 10 feet length and 10 feet width. Living room is at the southwest and in-between the kitchen and common room 2. The size is 22 feet length and 22 feet width. Master room is at the southeast corner and next to the bathroom 1. The size is 20 feet length and 15 feet width.",
+  "total_square_footage": 0,
+  "id": "64094",
+  "source_annotation": "data/raw/annotations/64094.txt",
+  "source_image": "data/raw/images/64094.png"
+}

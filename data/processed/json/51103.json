@@ -1,0 +1,40 @@
+{
+  "rooms": [
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "living room",
+        "common room",
+        "balcony",
+        "common room",
+        "common room",
+        "kitchen",
+        "bathroom",
+        "living room",
+        "master room",
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "east",
+        "north",
+        "east",
+        "south",
+        "north",
+        "west",
+        "north",
+        "east",
+        "southwest"
+      ]
+    }
+  ],
+  "total_rooms": 1,
+  "raw_text": "The balconies on the south east corner of the apartment next to the first common room and it measures 10\u00e2\u0080\u0098 x 3\u00e2\u0080\u0098 The bathroom is on the north side of the apartment next to the living room and it measures 5\u00e2\u0080\u0098 x 10\u00e2\u0080\u0098 The first common room is on the east side of the apartment next to the balcony and it measures 10\u00e2\u0080\u0098 x 12' The second common room is on the south side of the apartment next to the first common room and it measures 10\u00e2\u0080\u0098 x 12' The kitchen is in the north west corner of the apartment next to the bathroom and it measures 10\u00e2\u0080\u0098 x 5\u00e2\u0080\u0098 The living room is in the north east corner of the apartment and it measures approximately 30\u00e2\u0080\u0098 x 25\u00e2\u0080\u0098 The master room is on the southwest corner of the apartment next to the living room and it measures 10\u00e2\u0080\u0098 x 12'",
+  "total_square_footage": 0,
+  "id": "51103",
+  "source_annotation": "data/raw/annotations/51103.txt",
+  "source_image": "data/raw/images/51103.png"
+}

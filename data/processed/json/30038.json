@@ -1,0 +1,104 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "living room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "master bedroom"
+      ],
+      "directions": [
+        "north",
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "kitchen"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master bedroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "bathroom"
+      ],
+      "directions": [
+        "north"
+      ]
+    }
+  ],
+  "total_rooms": 9,
+  "raw_text": "The balcony is to the right of the living room. It is 15ft by 10ft wide. Bathroom 1 is to the right of the kitchen and north of the main mass of the living room. It is about 10 ft by 5ft. Bathroom 2 is within the master bedroom on the left side. It is about 7ft by 8ft wide. Common room 1 is north of bathroom 1. It is about 12ft by 10ft. Common room 2 is north of the living room and south of the master bedroom. It is about 12ft by 13ft wide. The kitchen is to the left if the living room. It is 6ft by 18ft. The living room is in between the balcony and the kitchen, and south of all the other rooms. Minus the small space leading to the doorway, it has 8 sides. In counter clockwise order starting from the bottom, the living room is 27ft by 11ft by 10ft by 16ft by 5ft by 12ft by 13ft by 15 ft. The master bedroom is north of common room 2 and has bathroom 2 on the inside towards the left. It is 12ft by 18ft by 3ft by 7ft by 8ft by 11ft in counter clockwise order starting from the right wall.",
+  "total_square_footage": 0,
+  "id": "30038",
+  "source_annotation": "data/raw/annotations/30038.txt",
+  "source_image": "data/raw/images/30038.png"
+}

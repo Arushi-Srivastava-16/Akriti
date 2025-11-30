@@ -1,0 +1,214 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northwest"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southeast"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "master bedroom",
+        "common room"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northeast"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master bedroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master bedroom",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southeast"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": [
+        "north",
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 25,
+  "raw_text": "It is a fairly large balcony 1. The northwest corner of the house has a balcony 1. People can access this balcony from the living room. It is approximately 10 x 3 feet in size. This balcony helps to increase air circulation in hot climates or enhance natural light in a house's interior. It is a small balcony 2. The southeast corner of the house has a balcony 2. People can access this balcony from the living room. It is approximately 5 x 5 feet in size. It is shared between kitchen and master bedroom. It is a small bathroom. The living room has a bathroom on its east side, in between of master bedroom and common room. It is approximately 10 x 5 feet in size. There is a small common room. The common room is located in the northeast corner of the house. It is easily accessible from the living room. It is approximately 15 x 15 feet in size. It includes the entry-exit door from the living room. It has an attached bathroom. It is a spacious kitchen. The kitchen is situated on the south side of the house, near to the main door. It is approximately 10 x 3 feet in size. It includes the entry-exit door from the living room. This house has a southwest-facing living room. The main door of the house is located in the living room. It is approximately 10 x 30 feet in size. It is spacious, not well-structured, and comfortable living room. The floor plan has a capacious master bedroom. The master bedroom is settled southeast corner of the house. It has an attached bathroom on its north side, balcony on its south side. It is approximately 15 x 10 feet in size. It includes the entry-exit door from the living room.",
+  "total_square_footage": 0,
+  "id": "60171",
+  "source_annotation": "data/raw/annotations/60171.txt",
+  "source_image": "data/raw/images/60171.png"
+}

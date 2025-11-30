@@ -1,0 +1,67 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master bedroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "bathroom"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "The bathroom is in between the master bedroom and the common room two period it is about 12 feet by 8 feet. Common room one is about six feet by 12 feet and is right off the living room. Common room 2 is about 10 feet by 12 feet and is right off the living room and next to the bathroom. The kitchen is about 10 feet by 8 feet and is off the living room. The living room is about 50 feet by 15 feet and every other room is off the living room. The master bedroom is off the living room and next to the bathroom. It is about 10 feet by 12 feet.",
+  "total_square_footage": 0,
+  "id": "41006",
+  "source_annotation": "data/raw/annotations/41006.txt",
+  "source_image": "data/raw/images/41006.png"
+}

@@ -1,0 +1,115 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom"
+      ],
+      "directions": [
+        "south",
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master bedroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west",
+        "north"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom"
+      ],
+      "directions": [
+        "south",
+        "north"
+      ]
+    }
+  ],
+  "total_rooms": 11,
+  "raw_text": "Bathroom is on the western edge of the floor plan. To its south is the kitchen and master bedroom to the north. It's roughly 8ft by 8ft. Common room is in the North East corner of the floor plan. To its south and west is the master bedroom. It's roughly 12ft by 16ft Kitchen is on the western edge of the floor plan. To its north is the master bedroom. It's roughly 8ft by 8ft. Living room is the south most room in the floor plan. To its west is the kitchen and everything else to its north. It's 20ft by 30ft. Master bedroom is in the North West corner of the floor plan. To its east is the common room. It's roughly 15ft by 20ft Storage room is in the Eastern edge of the floor plan. To its south is the living room and to its north is the master bedroom. It's roughly 10ft by 5ft",
+  "total_square_footage": 0,
+  "id": "39426",
+  "source_annotation": "data/raw/annotations/39426.txt",
+  "source_image": "data/raw/images/39426.png"
+}

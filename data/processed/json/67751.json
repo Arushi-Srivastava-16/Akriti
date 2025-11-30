@@ -1,0 +1,63 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "west",
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 5,
+  "raw_text": "Balcony location:South Side, Relationship:the location: Next to living,  Area:50 sqrt feet   Sides: 10 feet width and 5 feet length.. Bathroom location:East side , Relationship:the location: Between Com and master,  Area:35 sqrt feet   Sides: 7 feet width and 5 feet length.. Comon room location:North East Corner , Relationship:the location: Near to Bath and Living,  Area:25 sqrt feet   Sides: 5 feet width and 5 feet length.. Kitchen location:North west corner, Relationship:the location: Next to Storage and living,  Area:50 sqrt feet   Sides: 5 feet width and 10 feet length Living room location: South west corner, Relationship:the location: Next to Bath, Kitichen ,Com,Master,Storage  Area:800 ,sqrt feet , Sides: 20 feet width and 40 feet length. Master room location:South est corner , Relationship:the location: Next to living, com anda balcony ,  Area:400 sqrt feet   Sides: 20 feet width and 20 feet length.. Storage room location:North West corner, Relationship:the location: Next to kitchen living,  Area:50 sqrt feet   Sides: 5 feet width and 10 feet length..",
+  "total_square_footage": 0,
+  "id": "67751",
+  "source_annotation": "data/raw/annotations/67751.txt",
+  "source_image": "data/raw/images/67751.png"
+}

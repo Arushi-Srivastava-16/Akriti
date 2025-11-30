@@ -1,0 +1,96 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "middle",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west",
+        "west",
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 9,
+  "raw_text": "Bathroom is middle of the west side. In between of common room and living room side. Room size is 10x10 sq ft. Common room is located in south and west side position. In betrween of master room, bathroom and living room. Size is 16 x 20 sq ft. The kitchen is located in North and east corner. Near to living room side. Size is 10x16 sq ft. West facing living room is located in starting west to ending east side. Related to all over rooms. Room size is 16x20 sq ft. Master room is located in south and east corner site. Related to common room and living room. Size is 14 x16 sq ft.",
+  "total_square_footage": 0,
+  "id": "44389",
+  "source_annotation": "data/raw/annotations/44389.txt",
+  "source_image": "data/raw/images/44389.png"
+}

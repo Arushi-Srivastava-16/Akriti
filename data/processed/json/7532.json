@@ -1,0 +1,101 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "middle",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "middle",
+        "north",
+        "north"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 10,
+  "raw_text": "The balcony is on the south side of position. Near to living room. Size is 12 x6 sq ft. Bathroom is located in middle of the east side. IN between of living room and kitchen room . Room size is 8x8 sq ft. Common room is located in north and west side of corner. Near to living room and master room. Size is 12x14 sq ft. Kitchewn room is located in north and east corner site. In between of living room and bathroom. Room size is 12x8 sq ft. The living room is on the Middle of the north side and north facing. Near to all over room. Size is 22x12 sqft. Master room is south and west corner side of position. Near to living room. Room size is18x12 sq ft.",
+  "total_square_footage": 0,
+  "id": "7532",
+  "source_annotation": "data/raw/annotations/7532.txt",
+  "source_image": "data/raw/images/7532.png"
+}

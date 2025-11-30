@@ -1,0 +1,60 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "balcony is upper side of the image.The absolute location of a room in the floor plan. bathroom is next room of the living room.The relative location of a room with other rooms. common room is next room of the master room.The relative location of a room with other rooms.10 feet width and 10 feet length.The length and width of a room in the floor plan. kitchen is down side of the image.The absolute location of a room in the floor plan. living room is next room of the bathroom.The relative location of a room with other rooms. master room is next room of the common room.The relative location of a room with other rooms.10 feet width and 10 feet length.The length and width of a room in the floor plan.",
+  "total_square_footage": 0,
+  "id": "24667",
+  "source_annotation": "data/raw/annotations/24667.txt",
+  "source_image": "data/raw/images/24667.png"
+}

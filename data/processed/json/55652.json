@@ -1,0 +1,97 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "bathroom"
+      ],
+      "directions": [
+        "north",
+        "west",
+        "south",
+        "middle",
+        "center"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "middle"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "kitchen"
+      ],
+      "directions": [
+        "south",
+        "east",
+        "center",
+        "south",
+        "middle"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "master room"
+      ],
+      "directions": [
+        "center",
+        "north",
+        "east",
+        "center"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "The balcony is on the NORTH WEST CORNER 15X2 FEET, LIVING ROOM NEAR SIDE The bathroom is on the SOUTH MIDDLE SIDE KICHEN AND COMM 2 ROOM CENTER SIDE . 10X4 FEET Common room 1 is on the NORTH MIDDLE SIDE. 12 X12 FEET. MASTER ROOM AND LIVING ROOM CENTER SIDE. Common room 2 is on the SOUTH EAST CORNER SIDE, 12 X15 FEET BATH ROOM AND MASTER ROOM CENTER SIDE The kitchen is on the SOUTH MIDDLE SIDE, 10X4 FEET. LIVING ROOM AND BATH ROOM CENTER SIDE . LIVING ROOM SOUTH EAST CORNER. 15X25 FEET CENTER SIDE OF BALCONY AND KITCHEN MASTER ROOM IS NORTH EAST CORNER 12 X15 FEET COMM 1 AND COMM 2 ROOM CENTER SIDE",
+  "total_square_footage": 0,
+  "id": "55652",
+  "source_annotation": "data/raw/annotations/55652.txt",
+  "source_image": "data/raw/images/55652.png"
+}

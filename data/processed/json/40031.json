@@ -1,0 +1,83 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "Bathroom is entrance from living room .it is 5 feet length and 10 feet width aspect ratio as 3 over 4.it is southwest corner room. Common room   is entrance from living room .it is 15 feet length and 10 feet width aspect ratio as 5 over 4. common room is near room as kitchen. kitchen is entrance from living room .it is 10 feet length and 5 feet width aspect ratio as 4 over 2.master room and common room between the room as kitchen. living room is entrance from south side .it  is 12 feet length and 30 feet width aspect ratio as 4 over 6. Master room is entrance from living room .it is 10 feet length and 15 feet width aspect ratio as 4 over 5.master room near room as kitchen.",
+  "total_square_footage": 0,
+  "id": "40031",
+  "source_annotation": "data/raw/annotations/40031.txt",
+  "source_image": "data/raw/images/40031.png"
+}

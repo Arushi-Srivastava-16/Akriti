@@ -1,0 +1,71 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "balcony"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "The balcony is right off of the living room directly across from the front door. The bathroom is between the common and master room. It is directly to the left of the front door; about 6 by 4 feet. The common room is in between the kitchen and bathroom. It is the third largest room about 10 by 10 feet; at the far back right corner from the front door. The kitchen is in between the common and living room. It is in the far front right corner from the front door to the right of the balcony and is rather small about 10 by 4 feet. The living room is as soon as you walk into the front door and it touches every other room. It is the largest room on the floor plan. The master room is in between the bath, living room, and balcony. It is in the far left corner from the front door and is the second largest room on the floor plant about 12 by 12 feet.",
+  "total_square_footage": 0,
+  "id": "21506",
+  "source_annotation": "data/raw/annotations/21506.txt",
+  "source_image": "data/raw/images/21506.png"
+}

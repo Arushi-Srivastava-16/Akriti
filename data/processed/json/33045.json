@@ -1,0 +1,110 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "north",
+        "west",
+        "north"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 10,
+  "raw_text": "Location: The balcony is on the North part of the plan.\nRelationship: It is exactly to the north of the kitchen.\nSize: It is about 10 feet by 2 feet. Location: The bathroom is on the west of the floor plan.\nRelationship: It is between the master room and the common room to the left side of the living room.\nSize: It is about 8 feet by 9 feet. Location: The common room is on the North west side of the plan\nRelationship: The room is on the North side of the bathroom.\nSize: It is about 12 feet by 15 feet. Location: The room is on the Northern part of the floor plan.\nRelationship: It is exactly to the south of the balcony and north of the living room.\nSize: It is about 10 feet by 7 feet. Location: The Living room is on the South east of the floor plan.\nRelationship: It is on the East side of the bathroom and the master room.\nSize: The room is about 850 square feet. Location: The master room is on the South west side of the floor plan.\nRelationship: It is on the southern side of the bathroom.\nSize: It is about 12 feet by20 feet.",
+  "total_square_footage": 0,
+  "id": "33045",
+  "source_annotation": "data/raw/annotations/33045.txt",
+  "source_image": "data/raw/images/33045.png"
+}

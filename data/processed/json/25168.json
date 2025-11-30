@@ -1,0 +1,124 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 14,
+  "raw_text": "Balcony 1 is on the North-Eastern corner of the plan. It has access from the living room. The size is approximately 3' X 8' Balcony 2 is on the South-Western corner of the plan. It has access from the Master room. The size is approximately 4' X 11' The bathroom is on the Western side of the plan. It has access from the Master room and the living room. The size is approximately 5' X 5' The common room is located on the North-Western portion of the plan. It has access from the living room. The size appears to be 12' X 15' The kitchen is located in the Eastern portion of the plan. It has access from the living room. The size is approximately 8' X 12' The living room is centrally located in the plan, with access to all the other rooms in the house, except one balcony. Entrance is from the East. The size of the living room is approximately 12' X 15' The Master room is located on the south-western part of the plan. It has access from the living room and hs access to a balcony. The size of the Master room is 11' X 15'",
+  "total_square_footage": 0,
+  "id": "25168",
+  "source_annotation": "data/raw/annotations/25168.txt",
+  "source_image": "data/raw/images/25168.png"
+}

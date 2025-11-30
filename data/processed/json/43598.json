@@ -1,0 +1,74 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bedroom"
+      ],
+      "directions": [
+        "northwest"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "east",
+        "northeast"
+      ]
+    },
+    {
+      "room": "bedroom",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northeast"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bedroom",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "west",
+        "north"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "The balcony is on the northwest, next to the masters bedroom. It is approximately11 ft width and 3 ft length The bathroom is on the east side and is next to the northeast corner of the living room. It is approximately 4 ft width and 5 ft in length. The common  room is on the northeast corner of the house and is adjacent to the masters bedroom. It is approximately11 ft width and 8 ft length. The kitchen is southmost, south right half of living room. It is 10 ft width and 4 ft length The living  room is on the southwest corner, next to masters bedroom. It is 400 sq feet. The master bedroom is on the west side, north of living room. It is approximately11 ft width and 8 ft length",
+  "total_square_footage": 0,
+  "id": "43598",
+  "source_annotation": "data/raw/annotations/43598.txt",
+  "source_image": "data/raw/images/43598.png"
+}

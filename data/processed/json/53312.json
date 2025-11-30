@@ -1,0 +1,158 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northwest"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "common room"
+      ],
+      "directions": [
+        "west",
+        "south",
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northeast"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "bathroom"
+      ],
+      "directions": [
+        "east",
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "common room",
+        "common room",
+        "bathroom",
+        "master room"
+      ],
+      "directions": [
+        "north",
+        "west",
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southeast"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "east",
+        "south"
+      ]
+    }
+  ],
+  "total_rooms": 14,
+  "raw_text": "Bathroom 1 is in the northwest corner and has an area of about 35sqft. It is directly north of living room and east of the kitchen. Bathroom 2 is the central room along the east exterior wall. It is directly next to the living room to the west, the master room to the south and the common room 1 to the north and covers about 35sqft. The common room 1 is in the northeast corner along the eastern exterior wall it is approximately 10ft. wide and 12ft. in length it sits just east of bathroom1 and the living room and just north of the living room and bathroom 2. The common room 2 is along the west exterior wall and the western most room in the floor plan. It covers an area of about 150sqft. and lies directly west of the living room. The kitchen is about 49sqft. in area and located in the northwest corner. It is it directly to the north of the living room and west of bathroom 1. The living room is approximately 15ft. in width and 30ft. in length and is central most room along the south exterior wall. The kitchen and bathroom 1 are directly to its North, directly to the west is the common room 2, with the common room 1, the bathroom 2, and master room all next to it on the east. The master room is in the southeast corner and covers an area of about 150sqft. It sits just east of the living room and south of the bathroom 2.",
+  "total_square_footage": 0,
+  "id": "53312",
+  "source_annotation": "data/raw/annotations/53312.txt",
+  "source_image": "data/raw/images/53312.png"
+}

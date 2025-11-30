@@ -1,0 +1,100 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "center"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east",
+        "south",
+        "center"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "south"
+      ]
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "balcony is located at south center in the bottom and below to the living room of the floor plan. bathroom 1 is located at western center and below to the corner 1. bathroom 2 is located at north west and upper to the living room. common room 1 is located at north western corner and upper to the living room. common room 2 is located at south eastern corner and below to the living room. kitchen is north east and upper to the living room. living room is north east and south center bottom and in between of master and corner 2 in the floor plan. master room is south western corner and below to the bathroom 1 in the floor plan.",
+  "total_square_footage": 0,
+  "id": "59423",
+  "source_annotation": "data/raw/annotations/59423.txt",
+  "source_image": "data/raw/images/59423.png"
+}

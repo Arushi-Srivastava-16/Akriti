@@ -1,0 +1,81 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "southeast"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "northwest"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "southwest"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "The balcony is located on the southeast corner and next to living room. size is 10*3 The bathroom is located in the northwest corner and next to the master room. size is 5*5 The common room is located in the south side and next to the living room. size is 8*16 The kitchen is located on the east side and next to living room. size is 5*14 north facing living room connected with all other room. size is 12*22. unsized living room. The master room is located on the southwest corner and next to the common room. size is 10*16",
+  "total_square_footage": 0,
+  "id": "27799",
+  "source_annotation": "data/raw/annotations/27799.txt",
+  "source_image": "data/raw/images/27799.png"
+}

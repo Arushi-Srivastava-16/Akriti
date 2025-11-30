@@ -1,0 +1,86 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "northeast"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south"
+      ]
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "The balcony is to the west of the master room. It is located in the western side of the floor plan. It measures 2 x 12 feet. The bathroom1 adjoins the living room. It is located in the eastern side of the floor plan. It measures 10 x 5 feet. The bathroom2 adjoins the master room. It is located in the southern side of the floor plan. It measures 10 x 5 feet. The common room 1 is to the north of the living room. It is located in the northern side of the floor plan. It measures 12 x 8 feet. The common room 2 is to the north of the living room. It is located in the northern side of the floor plan. It measures 10 x 15 feet. The kitchen is to the northeast of the living room. It is located in the northeast side of the floor plan. It measures 8x 8 feet. The living room adjoins all other rooms. It is located in the center of the floor plan. It measures 40 x 20 feet. The master room is south of the living room. It is located in the south side of the floor plan. It measures 15 x 20 feet.",
+  "total_square_footage": 0,
+  "id": "31255",
+  "source_annotation": "data/raw/annotations/31255.txt",
+  "source_image": "data/raw/images/31255.png"
+}

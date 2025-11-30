@@ -1,0 +1,71 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "Balcony Located on south east corner with living on above , Total size of 10 Feet length and 3 Feet Width. bathroom Located on Exact center on west side with master on below , Total size of 8 Feet length and 8 Feet Width. Common room Located on North west corner with living on right , Total size of 14 Feet length and 12 Feet Width. Kitchen Located on North east corner with living on below , Total size of 8 Feet length and 8 Feet Width. Living Room Located on east side covereing most of the area with kitchen on above , Total size of 45 Feet length and 25 Feet Width. Master Room Located on South west corner with living on right , Total size of 14 Feet length and 12 Feet Width.",
+  "total_square_footage": 0,
+  "id": "31718",
+  "source_annotation": "data/raw/annotations/31718.txt",
+  "source_image": "data/raw/images/31718.png"
+}

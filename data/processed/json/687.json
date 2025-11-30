@@ -1,0 +1,81 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "common room"
+      ],
+      "directions": [
+        "north",
+        "middle"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "middle",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "middle",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "middle"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "common room"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "bathroom is located in the North middle between master room and common room 1.The room size is 10x4. common room 1 is in the North East corner near to bathroom. The room size is 10x6. common room 2 is in the middle West after the master room .The room size ie10x6. kitchen is located in the middle East attached to living room. The room size is 10x6. living room is located in the middle attached with other rooms. The room size is 10x9. master room is in the North West corner between bathroom and common room 2.The room size is 10x7.",
+  "total_square_footage": 0,
+  "id": "687",
+  "source_annotation": "data/raw/annotations/687.txt",
+  "source_image": "data/raw/images/687.png"
+}

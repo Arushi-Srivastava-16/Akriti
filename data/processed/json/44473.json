@@ -1,0 +1,91 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "balcony"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "common room",
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "west",
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "common room",
+        "kitchen"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "balcony 1 is in front of the common room 1 and adjacent to living room having the sides of 12 feet width and 5 feet width. balcony 2 is between the common room 2 and kitchen and has the sides 5 feet width and 5 feet length. balcony 3 is south west side and located in front of living room. It has the sides 10 feet length and 5 feet width. bath room is adjacent to living room and behind the common room 2 and balcony 2. it has 5 feet length and 2.5 feet width. common room 1 is north west corner and it has the sides 12 feet width and 20 feeth length so that it is adjacent to living room common room 2 is adjacent to living room and located at south east corner. it has the size 12 feet width and 15 feet length kitchen is found at the north east corner and adjacent to living room and it has the sides of 11 feet length 6 feet width. living room is in between the common room 1 and common room 2, kitchen too.",
+  "total_square_footage": 0,
+  "id": "44473",
+  "source_annotation": "data/raw/annotations/44473.txt",
+  "source_image": "data/raw/images/44473.png"
+}

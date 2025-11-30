@@ -1,0 +1,85 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southwest",
+        "east",
+        "north"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "middle",
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "bathroom",
+        "kitchen"
+      ],
+      "directions": [
+        "east",
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "The bathroom is on the Western side of the home between the kitchen and com1. It is measured at about 8:6. Com1 is on the southwest corner of the house with Com2 being to the east and the bathroom to the north. It is larger than the bathroom at about 10:10 in width and length. Com2 is on the bottom-middle or south side of the house between the master room and Com1. It also measures in at about 10:10. The kitchen is in the northwestern corner with the living room to the east and bathroom to the south of the kitchen. It measures approximately 10:10. The living room. is in the northeastern part of the house. It is approximately 22 ft. wide and 16 ft long. It is located due north of com2 and to the east of the bathroom. The master room is in the southeastern corner of the home. It is 8 ft wide and 10 ft long and is to the east of com2.",
+  "total_square_footage": 0,
+  "id": "71014",
+  "source_annotation": "data/raw/annotations/71014.txt",
+  "source_image": "data/raw/images/71014.png"
+}

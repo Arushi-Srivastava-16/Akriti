@@ -1,0 +1,101 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "center",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "living room"
+      ],
+      "directions": [
+        "middle",
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "balcony"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "balcony is situated at south east corner and adjacent to living room. It has the size of 12 feet length and 5 feet width. bath room is located at center of the west side so that it is between the common room 1 and kitchen room. It has the size of 12 feet length and 5 feet width. common room 1 is located at north west corner so that it is opposite to master room and living room hall way divides them.  It has the square size of 12 feet side. common room 2 is located at the middle of the south region so that it is between the master room and living room. It has the size of 13 feet length and 9 feet width. Kitchen is located at north east corner and adjacent to living room. It has the size of  8 feet length and 6 feet width. living room is occupied the whole eastern area of the plan excluding the kitchen and balcony. It has been extending as hall way towards west region at center.  It has the area of  450 square feet. master room is located at south west corner and adjacent to living room way. It is opposite to common room 1. It has the size of  15 feet length and 10 feet width.",
+  "total_square_footage": 0,
+  "id": "56093",
+  "source_annotation": "data/raw/annotations/56093.txt",
+  "source_image": "data/raw/images/56093.png"
+}

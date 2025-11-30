@@ -1,0 +1,104 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west",
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east",
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "master room",
+        "kitchen"
+      ],
+      "directions": [
+        "west",
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 9,
+  "raw_text": "Bathroom is in the north west side of house.It has common room in west,living in south and east .It's dimensions are 9 feet in length and 6 feet in width. Common room is in the north west corner of house.It has  bathroom and living in east and master in south.It's dimensions are 13 feet in length and 10 feet in width. Kitchen is in the north east corner of house.It has kitchen in west.It's dimensions are 13 feet in length and 5 feet in width. Living room is in the east side of house.It has bathroom,common room and master room in west and kitchen in north east .It's dimensions are 30 feet in length and 15 feet in width approximately. Master room is in the south west corner of house.It has living in both north and east.It's dimensions are 15 feet in length and 11 feet in width.",
+  "total_square_footage": 0,
+  "id": "3761",
+  "source_annotation": "data/raw/annotations/3761.txt",
+  "source_image": "data/raw/images/3761.png"
+}

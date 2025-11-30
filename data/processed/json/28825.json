@@ -1,0 +1,75 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southeast"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "The bathroom is on the north side of the apartment next to the kitchen. It is 7\u00e2\u0080\u0098 x 8\u00e2\u0080\u0098 The first common room is on the north east corner of the apartment next to the master room. It is 10\u00e2\u0080\u0098 x 12 The second common room is on the south side of the apartment next to the master room. It is 10' x 12' The kitchen is on the north side of the apartment next to the bathroom. It is 12\u00e2\u0080\u0098 x 5\u00e2\u0080\u0098 The living room is on the west side of the apartment next to the kitchen. It is 25\u00e2\u0080\u0098 x 30\u00e2\u0080\u0098 The master bedroom is on the southeast corner of the apartment between the two common rooms. It is 12\u00e2\u0080\u0098 x 12'",
+  "total_square_footage": 0,
+  "id": "28825",
+  "source_annotation": "data/raw/annotations/28825.txt",
+  "source_image": "data/raw/images/28825.png"
+}

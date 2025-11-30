@@ -1,0 +1,77 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "The balcony is in the south west side and can be accessed from the living room with 12 feet space which is peaceful to see. north east side common to all rooms 6 feet size. east side 12 feet very spacious and bathroom is near. we can enter from living room. at the entrance of living room it is there 8 feet north side only. The living room is at the north west side entrance which is very spacious its attached to all the rooms. south east side 12 feet spacious attached to living room. north west side all and near to the main door can enter from living room 6 feet space.",
+  "total_square_footage": 0,
+  "id": "40717",
+  "source_annotation": "data/raw/annotations/40717.txt",
+  "source_image": "data/raw/images/40717.png"
+}

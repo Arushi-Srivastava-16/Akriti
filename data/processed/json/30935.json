@@ -1,0 +1,96 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southeast"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 10,
+  "raw_text": "The bathroom is on the east corner.\nNext to the master and common room with access to living room.\n8 feet length and 8 feet width. The common room is on the northeastern corner.\nNext to kitchen and bathroom.\n10 feet length and 8 feet width. The kitchenis located on the north side of property.\nIn between storage and common room with access to living room.\n8 feet length and 8 feet width. The living room is on the southwest side. \nAccess to all rooms from living room including master, bath, common, kitchen, and storage. \n30 feet length and 12 feet width. The master room is on the southeast corner.\nAccess to living room and next to bathroom.\n10 feet length and 10 feet width. The storage room is on the northwest corner.\nNear the kitchen.\n8 feet length and 4 feet width.",
+  "total_square_footage": 0,
+  "id": "30935",
+  "source_annotation": "data/raw/annotations/30935.txt",
+  "source_image": "data/raw/images/30935.png"
+}

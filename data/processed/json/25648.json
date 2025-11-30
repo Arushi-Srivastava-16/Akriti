@@ -1,0 +1,220 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "balcony",
+        "balcony"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "bathroom",
+        "balcony"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "balcony"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 24,
+  "raw_text": "Location:The absolute location of balcony 1 in the floor plan is north east corner.\nRelationship:The absolute location of balcony 1 in the floor plan is next to kitchen and bathroom.\nSize:The area of balcony 1 in floor plan is 10 sq rt feet. Location:The absolute location of balcony 2 in the floor plan is south side.\nRelationship:The absolute location of balcony 2 in the floor plan is next to master room and in front of bathroom.\nSize:The area of balcony 2 in floor plan is 10 sq rt feet. Location:The absolute location of balcony 3 in the floor plan is south west  corner.\nRelationship:The absolute location of balcony 3 in the floor plan is en suite to living room.\nSize:The area of balcony 3 in floor plan is 10 sq rt feet. Location:The absolute location of the bathroom in the floor plan is north side.\nRelationship:The absolute location of the bathroom in the floor plan is near kitchen.\nSize:The area of the bathroom in floor plan is 10 sq rt feet. Location:The absolute location of the common room in the floor plan is east side.\nRelationship:The absolute location of the common room in the floor plan is near master room.\nSize:The area of the common room in floor plan is 10 sq rt feet. Location:The absolute location of the kitchen in the floor plan is north side.\nRelationship:The absolute location of the kitchen in the floor plan is near bathroom,balcony 1 and in front of balcony 2.\nSize:The area of the kitchen in floor plan is 10 sq rt feet. Location:The absolute location of the living room in the floor plan is west side.\nRelationship:The absolute location of the living room in the floor plan is in front of kitchen,bathroom and balcony 2.\nSize:The area of the living room in floor plan is 10 sq rt feet. Location:The absolute location of the master room in the floor plan is south east corner.\nRelationship:The absolute location of the master room in the floor plan is next to common room and near balcony 2.\nSize:The area of the master room in floor plan is 10 sq rt feet.",
+  "total_square_footage": 0,
+  "id": "25648",
+  "source_annotation": "data/raw/annotations/25648.txt",
+  "source_image": "data/raw/images/25648.png"
+}

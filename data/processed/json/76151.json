@@ -1,0 +1,97 @@
+{
+  "rooms": [
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "kitchen"
+      ],
+      "directions": [
+        "south",
+        "north"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom"
+      ],
+      "directions": [
+        "northwest",
+        "south",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 9,
+  "raw_text": "Directly behind the kitchen; on the north end of the floor plan. Directly south in the floor plan. Borders the living room to the south. Next to common room, parallel to the entrance. 3 rd biggest room in house, wedged in between bathroom and kitchen. Directly north of living room. Borders common room on the west. Balcony directly behind kitchen. Living room borders balcony at south, touches kitchen at north. Touches bathroom directly northwest and the master bedroom south west. Biggest room in house. 2nd biggest room in house. South West on the floor plan.",
+  "total_square_footage": 0,
+  "id": "76151",
+  "source_annotation": "data/raw/annotations/76151.txt",
+  "source_image": "data/raw/images/76151.png"
+}

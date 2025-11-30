@@ -1,0 +1,60 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "middle"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "THE BALCONY WHICH IS 10 FEET LONG IS IN THE BACK OF THE HOUSE ON THE RIGHT SIDE . THE BATHROOM WHICH IS 5 FEET LONG IS IN THE FRONT OF THE HOUSE ON THE LEFT SIDE OF THE LIVING ROOM. THE COMMON ROOM WHICH IS 10 FEET LONG IS LOCATED BEHIND THE KITCHEN IN THE FRONT OF THE HOUSE. THE KITCHEN IS IN THE FRONT OF THE HOUSE ON THE RIGHT SIDE IN FRONT OF THE COMM ROOM ON THE RIGHT  AND IS 10 FEET LONG. THE LIVING ROOM IS LOCATED IN THE MIDDLE OF THE HOSUE ON THE RIGHT SIDE OF THE BATH AND IS 20 FEET LONG. THE MASTER IS LOCATED IN THE BACK OF THE HOUSE BEHIND THE LIVING ROOM BY THE BACK BALCONY AND IS 15 FEET LONG.",
+  "total_square_footage": 0,
+  "id": "6448",
+  "source_annotation": "data/raw/annotations/6448.txt",
+  "source_image": "data/raw/images/6448.png"
+}

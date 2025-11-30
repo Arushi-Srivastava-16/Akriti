@@ -1,0 +1,117 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "north",
+        "west",
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "center",
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom",
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "hallway",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "hallway"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "hallway",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "hallway",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master bedroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 11,
+  "raw_text": "balcony #1 lies along the south wall of the living room. it measures 6ft x 12ft, minus a 2ft x 2ft cutout in the south east corner. balcony #2 lies in the north west corner of the floor plan, west of the kitchen. it measures 3ft x 8ft the bathroom is in the center of the floor plan, south of the kitchen. it measures 6ft x 10ft. common room #1 lies along the southern wall between the master bedroom and the living room. it measures 11ft x 12ft. common room #2 lies along the western wall, north of the master bedroom. it measures 10ft x 12ft. the kitchen lies along the northern wall, adjacent to the main entry way. it measures 8ft x 12ft. the living room spans the eastern wall of the floor plan. it has a small hallway to the north that leads to the main entry way and a hallway to the west which leads to other rooms in the house. the main area measures 12ft x 25ft. the norther hallway measures 5ft x 8ft. the western hallway measures 4ft x 12ft. the master bedroom lies in the south west corner of the floor plan. it measures 13ft x 17ft.",
+  "total_square_footage": 0,
+  "id": "64614",
+  "source_annotation": "data/raw/annotations/64614.txt",
+  "source_image": "data/raw/images/64614.png"
+}

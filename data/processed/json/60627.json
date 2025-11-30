@@ -1,0 +1,80 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "bathroom",
+        "kitchen",
+        "living room",
+        "kitchen",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "balcony is north east corner room it is 15 feet length and 3 feet width. bathroom is between the common room and kitchen .it is small place .it 3 feet length and  3feet width. common room is entrance from living room .it is 12 feet length and 12 feet width aspect ratio as  3 over 3.common room near room as kitchen and bathroom kitchen is entrance from living room kitchen is near room as common room and inside bath room..it is 15 feet length and 10 feet width aspect ratio as 4 over 3. living room is entrance from south side direction .it is center for all other room. .it is 15 feet length and 25 feet width aspect ratio as 5 over 6. master room is entrance from living room .it is 10 feet length and 15 feet width aspect ratio as 4 over 3.master room is in front as balcony.",
+  "total_square_footage": 0,
+  "id": "60627",
+  "source_annotation": "data/raw/annotations/60627.txt",
+  "source_image": "data/raw/images/60627.png"
+}

@@ -1,0 +1,79 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "bathroom  is located south east side and  in between the kitchen and living room. It has the square size of 8 feet side. common room is located at  north east corner. It is next to master room. It has the size of 12 feet width and 17 feet length. kitchen is located at south east corner so that it is in front of common room. It has the square size of 12 feet side. Living room  is occupied the lower part of the plan and mostly south west part, that is in front of master and common rooms. It has the  area of around 420 sqr. feet. master room is located at north west corner. It is adjacent to living room. It has the size of 12 feet width and 18 feet length.",
+  "total_square_footage": 0,
+  "id": "57664",
+  "source_annotation": "data/raw/annotations/57664.txt",
+  "source_image": "data/raw/images/57664.png"
+}

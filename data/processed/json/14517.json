@@ -1,0 +1,96 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center",
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "middle"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "middle",
+        "north"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 9,
+  "raw_text": "The bathroom is in the CENTER OF THE WEST.  MIDDLE OF THE MASTER ROOM AND COMMON ROOM. ROOM SIZE IS 10X8. COMMON ROOM 1 IS SOUTH WEST CORNER. NEAR LIVING ROOM LEFT SIDE. ROOM SIZE IS 12X12 COMMON ROOM 2 IS SOUTH EAST CORNER. NEAR LIVING  ROOM RIGHT SIDE. ROOM SIZE IS 10 X14. The kitchen is on the KITCHEN ROOM IS MIDDLE OF THE NORTH FACING. NEAR TO MASTER ROOM. ROOM SIZE IS 8X6. EAST FACING LIVING ROOM. STARTED FROM SOUTH ENDING IN NORTH. ROOM SIZE IS 10 X 16. MASTER ROOM IS NORTH WEST CORNER. NEAR TO BATH ROOM. ROOM SIZE IS 12X 12.",
+  "total_square_footage": 0,
+  "id": "14517",
+  "source_annotation": "data/raw/annotations/14517.txt",
+  "source_image": "data/raw/images/14517.png"
+}

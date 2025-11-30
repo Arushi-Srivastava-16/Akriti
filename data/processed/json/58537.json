@@ -1,0 +1,88 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 9,
+  "raw_text": "The balcony is located in the north eastern corner of the plan, off of the main room. It measures about 10x2ft and does not have access from any other room. The bathroom is located to the left of the living room when entering from the main entrance. It is centrally located between the kitchen and common room. It has a size of about 5x5ft. The common room is about 10x10ft in size and is located in the northwestern corner of the floorplan. It has direct access to the living room and is between the bathroom and the master room. The kitchen is located to left of the main entrance, leading from the living room. It is in the southwestern corner of the plan and measures about 10x5ft in size. The living room is located on the south end of the floorplan, providing the main entrance. It is approximately 20x15ft in size and leads to all other rooms. The master room is located in the northeastern corner of the floorplan with access from the living room. It measures about  12x13ft in size and has access the only access to the balcony.",
+  "total_square_footage": 0,
+  "id": "58537",
+  "source_annotation": "data/raw/annotations/58537.txt",
+  "source_image": "data/raw/images/58537.png"
+}

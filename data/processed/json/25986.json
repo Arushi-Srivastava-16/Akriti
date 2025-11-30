@@ -1,0 +1,59 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "balcony",
+        "master room"
+      ],
+      "directions": [
+        "north",
+        "south"
+      ]
+    }
+  ],
+  "total_rooms": 5,
+  "raw_text": "Balcony location:North West corner, Relationship:the location: Next to living,  Area:50 sqrt feet   Sides: 5 feet width and 10 feet length.. Bathroom 1 location:South Side, Relationship:the location: Next to Master and com2,  Area:100 sqrt feet   Sides: 10 feet width and 10 feet length.. Location:Westt side , Relationship:the location: Between kitchen and master,  Area:35 sqrt feet   Sides: 7 feet width and 5 feet length.. Comon room 1 location:South side, Relationship:the location: between living and com2,  Area:100 sqrt feet   Sides: 10 feet width and 10 feet length.. Comon room 2 location:South side, Relationship:the location: between bath1 and com1  Area:100 sqrt feet   Sides: 10 feet width and 10 feet length.. Kitchen location:west  Side, Relationship:the location: Next to bath and living,  Area:50 sqrt feet   Sides: 5 feet width and 10 feet length.. Living room location: North side, Relationship:the location: next to bath,Kitchen, com1,balcony,  Area:500 sqrt feet   Sides: 25 feet width and 20 feet length Master room location:South Side , Relationship:the location: next tob ath and bath2 ,  Area:400 sqrt feet   Sides: 20 feet width and 20 feet length..",
+  "total_square_footage": 0,
+  "id": "25986",
+  "source_annotation": "data/raw/annotations/25986.txt",
+  "source_image": "data/raw/images/25986.png"
+}

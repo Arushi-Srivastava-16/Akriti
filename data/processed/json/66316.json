@@ -1,0 +1,75 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "kitchen",
+        "balcony"
+      ],
+      "directions": [
+        "west",
+        "north",
+        "south"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "Balcony 1 is located on south east corner of the plan, located below bath2, and com2, total area is 12 x 16 feet. Located on south east corner of the plan, located below bath2, and com2, total area is 12 x 16 feet. The bathroom is located on south east corner of the plan, located below bath2, and com2, total area is 12 x 16 feet. Common room 1 is located on south east corner of the plan, located below bath2, and com2, total area is 12 x 16 feet. Common room 2 is located on south east corner of the plan, located below bath2, and com2, total area is 12 x 16 feet. The kitchen is located on south east corner of the plan, located below bath2, and com2, total area is 12 x 16 feet. The living room is located on far west and covers the 75 percentage of the entire plan, The master room is located inbetween kitchen on north and balcony on south, the total area of length is around 30 feet.",
+  "total_square_footage": 0,
+  "id": "66316",
+  "source_annotation": "data/raw/annotations/66316.txt",
+  "source_image": "data/raw/images/66316.png"
+}

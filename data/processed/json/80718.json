@@ -1,0 +1,63 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "Bathroom one is about 10x5ft and is located to the right of the main entrance. Located directly across the living room from the main entrance, the second bath has about 8x8ft of space. The common room one is located to the left of the main entrance across the living room and is about 10x10ft. The second common room is to the left of the living space, not crossing, and measures about 8x8ft. The Kitchen is about 10x5ft and is located to the left of the living space. When you walk into the main entrance, the first room entered is the large 10x3o living room. The master room is about 10x15ft and is located to the right of the living room, when entering from the main entrance.",
+  "total_square_footage": 0,
+  "id": "80718",
+  "source_annotation": "data/raw/annotations/80718.txt",
+  "source_image": "data/raw/images/80718.png"
+}

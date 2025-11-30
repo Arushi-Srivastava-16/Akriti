@@ -1,0 +1,90 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "living room"
+      ],
+      "directions": [
+        "west",
+        "south"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "master room"
+      ],
+      "directions": [
+        "south",
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "living room"
+      ],
+      "directions": [
+        "west",
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "balcony",
+        "living room"
+      ],
+      "directions": [
+        "southeast"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "The first balcony is in the general West corner of the floor plan, it is South of the kitchen and is also accosted by the living room. The size of the room is roughly 6 feet by 3 feet. The second balcony is located South oh the floor plan it is also South of the living room and it's also connected to the master room. It's measurements are roughly 19 feet by 4 feet. The bathroom is located in the general E corner of the floor plan it is in between the master room and the common area. The room measurement are roughly 6 feet by 4 feet. The common room is in the general NE corner of the floor plan it is in between the living room and the bathroom. The rooms measurement are roughly 15 feet by 9 feet. The kitchen is in the general West corner oh the floor plan and is North of the first balcony and it is also next to the living room. It's measurements are roughly 14 feet by 9 feet. The living room is in the general North side of the floor plan, it has access to every other room. Its measurements are roughly 15 feet by 32 feet. The master room is located in the southeast corner of the floor plan it is near the bathroom, the second balcony and the living room. It's measurements are roughly 15 feet by 20 feet.",
+  "total_square_footage": 0,
+  "id": "10053",
+  "source_annotation": "data/raw/annotations/10053.txt",
+  "source_image": "data/raw/images/10053.png"
+}

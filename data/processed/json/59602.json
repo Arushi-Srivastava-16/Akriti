@@ -1,0 +1,55 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "dining room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "dining room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "dining room",
+        "living room"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 5,
+  "raw_text": "The bathroom is located in left end corner of the living room nearby the master room. Its size should be 5 x 5ft. The dining room is the front portion of the plan. Its size should be 30 x 10ft. The kitchen is located between living room and dining room. Its size should be 5 x 7.5ft. The living room is located between all the rooms. Its size should be 25 x 20 ft. The master room is located between bathroom and dining room nearby the living room. Its size should be 10 x 10ft.",
+  "total_square_footage": 0,
+  "id": "59602",
+  "source_annotation": "data/raw/annotations/59602.txt",
+  "source_image": "data/raw/images/59602.png"
+}

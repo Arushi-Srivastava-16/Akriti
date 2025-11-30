@@ -1,0 +1,131 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 14,
+  "raw_text": "The Balcony is in the North side on the floor plan. It is en suite to the Master room. The Balcony area is approximately 11 feet length and 1 feet width The bathroom is on the East side on the floor plan. It is flanked by Com1 and the kitchen, and it is opposite the Master room. The bathroom is approximately 8 feet length and 3 feet width. Com1 is located in the North East corner on the floor plan. It is next to the Balcony, Master and Bath rooms. Com1 is approximately 10 feet length and 8 feet width in area size. Com2 is in the South East corner on the floor plan. It is next to the Living and Kitchen areas. Com2 is approximately 8 feet length and 8 feet width in area size The Kitchen is on the East side on the floor plan. It is located between the Bath and Com2. It exits into the living room. The kitchen is approximately 8 feet length and 2 feet width in size The Living room is located in the South West corner on the floor plan. It is next to the Bath, Kitchen and Com2 rooms. The Master room is North of the Living room. The area size is approximately 18 feet length and 18 feet width The Master room is on the West side on the floor plan. It is located between the Living room and the Balcony. The are size is approximately 144 sqrt feet,",
+  "total_square_footage": 0,
+  "id": "17091",
+  "source_annotation": "data/raw/annotations/17091.txt",
+  "source_image": "data/raw/images/17091.png"
+}

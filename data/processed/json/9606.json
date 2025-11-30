@@ -1,0 +1,77 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "kitchen",
+        "balcony",
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "common room"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "balcony is near as kitchen in front of bath room 2 feet length and 2 feet width. balcony 2 is the entrance from living room 15 feet length and 2 feet width. bathroom is the entrance from living room it is the small place room .1 feet length and 1 feet width . common room is in front of master room other side as bath room 10 feet length and 10 feet width ratio as 8 over 8. kitchen is entrance from living room kitchen room near as balcony and bathroom 10 feet length and 8 feet width ratio as 8 over 6. living room is the entrance of the north side .it is the center of all the rooms 15 feet length and 30 feet width ratio as 8 over 7. master room is entrance from the living room near room as common room 12 feet length and 12 feet width ratio as 8 over 2. it is a square room shape.",
+  "total_square_footage": 0,
+  "id": "9606",
+  "source_annotation": "data/raw/annotations/9606.txt",
+  "source_image": "data/raw/images/9606.png"
+}

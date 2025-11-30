@@ -1,0 +1,105 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "west",
+        "west"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "bathroom"
+      ],
+      "directions": [
+        "west",
+        "north"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "kitchen",
+        "master room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "living room"
+      ],
+      "directions": [
+        "west",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "balcony"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north"
+      ]
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "Balcony 1 is located at the south west corner, which is to the west of the living room. It measures approximately 7 feet wide by 8 feet long. Balcony 2 is located on the northern side, Which is to the west of the kitchen and to the north of the bathroom. It measures approximately 6 feet wide and 7 feet long. The bathroom is centrally located, which is to the north of the living room and between the kitchen and the master room. It measures approximately 6 feet wide by 9 feet long. The common room is located on the west side, which is to the west of the master room and the living room. The room measures approximately 12 feet wide by 10 feet long. The kitchen is on the north east corner, which is next to the bathroom and balcony 2. It measures approximately 7 feet wide by 13 feet long. The living room is located at the south east corner. It is to the south of the master room and is approximately 30 feet wide by 13 feet long. The master room is on the northern side, which is located to the north of the living room. The room is approximately 13 feet wide by 12 feet long.",
+  "total_square_footage": 0,
+  "id": "1649",
+  "source_annotation": "data/raw/annotations/1649.txt",
+  "source_image": "data/raw/images/1649.png"
+}

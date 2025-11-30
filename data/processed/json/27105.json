@@ -1,0 +1,80 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "common room"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "northwest"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "common room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "bathroom"
+      ],
+      "directions": [
+        "east",
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "southeast"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "Bathroom is at the  west and in-between the living room and common room 1. The size is 10 feet length and 5 feet width. Common room 1 is at the northwest corner and next to the kitchen. The size is 15 feet length and 10 feet width. Common room 2 is at the southwest corner and next to the bathroom. The size is 15 feet length and 10 feet width. Kitchen is at the north and in-between the living room and common room 1. The size is 8 feet length and four feet width. Living room is at the east and faces the west, it is in-between the kitchen and bathroom. The size is 30 feet length and 20 feet width. Master room is at the southeast corner and next to the common room 2. The size is 15 feet length and 10 feet width.",
+  "total_square_footage": 0,
+  "id": "27105",
+  "source_annotation": "data/raw/annotations/27105.txt",
+  "source_image": "data/raw/images/27105.png"
+}

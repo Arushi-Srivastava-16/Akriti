@@ -1,0 +1,114 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "north"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "north"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "common room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "master room"
+      ],
+      "directions": [
+        "northeast",
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "bathroom",
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "east",
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "bathroom",
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "east",
+        "west",
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "east",
+        "center"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "bathroom"
+      ],
+      "directions": [
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "Balcony 1 is at the south part of the building and is bordered by the living room to the north. It measures about 10ft wide and 3ft long. Balcony 2 is also at the south part of the building and is bordered by the living room to the north. It measures about 10ft wide and 3ft long. Bathroom 1 is at the north of the building, and is adjoined by the living room and common room 2. It measures about 4ft wide and 8ft long. Bathroom 2 is at the northeast part of the building and is bordered by common room 1 to the left and the master room to the south. It measures about 3ft wide and 7ft long. Common room 1 is at the north part of the building and is bordered by common room 2 to the left, bathroom 2 to the east, and the living room to the south. It measures about 10ft wide and 10ft long. Common room 2 is at the north part of the building, and is abutted by common room 1 to the east, bathroom 1 to the west, and the living room to the south. It measures about 10ft wide and 10ft long. The living room extends from the east of the building to the center of the house, and borders both common rooms, the master room, bathroom1, and the two balconies. It measures about 25ft in width and 20ft in length. The master room is at the east of the building and is behind common room 1 and bathroom 2. It measures about 6ft wide and 10ft long.",
+  "total_square_footage": 0,
+  "id": "57475",
+  "source_annotation": "data/raw/annotations/57475.txt",
+  "source_image": "data/raw/images/57475.png"
+}

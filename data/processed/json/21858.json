@@ -1,0 +1,68 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master bedroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "balcony"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "the balcony is right off the master bedroom. It is about 12 feet by three feet. The bathroom it's just off the living room and next to the common room. It is about 12 by three feet. The common room is right off the living room and next to the bathroom. It is about 10 by 10 feet. The kitchen is about 10 feet by three feet in his right off the living room. The living room is right off the master, bath, common room, kitchen. It is about 50 feet long and 15 feet wide The master bedroom is right off the living room and it has a balcony. It is about 13 feet",
+  "total_square_footage": 0,
+  "id": "21858",
+  "source_annotation": "data/raw/annotations/21858.txt",
+  "source_image": "data/raw/images/21858.png"
+}

@@ -1,0 +1,128 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "northwest",
+        "south"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northeast",
+        "north"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room",
+        "master room"
+      ],
+      "directions": [
+        "east",
+        "north",
+        "west",
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "bathroom"
+      ],
+      "directions": [
+        "northeast",
+        "west",
+        "southwest",
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "west",
+        "north",
+        "east",
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "bathroom",
+        "kitchen"
+      ],
+      "directions": [
+        "north",
+        "east",
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southeast",
+        "east",
+        "west",
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west",
+        "north",
+        "west",
+        "south",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 9,
+  "raw_text": "Balcony 1 is at the northwest corner, with the kitchen to the south. It is approximately 8 feet wide by 5 feet high, giving it a square footage of 40. Balcony 2 is at the northeast corner, with the master to the north. It is approximately 8 feet wide by 5 feet high, giving it a square footage of 40. the bathroom is on the east side with the common room to the north, the living room to the west and the master room to the south. It is approximately 5 feet wide by 8 feet high, giving it a square footage of 40. The common room is in the northeast corner with the living room to the west and southwest, and the bathroom at the south side. It is approximately 12 feet wide by 15 feet high, giving it a square footage of 300. The kitchen is on the west side with a Balcony1 to the north, the living room to the east and the storage room to the south. It is approximately 8 feet wide by 12 feet high, giving it a square footage of 96. The living room is on the north side with the common room and bathroom to the east, and the kitchen and storage room to the west. The northeast is an exterior wall with a small piece bordering the master on the southeast. It is approximately 12 feet wide by 25 feet high, giving it a square footage of 300. The master room is positioned as a southeast extension, with exterior walls on both the east and west sides, and balcony2 to the south. At the north is the living room and bathroom. It is approximately 10 feet wide by 15 feet high, giving it a square footage of 150. the storage room is on the west side with the kitchen to the north and the living area to the west and south west corner.  It is approximately 5 feet wide by 5 feet high, giving it a square footage of 25.",
+  "total_square_footage": 0,
+  "id": "65251",
+  "source_annotation": "data/raw/annotations/65251.txt",
+  "source_image": "data/raw/images/65251.png"
+}

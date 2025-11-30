@@ -1,0 +1,73 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "living room"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom",
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "master bedroom"
+      ],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 5,
+  "raw_text": "The bathroom is in the east of the apartment, next to the kitchen and living room. It is about 7 feet x 10 feet. The common room is in the south east corner of the apartment, next to the master bedroom and living room. It is about 10 feet x 10 feet. The kitchen is in the north east corner of the apartment, next to the bathroom and living room. It is about 5 feet x 10 feet. The living room is in the center apartment, next to the kitchen and  master bedroom. It is about 20 feet x 25 feet. The master bedroom is in the south west corner of the apartment, next to the common room and living room. It is about 10 feet x 10 feet.",
+  "total_square_footage": 0,
+  "id": "69675",
+  "source_annotation": "data/raw/annotations/69675.txt",
+  "source_image": "data/raw/images/69675.png"
+}

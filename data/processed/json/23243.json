@@ -1,0 +1,109 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "bathroom",
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room",
+        "bathroom"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 12,
+  "raw_text": "The balcony is at the bottom side of the floor. It only is next to the master room and it's size is around 15 feet by 6 feet. The bathroom is on the left side of the floor. It is next to the kitchen, living room and the master room. It's size is around 6 feet by 8 feet. The common room is at the lower, right side of the floor. It is next to the living room and master room. It's size is around 13 feet by 15 feet. The kitchen is at the left, corner of the floor. It is next to the living room and the bathroom. It's size is around 5 feet by 15 feet. The living room takes up most of half of the floor. It touches the common room, master room, bathroom and the kitchen. It's size is about 12 feet by 30 feet. The master room is at the lower, left side of the floor. It is next to the balcony, common room, living room and the bathroom. It is around 12 feet by 15 feet.",
+  "total_square_footage": 0,
+  "id": "23243",
+  "source_annotation": "data/raw/annotations/23243.txt",
+  "source_image": "data/raw/images/23243.png"
+}

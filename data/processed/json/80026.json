@@ -1,0 +1,152 @@
+{
+  "rooms": [
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 17,
+  "raw_text": "The bath room 1 is placed on the north west corner. The bath room 1 is situated near by the common room 1 and the common room 2. The bath room 1 has a width of 4 feet and a length of \n7 feet. The bath room 2 is placed on the west side. The bath room 2 is situated in between the  common room 2 and the master room. The bath room 2 has a width of 5 feet and a length of 6.5 feet. The common room 1 is placed on the north side. The common room 1 is situated in between the  bath room 1 and the kitchen. The common room 1 has a width of 8.5 feet and a length of 8.5 feet. The common room 2 is placed on the west side. The common room 2 is situated in between the  bath room 1 and the bath room 2. The common room 2 has a width of 10 feet and a length of \n10 feet. The kitchen is placed on the north east corner. The kitchen is situated near by the common room 1. The kitchen has a width of 4.5 feet and a length of 13 feet. The living room is placed on the south east corner. The living room is situated near by the master room .The living room has a total area of 380 square feet. The master room is placed on the south west corner. The master room is situated near by the bath room 2. The master room has a width of 10 feet and  a length of 10.75 feet.",
+  "total_square_footage": 0,
+  "id": "80026",
+  "source_annotation": "data/raw/annotations/80026.txt",
+  "source_image": "data/raw/images/80026.png"
+}

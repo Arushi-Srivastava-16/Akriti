@@ -1,0 +1,65 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southeast"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northeast"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "The bathroom is located in the northside and between the kitchen and master. size is 6x12 Common room 1 is located in the southeast corner and next to the master. size is 15x12 Common room 2 is located on the southwest corner and next to the living. size is 10x7 The kitchen is located on the north side and next to the bath. size is 4x12 north facing living The living room is located on the west side and near to all other rooms. size is 27x22 unsized The master room is located on the northeast corner and next to the com1. size is 20x12",
+  "total_square_footage": 0,
+  "id": "57873",
+  "source_annotation": "data/raw/annotations/57873.txt",
+  "source_image": "data/raw/images/57873.png"
+}

@@ -1,0 +1,81 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "center"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "balcony Room Located on South west corner with master Room on above , Total size of 11 Feet length and 3 Feet Width. bathroom Room Located on exact north center of the plan with ktichen Room on left , Total size of 9 Feet length and 3 Feet Width. common1 Room Located on North east corner with living Room on below , Total size of 12 Feet length and 9 Feet Width. Common2 Room Located on South east corner with living Room on above , Total size of 12 Feet length and 9 Feet Width. kitchen Room Located on north west corner with bath Room on right , Total size of 12 Feet length and 5 Feet Width. Living Room Located on center of the plan with common1 Room on above , Total size of 15 Feet length and 15 Feet Width. Master Room Located on South west with common2 Room on right , Total size of 10 Feet length and 9 Feet Width.",
+  "total_square_footage": 0,
+  "id": "49267",
+  "source_annotation": "data/raw/annotations/49267.txt",
+  "source_image": "data/raw/images/49267.png"
+}

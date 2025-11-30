@@ -1,0 +1,93 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "common room"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "living room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom",
+        "common room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "kitchen"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "The balcony is at the South east corner, next to Common room 1 and Common room 2. 14 foot length and 3 foot width. The bathroom is on the North side, between the Kitchen and Living room. 3 foot length and 6 foot width. Common room 1 is on the East side, in front of Common room 2. 9 foot length and 12 foot width. Common room 2 is on the South side, between Master bedroom and Common room 1. 7 foot length and 12 foot width. The kitchen is at the North West corner, behind the Bathroom. 8 foot length and 14 foot width. The living room is on the East side, in front of the Bathroom and Kitchen. 23 foot length and 20 foot width. The master room is on the West side, behind Common room 2. 11 foot length and 12 foot width.",
+  "total_square_footage": 0,
+  "id": "31817",
+  "source_annotation": "data/raw/annotations/31817.txt",
+  "source_image": "data/raw/images/31817.png"
+}

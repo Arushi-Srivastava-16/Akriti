@@ -1,0 +1,103 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "common room"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 10,
+  "raw_text": "The balcony is at the bottom of the floor plan and extends the length of the master room and the first common room. It is only 3-4 feet in height and 20 feet in width. The first bath is in the center right of the floor plan just past the master room. It is about 10 feet in width and 5 feet in height. The second bath is in the top center to the left of the kitchen. It is about 10 feet in width and 10 feet in height. The common room is in the lower center to the left of the master room. It is about 10 feet in width and 20 feet in height. The second common room is in the lower left hand corner to the left of the first common room and below the living room. It is about 10 feet in width and 20 feet in height. The kitchen is in the upper right corner of the floor plan past the living room. It is about 10 feet in width and 10 feet in height. The living room is in the upper center part of the floor plan. It is below the second bath and kitchen. It is about 25 feet in width, and 20 feet in height. The room extends beyond the second bath and kitchen, and inside of it is the first bathroom. The master room is in the lower right corner of the floor plan past the balcony and next to the first common room. It is about 15 feet in width and 20 feet in height.",
+  "total_square_footage": 0,
+  "id": "67573",
+  "source_annotation": "data/raw/annotations/67573.txt",
+  "source_image": "data/raw/images/67573.png"
+}

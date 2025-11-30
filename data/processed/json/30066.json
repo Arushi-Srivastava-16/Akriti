@@ -1,0 +1,117 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "master room",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "kitchen",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "common room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 12,
+  "raw_text": "the bathroom is accessible from the living room and is in between the master room and common room 1.  the bathroom is approximately 7 ft by 7 ft. common room 1 is accessible from the living room and is  next to the bathroom.  common room 1 is approximately 10 ft by 10ft. common room 2 is accessible from the living room and is to the left of the front entrance. common room 2 is approximately  10 ft by 8 ft. the kitchen is accessible from the living room and is to the right of the front door. the kitchen is approximately 10 ft by 7 ft. the living room is open to the master room, kitchen, bath, and common room 1 and 2.  the living room is approximately 30ft by 15 ft and features a south facing front entrance between the kitchen and common room 2. the master room is accessible from the living room and next to the bathroom. the master room is approximately 15ft by 15 ft.",
+  "total_square_footage": 0,
+  "id": "30066",
+  "source_annotation": "data/raw/annotations/30066.txt",
+  "source_image": "data/raw/images/30066.png"
+}

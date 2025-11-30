@@ -1,0 +1,90 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "balcony"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "center"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 9,
+  "raw_text": "balcony 1south side corner room it is 15 feet length and 3 feet width ratio as 6 over 2. balcony is the small place in front room as kitchen it is 3 feet length and 3  feet width ratio as 6 over 6 it is a square shape balcony. bath room is the small place it is the entrance from living room it is 3 feet length and 3 feet width. common room is the entrance from living room  in front room as bathroom .it is 15 feet length and 15  feet width ratio as 6 over 6. kitchen room is the entrance from living room it is the small room compared to other rooms 15 feet length and 5 feet width ratio as 6 over 3.kitchen room near room as balcony 2. living room is entrance from north side it is the center of all the rooms it is 15 feet length and 30  feet width ratio as 6 over 9. master room is the entrance from living room it is 10 feet length and 15  feet width ratio as 4 over 6.master room near room as common room .",
+  "total_square_footage": 0,
+  "id": "50181",
+  "source_annotation": "data/raw/annotations/50181.txt",
+  "source_image": "data/raw/images/50181.png"
+}

@@ -1,0 +1,74 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "common room",
+        "bathroom",
+        "living room"
+      ],
+      "directions": [
+        "west",
+        "west",
+        "south"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "kitchen",
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "west",
+        "north",
+        "south",
+        "north"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "master bedroom"
+      ],
+      "directions": [
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 5,
+  "raw_text": "The balcony is at the south end of the property, and located on the south wall of the living room. Approx 15ft wide x 5 ft deep. the bathroom is located on the west of the property, adjacent to the living room, approx 8ft x 8ft The common room is on the west of the property, just south of the bathroom, and adjacent to the living room. It is a mirror image of the master bedroom, just on the opposite property side. The kitchen is found in the north west of the property, adjoined to the north living room section, the 8ft x 10 ft kitchen Central to the property, this large living room is split into two sections - The south end, approximately 20ftx40ft, and a smaller 10ftx10ft section to the north. All other rooms split off from this one in various directions. The master room is located to the east side of the living room, the master bedroom is 10ft x 15 ft, with 3 external sides.",
+  "total_square_footage": 0,
+  "id": "58657",
+  "source_annotation": "data/raw/annotations/58657.txt",
+  "source_image": "data/raw/images/58657.png"
+}

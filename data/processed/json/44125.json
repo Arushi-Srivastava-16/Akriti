@@ -1,0 +1,86 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "common room"
+      ],
+      "directions": [
+        "east",
+        "south",
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "master room"
+      ],
+      "directions": [
+        "northeast",
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "southeast",
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southwest",
+        "center"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room"
+      ],
+      "directions": [
+        "northwest",
+        "east",
+        "south"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "balcony in the northern edge of the plan, adjoined by common room to the south, and roughly 4x12 ft in dimension. bathroom in the east side of the floor plan, adjoined by kitchen to the south, and common room 1 to the north, roughly 6x12 ft in dimension. common room in the northeast corner of the plan, adjoined by bathroom to the south and master room to the west, roughly 10x10 ft in dimension. kitchen in the southeast corner of the floor plan, surrounded on its north and west side by the living room, roughly 12x6 ft in dimension. living room resides in the southwest corner of the floor plan and acts as the center hub for the other rooms, approximately 20x20 ft in dimension. master room is in the northwest corner of the floor plan, adjoined by the common room to the east and living room to the south, roughly 15x12 ft in dimension.",
+  "total_square_footage": 0,
+  "id": "44125",
+  "source_annotation": "data/raw/annotations/44125.txt",
+  "source_image": "data/raw/images/44125.png"
+}

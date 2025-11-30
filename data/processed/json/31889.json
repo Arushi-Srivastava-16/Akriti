@@ -1,0 +1,110 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "middle",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "middle",
+        "north",
+        "north"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 11,
+  "raw_text": "Balcony is located in south and west corner position. Near to living room. Size is 14x 3 sq ft. The bathroom is located in the middle of the east side. Center of the kitchen and master room. Size is 8x8 sq ft. Common room is located in North and west corner position. Near to living room. Size is 12x12 sq ft. Kitchen room is located in north and east corner. Near to bath room and living room. Size is 14x 6 sq ft. The living room is located in middle of the north side and North facing . In between of all over rooms. Room size is 18x 20 sq ft. The master room is located in south and east corner side. In between of living room and bathro Room size is 14x14 sq ft.",
+  "total_square_footage": 0,
+  "id": "31889",
+  "source_annotation": "data/raw/annotations/31889.txt",
+  "source_image": "data/raw/images/31889.png"
+}

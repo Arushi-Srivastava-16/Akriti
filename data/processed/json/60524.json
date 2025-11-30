@@ -1,0 +1,76 @@
+{
+  "rooms": [
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "kitchen"
+      ],
+      "directions": [
+        "north",
+        "northeast",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "west",
+        "north"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "kitchen"
+      ],
+      "directions": [
+        "west",
+        "southwest",
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 5,
+  "raw_text": "A 9ft by 9ft on the west edge of the plan. To the north is the master room, to the south is the common room, and to the east is the living room. Occupies the south west corner, a 15ft (west-east) by 11 ft (north-south) rectangle. To the north is the bathroom, to the northeast the living room, and to the east, the kitchen. Occupies the southeast corner, a 18ft (west-east) by 6ft (north-south) rectangle. To the west the common room, and to the north is the living room. Occupies the northeast corner; adjacent to all other rooms. Approximately 610 sqft. To the west is the master and bathroom; to the southwest, the common room, and to the south the kitchen. Occupies the northwest corner, and is a 15ft by 15ft square. It is north of the bathroom, and west of the living room.",
+  "total_square_footage": 0,
+  "id": "60524",
+  "source_annotation": "data/raw/annotations/60524.txt",
+  "source_image": "data/raw/images/60524.png"
+}

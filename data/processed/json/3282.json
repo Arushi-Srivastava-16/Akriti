@@ -1,0 +1,116 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "balcony"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 13,
+  "raw_text": "Balcony 2 is a little bigger than the balcony 1. It is next to the common room 2 and on the southern part of the house. It is rectangular in shape. Balcony 1 is a little smaller than balcony 2. It is situated on thenorthern part of the house next to the kitchen.It is rectangular in shape. Bath room is situated on the western part of the house. It connects the common room 1 and the master room. It is very small and occupies a very little space in the house. Common rrom 1 is situated on the north western part of the house. It is rectangular in shape. One side of it is connected with the living room. Common room 2 is also the same size as common room 1. One side of it is master room and the other side of the common room 2 is balcony. Kitchen is situated on the north eastern portion of the house. It is very narrow and next to the balcony. Living room is situated in the center of the house. It occupies major portion of the house. One side of all the other rooms are connected with the living room. Master room is another largest room. It is rectangular in shape and is connected to the bath room. It is situated on the south west part of the house. It occupies the southern corner of the house.",
+  "total_square_footage": 0,
+  "id": "3282",
+  "source_annotation": "data/raw/annotations/3282.txt",
+  "source_image": "data/raw/images/3282.png"
+}

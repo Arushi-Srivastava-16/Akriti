@@ -1,0 +1,84 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "middle",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "master room"
+      ],
+      "directions": [
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "The balcony is 4 feet long and 14 feet wide. It borders with the common room at the northern line. The bathroom is about middle ways but on the west side and the kitchen touches its northern line. It would be about 4 feet long and 6 feet wide. The common room is about 20 feet wide and 14 feet long and anchors in the southern part of the house and the balcony sharing it's southern border. The kitchen is roughly 8 feet long and 18 feet wide and nestles at the point where the wall dog-legs left or west. It sits with the living room on it's northern border. The living room takes up all of the northern wall of the home and the common room meets with it's handle or extention to the south. It is 20 feet long and about 30 feet wide. The master room meets the common room on the east side and the master room rests in the southeastern corner of the house. It is about 18 feet long and 16 feet wide.",
+  "total_square_footage": 0,
+  "id": "11949",
+  "source_annotation": "data/raw/annotations/11949.txt",
+  "source_image": "data/raw/images/11949.png"
+}

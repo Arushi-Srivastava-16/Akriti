@@ -1,0 +1,88 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "The first balcony is on the north side of the apartment next to the living room. It is 10' x 5'. The second balcony is on the south side of the apartment next to the living room. It is 15' x 5'. The third balcony is on the north east side of the apartment next to the living room. It is 10' x 12'. The bathroom is on the east side of the apartment next to the master bedroom. It is 10' x 7'. The common room is on the south west side of the apartment next to the living room. It is 10' x 12'. The living room is on the west side of the apartment next to the three balconies. It is 20' x 35'. The master bedroom is on the south east side of the apartment next to the bathroom. It is 12' x 15'.",
+  "total_square_footage": 0,
+  "id": "26545",
+  "source_annotation": "data/raw/annotations/26545.txt",
+  "source_image": "data/raw/images/26545.png"
+}

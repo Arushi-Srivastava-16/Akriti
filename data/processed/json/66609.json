@@ -1,0 +1,73 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "A balcony was attach to master room and long to view on south direction. A bathroom was locate in south side in that home and second small in home. A common room 1 was south direction to view on home and big to view in home. A common room 2 was locate in north side direction and comfort to size on home. A kitchen was locate in north side corner in that home and small size to view. A living room was enter a front door to view on living room and big size on home. A master room was right side to view on home and second big size room on home. A storage room was very small to view on front door to enter in left side on home.",
+  "total_square_footage": 0,
+  "id": "66609",
+  "source_annotation": "data/raw/annotations/66609.txt",
+  "source_image": "data/raw/images/66609.png"
+}

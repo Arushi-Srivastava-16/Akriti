@@ -1,0 +1,102 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "dining room"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "dining room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "dining room"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "dining room"
+      ],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "The balcony is in the west side of the apartment next to the master room. It is 20 ft x 7 ft. The bathroom is in the north side of the apartment next to the living room. It is 5 ft x 5 ft. The first common room is in the south east side of the apartment next to the dining room. It is 10 ft x 5 ft. The second common room is in the south west side of the apartment next to the master room. It is 12 ft x 10 ft. The dining room is in the north east side of the apartment next to the first common room. It is 7 ft x 10 ft. The kitchen is in the east side of the apartment next to the dining room. It is 7 ft x 12 ft. The living room is in the center of the apartment next to the dining room. It is 20 ft x 20 ft. The master bedroom is in the north west side of the apartment next to the balcony. It is 12 ft x 10 ft.",
+  "total_square_footage": 0,
+  "id": "40897",
+  "source_annotation": "data/raw/annotations/40897.txt",
+  "source_image": "data/raw/images/40897.png"
+}

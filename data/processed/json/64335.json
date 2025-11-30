@@ -1,0 +1,91 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "kitchen",
+        "bathroom"
+      ],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "living room"
+      ],
+      "directions": [
+        "south"
+      ]
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "balcony is located at south side and it is in front of master room. It has the size of  23 feet length and 7 feet width. Bathroom is located north west corner. It is left of the kitchen room. It has the square size of 8 feet side. common room is located at north east corner. It is adjacent to kitchen room. It has the size of around 12 feet length and 8 feet width. kitchen is located at north side and between the bath room and  common room. It has the square size of 8 feet side. Living room is occupied center  area between master room and kitchen , bathroom. It has the area of  around 250 sqr. feet. master room only is located at south corner and between the balcony and living room. It has the square size of 15 feet side.",
+  "total_square_footage": 0,
+  "id": "64335",
+  "source_annotation": "data/raw/annotations/64335.txt",
+  "source_image": "data/raw/images/64335.png"
+}

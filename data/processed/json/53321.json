@@ -1,0 +1,95 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "balcony",
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "east",
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "common room"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "The first balcony it's on the north side of the apartment next to the common room. It is approximately 10\u00e2\u0080\u0098 x 7\u00e2\u0080\u0098 The second balcony is on the north east corner of the apartment next to the kitchen and it is approximately 5\u00e2\u0080\u0098 x 5\u00e2\u0080\u0098 The third balcony is on the south east corner of the apartment next to the living room. It is approximately 12\u00e2\u0080\u0098 x 3\u00e2\u0080\u0098 The bathroom is on the west side of the apartment between the master room and the common room. It is approximately 7\u00e2\u0080\u0098 x 7' The common room is on the north west corner of the apartment next to the bathroom. It is approximately 10\u00e2\u0080\u0098 x 10\u00e2\u0080\u0098 The kitchen is on the east side of the apartment next to the second balcony. It is approximately 10\u00e2\u0080\u0098 x 7\u00e2\u0080\u0098 The living room is in the center of the apartment between the first and third balcony. It is approximately 20\u00e2\u0080\u0098 x 35\u00e2\u0080\u0098. The master room is on the south west corner of the apartment next to the bathroom. It is approximately 12\u00e2\u0080\u0098 x 25\u00e2\u0080\u0098",
+  "total_square_footage": 0,
+  "id": "53321",
+  "source_annotation": "data/raw/annotations/53321.txt",
+  "source_image": "data/raw/images/53321.png"
+}

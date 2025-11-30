@@ -1,0 +1,84 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "common room"
+      ],
+      "directions": [
+        "north",
+        "south"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "balcony is located at south west corner and in front of master room. It has the size of 15 feet length and 5 feet width. bathroom is located at north west corner to master room and adjacent to living room.  It has the size of 10 feet length and 6 feet width. Common room  is located at south east corner and next to master room. It has the size of 17 feet length and 15 feet width. kitchen is located north west side corner and adjacent to the living room.\n It has the size of 14 feet length and 6 feet width. living room is occupied the remaining main area that extends from north to south side but next to kitchen and common room. It has the size of 30 feet length and 20 feet width aproximately. master room is located at south west side and adjacent to common room.  It has the square size of  15 feet side.",
+  "total_square_footage": 0,
+  "id": "43629",
+  "source_annotation": "data/raw/annotations/43629.txt",
+  "source_image": "data/raw/images/43629.png"
+}

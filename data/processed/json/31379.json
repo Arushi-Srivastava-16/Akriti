@@ -1,0 +1,97 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "master bedroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom",
+        "kitchen",
+        "living room"
+      ],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "common room",
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "kitchen",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master bedroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "living room",
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master bedroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 9,
+  "raw_text": "The balcony is located at the end of the house and at the end of the living room on the bottom left hand side and connects to the master bedroom as well. It is about 5 feet wide and 10 feet deep. the bathroom is located at the upper center of the floor layout and connects to the master bedroom kitchen and living room area. The bathroom is square and is about 5 by 5 feet. The common room is on the upper right hand side and connects only to the kitchen and living room. This room is L shaped and has an width of about 10 feet and depth of about 15 feet with a smaller area about 5 by 5. The Kitchen is located between the bathroom and the common room and connects to the living room as well. It is rectangular and seems to be about 5 feet wide and 10 feet deep. The living room is located on the bottom right hand side and is relatively rectangular aside from the hallways connecting to the bathroom and kitchen and common room. The living room is about 25- 30 feet wide and 10 feet deep not including the hallways that connect to the other rooms. The master bedroom is located on the upper left hand side of the floor plan and connects to the balcony as well as the living room and bathroom. The size of the master bedroom is about 20 feet wide and 10 feet deep.",
+  "total_square_footage": 0,
+  "id": "31379",
+  "source_annotation": "data/raw/annotations/31379.txt",
+  "source_image": "data/raw/images/31379.png"
+}

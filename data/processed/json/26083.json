@@ -1,0 +1,76 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "The balcony is outside of the master room and is 20 feet long but narrow. Bathroom 1 is above the kitchen and is 10 by 5 feet. Bathroom 2 is to the left of the master bedroom and is 5 by 5 feet. Common room 1 is above the bathroom 1 and is 10 by 10 feet. Common room 2 is above common room 1 and is 10 by 10 feet. The kitchen is at the lower left. It is 10 feet by 5 feet. The living room is on the right bottom. It It is 20 by 20 feet. The master room is at the upper right. It is 10 by 10 feet.",
+  "total_square_footage": 0,
+  "id": "26083",
+  "source_annotation": "data/raw/annotations/26083.txt",
+  "source_image": "data/raw/images/26083.png"
+}

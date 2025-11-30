@@ -1,0 +1,78 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "northeast"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northwest"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west",
+        "middle"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southeast"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "The balcony is located on the southwest corner and attached with com1. size is 10x5 Bathroom 1 is located in the northeast corner and next to the kitchen. size is 6x6 Bathroom 2 is located in the west side and next to the com. size is 7x4 The common room is located in the southwest side and attach with balcony. size is 13x13 The kitchen is located on the northwest corner and next to the bath1. size is 6x8 west facing living The living room is located on the middle of the plan. near to all other room. size is 22x18. unsized The master room is located on the southeast corner and next to the com. size is 12x18",
+  "total_square_footage": 0,
+  "id": "48631",
+  "source_annotation": "data/raw/annotations/48631.txt",
+  "source_image": "data/raw/images/48631.png"
+}

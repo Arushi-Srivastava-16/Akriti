@@ -1,0 +1,111 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "middle",
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west",
+        "south",
+        "north"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "middle",
+        "east"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 11,
+  "raw_text": "The balcony is located in NORTH AND EAST SIDE.  NEAR TO MASTER ROOM. SIZE IS 12X4 SQ FT. The bathroom is located in MIDDLE OF THE EAST SIDE. IN BETWEEN OF MASTER ROOM AND COMMON ROOM. SIZE IS 8X6 SQ FT. The common room is located in SOUTH AND EAST SIDE. IN BETWEEN OF LIVING ROOM AND BATH ROOM. SIZE IS 12X12 SQ FT. The kitchen is located inMIDDLE OF THE SOUTH SIDE. CENTER OF THE COMMON ROOM AND LIVING ROOM. SIZE IS 8X 8 SQ FT. WEST FACING LIVING ROOM IS LOCATED IN STARTED SOUTH AND ENDING TO NORTH SIDE. IN BETWEEN OF ALL OVER ROOMS. SIZE IS 16X26 SQ FT. The master room is located in MIDDLE OF THE EAST SIDE. IN BETWEEN OF BATH ROOM AND BALCONY. SIZE IS 12X 16 SQ FT.",
+  "total_square_footage": 0,
+  "id": "39678",
+  "source_annotation": "data/raw/annotations/39678.txt",
+  "source_image": "data/raw/images/39678.png"
+}

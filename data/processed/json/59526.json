@@ -1,0 +1,93 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center",
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "master room"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "master room",
+        "kitchen"
+      ],
+      "directions": [
+        "center",
+        "north",
+        "south"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "There is a balcony in south east corner and in front of living room.  It has the size of  16 feet length and 4 feet width. bathroom is located at center of the west side. It is between the master room and common room . It is the square size room of 8 feet side. Common room  is located at south west corner and in front of bathroom. It has the square size of 15 feet side kitchen is located north east side corner and adjacent to the living room, but opposite to master room.\n It has the size of 12 feet length and 8 feet width. living room is occupied the center region of the plan from north to south excluding the balcony so that it is between the master room and kitchen. It has the area of 450 sqr. feet aproximately. master room is located at north west corner and adjacent to living room.  It has the size of  12 feet length and 14 feet width.",
+  "total_square_footage": 0,
+  "id": "59526",
+  "source_annotation": "data/raw/annotations/59526.txt",
+  "source_image": "data/raw/images/59526.png"
+}

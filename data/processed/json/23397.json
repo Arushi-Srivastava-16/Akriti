@@ -1,0 +1,42 @@
+{
+  "rooms": [
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "kitchen",
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "east",
+        "south",
+        "east",
+        "center",
+        "south",
+        "north",
+        "south",
+        "center"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "master room",
+        "balcony"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 2,
+  "raw_text": "master room top side corner right side\" SOUTH EAST CORNER \"SOUTH EAST CORNER, 15 X20 FEET, COMM 2 ROOM AND BATH ROOM CENTER SIDE\" Master room is down south corner of the image north facing\", \"SOUTH CORNER\", \"between kitchen and master\" The living room in the center position.it is 5feet.\" right corner up side master room\", \"master room top side corner right side\", \"the master room in balcony side\"",
+  "total_square_footage": 0,
+  "id": "23397",
+  "source_annotation": "data/raw/annotations/23397.txt",
+  "source_image": "data/raw/images/23397.png"
+}

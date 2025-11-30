@@ -1,0 +1,84 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "kitchen"
+      ],
+      "directions": [
+        "northwest"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "bathroom"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom",
+        "common room"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "common room"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "The bathroom it's on the north east side of the apartment, next to the kitchen and the living room. It is approximately 5\u00e2\u0080\u0098 x 5\u00e2\u0080\u0098 The common room it's on the northwest corner of the apartment, next to the living room and the kitchen. It is approximately 12\u00e2\u0080\u0098 x 15' The kitchen is on the north east corner of the apartment, next to the common room and the bathroom. It is approximately 20' x 15' The living room is on the east side of the apartment, next to the master bedroom and the common room. It is approximately 12\u00e2\u0080\u0098 x 25\u00e2\u0080\u0098The master room it's on the southwest corner of the apartment next to the living room and the cabin room. It is approximately 12' x 20' The master room it's on the south west corner of the apartment next to the living room and the common room. It is approximately 12' x 20'",
+  "total_square_footage": 0,
+  "id": "24175",
+  "source_annotation": "data/raw/annotations/24175.txt",
+  "source_image": "data/raw/images/24175.png"
+}

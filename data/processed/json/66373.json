@@ -1,0 +1,79 @@
+{
+  "rooms": [
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "kitchen",
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "living room"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "balcony1 has entry from the living room\nIt have total breath of 12 x 2. balcony2  has entry from the Master room\nIt have total breath of 10 x 3. bathroom has entry from the living room\nIt have total breath of 3 x 5. common room has entry from the living room\nIt have total breath of 12 x 10 Kitchen has entry from the living room\nIt have total breath of 12 x 5. 1. Living room has west facing entry with the total breadth of 30 feet.\n2. From the entry door :\na. to left it have access to balcony1 , kitchen and common\nb. to center it has access to bathroom \nc. to the right it has access to master room Master room has entry from the living room\nIt have total breath of 10 x 15.\nIt have the entry of balcony2",
+  "total_square_footage": 0,
+  "id": "66373",
+  "source_annotation": "data/raw/annotations/66373.txt",
+  "source_image": "data/raw/images/66373.png"
+}

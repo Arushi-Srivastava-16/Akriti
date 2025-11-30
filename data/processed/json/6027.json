@@ -1,0 +1,103 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "common room"
+      ],
+      "directions": [
+        "southeast"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "common room"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "common room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "northeast"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "master room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "common room"
+      ],
+      "directions": [
+        "southeast"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "northeast"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "southwest"
+      ]
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "The balcony is approximately 40 square feet, located in the southeast corner of the floor plan, and adjacent to the kitchen and common room 2. The bathroom 1 is approximately 40 square feet, located on the east side of the floor plan, and adjacent to the master room and common room 1. The bathroom 2 is approximately 40 square feet, located on the north side of the floor plan, and adjacent to the living room and common room 1. The common room 1 is approximately 120 square feet, located in the northeast corner of the floor plan, and adjacent to the living room and bathrooms. The common room 2 is approximately 100 square feet, located on the south side of the floor plan, and adjacent to the living room and master room. The kitchen is approximately 80 square feet, located in the southeast corner of the floor plan, and adjacent to the living room and common room 2. The living room is approximately 500 square feet, located in the northeast corner of the floor plan, and adjacent to the common rooms and kitchen. The master room is approximately 230 square feet, located in the southwest corner of the floor plan, and adjacent to the common rooms and bathroom 1.",
+  "total_square_footage": 0,
+  "id": "6027",
+  "source_annotation": "data/raw/annotations/6027.txt",
+  "source_image": "data/raw/images/6027.png"
+}

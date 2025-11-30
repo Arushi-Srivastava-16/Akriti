@@ -1,0 +1,95 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "common room"
+      ],
+      "directions": [
+        "center",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": [
+        "east",
+        "north",
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 9,
+  "raw_text": "balcony is located at south east corner. It is in front of the living room. It has the size of 15 feet length and 5 feet width. bath room is located at north west corner. It is behind the kitchen room. It has the size of 13 feet length and 6 feet width common room  is located at south west corner of the plan and also of the living room.  It is in front of kitchen. It has the size of 15 feet length and 10 feet width. Kitchen is located at the center of the west side  so that it is in between the bathroom and common room. It has the size of  13 feet length and 9 feet width. living room has been occupied the entire east region of the plan from north to south, that is almost half of the plan excluding storage and balcony area. Other rooms are located towards west region, that is opposite to living room. It has the area of around 680 sqrt feet. storage room is located at north east side, almost  corner. It is inside the living room. It has the size of 6 feet length and 3.5 feet width.",
+  "total_square_footage": 0,
+  "id": "63567",
+  "source_annotation": "data/raw/annotations/63567.txt",
+  "source_image": "data/raw/images/63567.png"
+}

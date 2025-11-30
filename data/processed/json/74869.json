@@ -1,0 +1,54 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "master room",
+        "living room",
+        "common room",
+        "living room",
+        "common room",
+        "balcony",
+        "kitchen",
+        "living room",
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "east",
+        "middle",
+        "center",
+        "west",
+        "middle",
+        "center",
+        "south",
+        "east",
+        "center",
+        "north",
+        "middle",
+        "middle"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "south",
+        "east",
+        "center"
+      ]
+    }
+  ],
+  "total_rooms": 2,
+  "raw_text": "The balcony is on the SOUTH SIDE CORNER 15X5 FEET, COMM 2 ROOM NEAR The bathroom is on the EAST MIDDLE SIDE 5X5 FEET, MASTER ROOM  AND LIVING ROOM CENTER SIDE Common room 1 is on the WEST MIDDLE SIDE, 10X10 FEET, COMM 2 ROOM AND LIVING ROOM CENTER SIDE Common room 2 is on the SOUTH EAST CORNER, 15X20 FEET BALCONY AND COMM 1 ROOM CENTER SIDE The kitchen is on the NORTH MIDDLE SIDE, 10X12 FEET, LIVING ROOM NEAR SIDE LIVING ROOM IS MIDDLE OF THE BUILDING . NORTH FACE The master room is on the SOUTH EAST CORNER, 15 X20 FEET, COMM 2 ROOM AND BATH ROOM CENTER SIDE",
+  "total_square_footage": 0,
+  "id": "74869",
+  "source_annotation": "data/raw/annotations/74869.txt",
+  "source_image": "data/raw/images/74869.png"
+}

@@ -1,0 +1,90 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "common room",
+        "bathroom"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "balcony is entrance from living room it is 10 feet length and 3 feet width aspect ratio as 5 over 2. bathroom is entrance from living room .common room and master room between room as bath room .it is small place room it is 5 feet length and 3 feet width. common room is the north east corner room it is entrance from living room common room near room as bathroom .it is 10 feet length and 10 feet width aspect ratio as 5 over  5 kitchen is the north west corner room it is entrance from living room it is 5 feet length and 5 feet width. living room is west side entrance .it is 10 feet length and 30 feet width aspect ratio as 5 over 9.it is center of all the rooms.it is the big room compared to all other rooms. master room is entrance from living room it is 15 feet length and 15 feet width aspect ratio as 5 over 5.master room in front room as bathroom.",
+  "total_square_footage": 0,
+  "id": "53927",
+  "source_annotation": "data/raw/annotations/53927.txt",
+  "source_image": "data/raw/images/53927.png"
+}

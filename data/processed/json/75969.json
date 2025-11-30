@@ -1,0 +1,67 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "south",
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "north",
+        "north"
+      ]
+    }
+  ],
+  "total_rooms": 5,
+  "raw_text": "The bathroom is located at the south eastern corner, which is east of the common room. It is about 90 square feet. The common room is located at the south western corner, which is south of the master room. It is about 180 square feet. The kitchen is located at the north eastern corner, which is adjacent to the living room. It is about 102 square feet. The living room is located on the northern side, which is between the master room and the kitchen. It is about 390 square feet. The master room is located at the north western corner, which is to the north of the common room. It is about 204 square feet.",
+  "total_square_footage": 0,
+  "id": "75969",
+  "source_annotation": "data/raw/annotations/75969.txt",
+  "source_image": "data/raw/images/75969.png"
+}

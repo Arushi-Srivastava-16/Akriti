@@ -1,0 +1,80 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "living room",
+        "kitchen",
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "middle",
+        "south"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "northeast"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "The balcony is located on the east side and living room. size is 4*16 The bathroom is located in the north corner of living room and near to the commonroom1. size is 5*5 Common room 1 is located in the north west corner and near to the bathroom. size is 10*10 Common room 2 is located on the south side and near to the kitchen and living room, size is 14*8 The kitchen is located on the west corner and near to the common2 and living room. size is 3*20 The living room is located on the middle of plan and south facing. near to all other rooms. size is 25*15 The master room is located on the northeast corner and near to the commonroom1 and living room. size is 10*15",
+  "total_square_footage": 0,
+  "id": "40514",
+  "source_annotation": "data/raw/annotations/40514.txt",
+  "source_image": "data/raw/images/40514.png"
+}

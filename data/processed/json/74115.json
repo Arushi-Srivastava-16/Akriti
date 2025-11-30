@@ -1,0 +1,159 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "west",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east",
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northeast"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west",
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northwest"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "common room",
+        "master room"
+      ],
+      "directions": [
+        "north",
+        "south"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southeast"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "west",
+        "north"
+      ]
+    }
+  ],
+  "total_rooms": 15,
+  "raw_text": "The balcony is in the southwest edge of the house. It sits just to the south of common room 1. The dimensions are approximately 10X2. The bathroom is in the northern part of the house. The kitchen is to the west, and common room 2 is to the east. The living room is to the south. The dimensions are approximately 5X9. Common Room 1 is in the southwest corner of the house. The master is to the east, and the living room is to the north. The approximate dimensions are 10X12. Common Room 2 is in the northeast corner of the house. The bath is to the west, and the living room is to the south. The approximate dimensions are 10X12. The kitchen is in the northwest corner of the house. The living room is to the south, and the bathroom is to the east. The dimensions are approximately 4X12. The living room runs across the center part of the house. The kitchen, bath, and common room 2 are to the north, and common room 1 and the master room are to the south. The dimensions are approximately 22X15. The master room is in the southeast corner of the house. Common room 1 is to the west, and the living room is to the north. The dimensions are approximately 12X12.",
+  "total_square_footage": 0,
+  "id": "74115",
+  "source_annotation": "data/raw/annotations/74115.txt",
+  "source_image": "data/raw/images/74115.png"
+}

@@ -1,0 +1,78 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "kitchen"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "northeast"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "bathroom"
+      ],
+      "directions": [
+        "south"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "The balcony is located on the south side and its attached to the master room. size is 12*4 The bathroom is located in the east side and between the master room and kitchen. size is 8*8 The common room is located in the northeast corner and next to the living room. size is 12*14 The kitchen is located on the east side and next to the bathroom. size is 8*10 west facing living room connected with other rooms except balcony. size is 22*30 The master room is located on south side and attached with balcony next to the bathroom. size is 14*16",
+  "total_square_footage": 0,
+  "id": "29249",
+  "source_annotation": "data/raw/annotations/29249.txt",
+  "source_image": "data/raw/images/29249.png"
+}

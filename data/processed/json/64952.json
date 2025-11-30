@@ -1,0 +1,89 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "master room"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "bathroom"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "bathroom",
+        "kitchen",
+        "master room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "balcony",
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "balcony is in south west corner of the house, next to master room, the size is 24 sqft. bathroom is in north west corner of the house, next to kitchen and living room, the size is 72 sqft. common room is in south east corner of the house, next to living room and master room, the size is 224 sqft. kitchen is in north east corner of the house, next to living room and bathroom, the size is 96 sqft. living room is in north side of the house, next to common room, bathroom, kitchen and master room, the size is 360 sqft. master room is in south west corner of the house, next to common room, balcony and living room, the size is 180 sqft.",
+  "total_square_footage": 0,
+  "id": "64952",
+  "source_annotation": "data/raw/annotations/64952.txt",
+  "source_image": "data/raw/images/64952.png"
+}

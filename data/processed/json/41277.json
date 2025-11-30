@@ -1,0 +1,52 @@
+{
+  "rooms": [
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "master bedroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 5,
+  "raw_text": "This is on the Northern side of the apartment with access from the living room. It is approximately 10ft by 2ft. This is located on the south side of the apartment with access from the living room. It is approximately 12ft by 2ft. This room is approximately 8ft by 8ft. It is located on the western side of the floor plan. It is accessible from the living room, common room and master bedroom. This room is in the northwest corner of the apartment. It is accessible through the bathroom and the living room. It is approximately 10ft by 10ft. This room is in the north east corner of the floor plan. The room is approximately 7ft in width and 10ft in length. It has direct access t the living area. This room is central in the apartment. It is approximately 50ft across at its widest and 30ft in length. There is access to every other room. It is located on the eastern half of the floorplan This room is located in the south west corner of the apartment. It measures approximately 10ft in width and 15 ft in length. It has access to the living room.",
+  "total_square_footage": 0,
+  "id": "41277",
+  "source_annotation": "data/raw/annotations/41277.txt",
+  "source_image": "data/raw/images/41277.png"
+}

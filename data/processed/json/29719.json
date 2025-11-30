@@ -1,0 +1,115 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "bathroom"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "bathroom"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "bathroom",
+        "master room"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "bathroom"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "common room",
+        "bathroom",
+        "bathroom",
+        "kitchen",
+        "master room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "bathroom 1 is in west side of the house, next to living room and bathroom 2, the size is 36 sqft. bathroom 2 is in west side of the house, next to living room and bathroom 1, the size is 36 sqft. common room 1 is in north east corner of the house, next to kitchen and living room, the size is 112 sqft. common room 2 is in south west corner of the house, next to common room 3, bathroom 2 and master room, the size is 216 sqft. common room 3 is in west side of the house, next to common room 2 and bathroom, the size is 56 sqft. kitchen is in north west corner of the house, next to common room 1 and living room, the size is 80 sqft. living room is in north side of the house, next to common room 1, common room 2, bathroom 1, bathroom 2, kitchen, and master room, the size is 432 sqft. master room is in south east corner of the house, next to common room 2 and living room, the size is 252 sqft.",
+  "total_square_footage": 0,
+  "id": "29719",
+  "source_annotation": "data/raw/annotations/29719.txt",
+  "source_image": "data/raw/images/29719.png"
+}

@@ -1,0 +1,77 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "The balcony is at the north end of the Living room and has an area of 16 square feet. To enter the bathroom is through the living room, it is located on the south east side and has an area of 40 square feet. The Common room is located in the south west area, access is through the living room and has an area of 168 square feet. The kitchen benefits from the open concept of the living room, for which there is direct access to it, it is located on the east side and has an area of 40 square feet. The living room is in the center and from it you have access to each of the areas, it has an area of 360 square feet. Master Room is located in the north west wing, is accessed through the living room and has an area of 192 square feet.",
+  "total_square_footage": 0,
+  "id": "80080",
+  "source_annotation": "data/raw/annotations/80080.txt",
+  "source_image": "data/raw/images/80080.png"
+}

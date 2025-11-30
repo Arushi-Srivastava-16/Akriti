@@ -1,0 +1,84 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "bathroom"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom",
+        "living room"
+      ],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "Attached to the master bedrooms southern tip, you'll find the 12ft x 2 ft balcony that gives you easy access to get some fresh air quickly. Located in the north area of the house the bathroom is connected to bathroom and is in direct alignment with the bathroom. Like the kitchen it is quite small being 6 ft x 7 ft. The common room is in the southwest corner of the home, with easy access from the master bedroom and living room. The common room is 8ft by 10 ft, so you'll have plenty of living space. The kitchen is is located in the north eastern corner of the home directly attached to the living room. It's about 4 ft by 7 ft, so it relatively small. A centralized room that easily accesses all other rooms of the home, including the exit. The room is 20 ft x 10 ft much larger than the other rooms within the home. The master bedroom is 12 ft x 10 ft located in the southwest vicinity of the home. With a beautiful balcony on it's south end that adds additional 12ft x 2ft of space.",
+  "total_square_footage": 0,
+  "id": "67584",
+  "source_annotation": "data/raw/annotations/67584.txt",
+  "source_image": "data/raw/images/67584.png"
+}

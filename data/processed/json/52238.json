@@ -1,0 +1,157 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "master bedroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom",
+        "common room"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom",
+        "bathroom",
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "balcony"
+      ],
+      "directions": [
+        "center",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "balcony"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 15,
+  "raw_text": "The balcony is directly below the master bedroom and in the south-east corner of the house. It connects only to the master bedroom. Its size is about 10x5 feet. The bathroom is in the eastern part of the house, directly below the first common room and directly above the master bedroom. It connects to the living room facing west and connects to the master bedroom and the common room. Its size is around 5x5 feet. The first common room is in the north-east corner of the house. It is adjacent to the second common room, the bathroom and the living room. Its size is about 10x10 feet. The second common room is in the north most part of the house. It is adjacent to the living room, the kitchen and the first common room. It's size is about 10x15 feet. The kitchen is in the north-west corner of the house. It is adjacent to the living room and the second common room. It faces the living room downwards. Its size is around 5x10 feet. The living room is in the western part of the house. It connects directly to the balcony, the master bedroom, the bathroom, both common rooms and the kitchen. It connects to the house entrance. It's size is around 13x40 feet. The master room is in the center-east part of the house, directly below the bathroom and directly above the balcony. It connects to the living room, bathroom and balcony. It's size is arouns 10x13 feet.",
+  "total_square_footage": 0,
+  "id": "52238",
+  "source_annotation": "data/raw/annotations/52238.txt",
+  "source_image": "data/raw/images/52238.png"
+}

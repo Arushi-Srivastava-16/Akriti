@@ -1,0 +1,63 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southeast"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "northwest"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room"
+      ],
+      "directions": [
+        "northeast",
+        "south",
+        "east",
+        "south"
+      ]
+    }
+  ],
+  "total_rooms": 5,
+  "raw_text": "The Balcony is in the southeast corner off the master and is 4 by 12 feet. The bathroom is in the northern part of the unit next to the kitchen and is 3 by 10 feet. The common room is in the southwest portion next to the master and is 12 by 15 feet. The kitchen, in the northwest corner of the unit, is right off the living room and is 4 by 8 feet. The living room lies in the northeast part of the unit south of the bath with a spacious 25 ft by 10 ft approx size! The master is east of the common room and south of the living room and is 12 by 15 ft.",
+  "total_square_footage": 0,
+  "id": "58028",
+  "source_annotation": "data/raw/annotations/58028.txt",
+  "source_image": "data/raw/images/58028.png"
+}

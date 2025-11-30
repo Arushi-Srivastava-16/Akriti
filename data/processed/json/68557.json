@@ -1,0 +1,107 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "bathroom"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "bathroom"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 9,
+  "raw_text": "Bathroom 1 is located within the master bedroom and is approximately 10 feet by 5 feet on the south west corner of the property. Bathroom 2 is located next to the kitchen on the north west corner of the property and is approximately 10 feet by 10 feet. Common room 1 shares the space with the living room and is approximately 10 feet by 15 feet to the south of the property. It is adjacent to the master room. Common room 2 is in the north west corner of the property next to the kitchen, and is approximately 15 feet by 15 feet. It is the biggest room in the property. The kitchen is approximately 12 feet by 10 feet and is located on the north side of the property between the common room 2 and the bathroom 2. The living room is approximately 10 feet by 15 feet to the south of the property, and is adjacent to the master room. It shares the space with common room 1. The master room is approximately 12 feet by 15 feet on the south west corner of the property, adjacent to the living room and is conveniently located next to the first bathroom.",
+  "total_square_footage": 0,
+  "id": "68557",
+  "source_annotation": "data/raw/annotations/68557.txt",
+  "source_image": "data/raw/images/68557.png"
+}

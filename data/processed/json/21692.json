@@ -1,0 +1,85 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "northwest"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "southeast"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "The first balcony is on the north side of the apartment next to the master room. It is 12\u00e2\u0080\u0098 x 5\u00e2\u0080\u0098 The second balcony is on the west side of the apartment next to the living room. It is 20' x 5' The bathroom is on the west side of the apartment next to the kitchen. It is 5\u00e2\u0080\u0098 x 5\u00e2\u0080\u0098 The common room is on the northwest side of the apartment next to the master room. It is 12\u00e2\u0080\u0098 x 15' The kitchen is on the west side of the apartment next to the bathroom. It is 10\u00e2\u0080\u0098 x 5\u00e2\u0080\u0098 The living room is on the southeast side of the apartment next to the kitchen. It is 25\u00e2\u0080\u0098 x 30\u00e2\u0080\u0098 The master room is on the inside of the apartment next to the first balcony. It is 12\u00e2\u0080\u0098 x 15'",
+  "total_square_footage": 0,
+  "id": "21692",
+  "source_annotation": "data/raw/annotations/21692.txt",
+  "source_image": "data/raw/images/21692.png"
+}

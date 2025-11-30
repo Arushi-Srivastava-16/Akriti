@@ -1,0 +1,169 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "balcony"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "common room",
+        "bathroom",
+        "balcony",
+        "kitchen",
+        "balcony"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 15,
+  "raw_text": "Balcony 1 is located at North side of House. Balcony is located in-front of Living Room and Right to Kitchen. The Approximate size of Balcony 1 is 6' x 6' Balcony 2 is located at North East corner of House. Balcony 2 is located Rear side of Living Room and Right to Bathroom. The Approximate size of Balcony 2 is 10' x 8' Bathroom is located at South side of House. Bathroom is located Left to Balcony 2 and in-front of Common Room. The Approximate size of Bathroom is 6' x 10' Common Room is located at South East side of House. Common Room is located Rear side of Bathroom and Left to Common Room. The Approximate size of Common Room is 14' x 10' Kitchen is located at North West Corner of House. Kitchen is located in-front of Living Room and Left to Balcony 1. The Approximate size of Kitchen is 8' x 6' Living Room is located at North side of House. Living Room is located in-front of Master Room, Common Room, Bathroom, Balcony 2 and Rear side of Kitchen and Balcony . The Approximate size of Living Room is 24' x 16' Master Room is located at South west Corner of House. Master Room is located at Left to Common Room. The Approximate size of Master Room is 10' x 16'",
+  "total_square_footage": 0,
+  "id": "77034",
+  "source_annotation": "data/raw/annotations/77034.txt",
+  "source_image": "data/raw/images/77034.png"
+}

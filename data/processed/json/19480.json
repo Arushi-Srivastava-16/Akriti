@@ -1,0 +1,42 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "living room",
+        "dining room",
+        "living room",
+        "master room",
+        "kitchen",
+        "bathroom",
+        "living room",
+        "living room",
+        "bathroom",
+        "kitchen",
+        "master room",
+        "kitchen",
+        "dining room"
+      ],
+      "directions": [
+        "south",
+        "west",
+        "north",
+        "east",
+        "west",
+        "south",
+        "east",
+        "north",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 1,
+  "raw_text": "bathroom at south west corner downside of kitchen left side of living room size 10*8 feet dining room at north east corner upside of living room right side of master room size 10*10 feet kitchen at west direction upside of bathroom left side of living room size 10*10 feet living room south east direction right side of bathroom and kitchen size 22*20 feet master room at north west corner upside of kitchen left side of dining room size 12*12 feet",
+  "total_square_footage": 0,
+  "id": "19480",
+  "source_annotation": "data/raw/annotations/19480.txt",
+  "source_image": "data/raw/images/19480.png"
+}

@@ -1,0 +1,149 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "living room",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "living room",
+        "common room"
+      ],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "common room",
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "bathroom"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 15,
+  "raw_text": "the balcony 1 is on the western, center side of the home. It's next to the common room 1,bathroom and master room and it's about 5x8ft. the balcony is on the right center side of the home. It is next to the living room and the kitchen and it's size is about 10x7ft. the bathroom is about the right center of the home. It is surrounded by the balcony 1, master room, living room, and common room 1. It's size is about 8x8ft. the common room is at the top right side corner of the home. It is next to the balcony 1, bathroom and the living room and it's size is roughly around 14x14ft. the common room 2 is at the bottom left side of the home. It next to the master room, living room and kitchen and is about 12x12ft. the kitchen is about the center of the home that is next to the balcony 1, living room and common room 2. It's size is about 5x10ft. the living room takes the majority of the left top side of the home. It is next to the balcony 1, kitchen, common room 1&2 bathroom. Its size is about 22x17ft. the master room is at the bottom right side of the home. It is next to the common room 1, living room and the bathroom and it's size is about  12x16ft.",
+  "total_square_footage": 0,
+  "id": "1555",
+  "source_annotation": "data/raw/annotations/1555.txt",
+  "source_image": "data/raw/images/1555.png"
+}

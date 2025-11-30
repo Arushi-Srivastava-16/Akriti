@@ -1,0 +1,78 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom"
+      ],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom"
+      ],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "The bathroom is on the north east corner of the apartment next to the kitchen. It is approximately 7\u00e2\u0080\u0098 x 7'. The common room 1 is on the south side of the apartment next to the second common room. It is approximately 10\u00e2\u0080\u0098 x 7\u00e2\u0080\u0098 The second common room is on the southwest side of the apartment, next to the master bedroom. It is approximately 12\u00e2\u0080\u0098 x 20\u00e2\u0080\u0098 The kitchen is on the north side of the apartment, next to the bathroom. It is approximately 10\u00e2\u0080\u0098 x 10\u00e2\u0080\u0098 The living room is in the center of the apartment, next to the master bedroom. It is approximately 30\u00e2\u0080\u0098 x 25 The master bedroom is on the north west corner of the apartment, next to the second common room. It is approximately 20\u00e2\u0080\u0098 x 50\u00e2\u0080\u0098",
+  "total_square_footage": 0,
+  "id": "57951",
+  "source_annotation": "data/raw/annotations/57951.txt",
+  "source_image": "data/raw/images/57951.png"
+}

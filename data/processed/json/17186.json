@@ -1,0 +1,42 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "bathroom",
+        "master room",
+        "kitchen",
+        "living room",
+        "common room",
+        "living room",
+        "kitchen",
+        "bathroom",
+        "living room",
+        "master room",
+        "bathroom",
+        "master room",
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "east",
+        "north",
+        "north",
+        "east",
+        "north",
+        "west",
+        "south",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 1,
+  "raw_text": "balcony at  north direction upside of kitchen size 3*3 feet bathroom 1 at east direction upside of master room size 5*5 feet bathroom2 at north direction right side of kitchen,uoside of living room size 8*4 feet common room at north east corner upside of bathroom1 and living room size 10*10 feet kitchen at north direction left side of bathroom 2 size 8*3 feet living room at west direction left side of  master room and bathroom size 25*25 feet master room at south east direction right side of  living room size 10*10 feet",
+  "total_square_footage": 0,
+  "id": "17186",
+  "source_annotation": "data/raw/annotations/17186.txt",
+  "source_image": "data/raw/images/17186.png"
+}

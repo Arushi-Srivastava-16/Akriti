@@ -1,0 +1,104 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northeast"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "middle"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "kitchen",
+        "bathroom",
+        "master room",
+        "balcony"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 10,
+  "raw_text": "The balcony is in the northeast end of the plan. It is adjacent to the Master bedroom. The bathroom is in the south east end of the plan. It is adjacent to Kitchen and living room. Th common room is in the north west end of plan. It is connected to both Living room and MAster Room. The Kitchen is situated in the southwest end of the plan. It is adjacent to Living room and Bathroom. Living room is situated in middle of the plan. It shares space with MAster room, Common room, Kitchen and bathroom Master room is situated near to balcony. in the north east corner. it shares space with comon room, and",
+  "total_square_footage": 0,
+  "id": "38212",
+  "source_annotation": "data/raw/annotations/38212.txt",
+  "source_image": "data/raw/images/38212.png"
+}

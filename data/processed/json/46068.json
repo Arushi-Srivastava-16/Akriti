@@ -1,0 +1,83 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northwest"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "northeast"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "southwest"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "The balcony is located on the south side and next to the living room. size is 10*6 The bathroom is located in the west side and between the master room and common room2. size is 6*6 Common room 1 is located in the north side and between the common room2 and kitchen. size is 10*12 Common room 2 is located on the northwest corner and next to the common room1. size is 8*12 The kitchen is located on the northeast corner and next to the common room 1. size is 9*7 east facing living room connected with all other rooms. its unsized. size is 12*28 The master room is located on the southwest corner and next to the bathroom. size is 14*14",
+  "total_square_footage": 0,
+  "id": "46068",
+  "source_annotation": "data/raw/annotations/46068.txt",
+  "source_image": "data/raw/images/46068.png"
+}

@@ -1,0 +1,85 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center",
+        "north",
+        "south"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "bathroom is located at east side. It is between the common room-1 and master room.  It has the square size of 7 feet side. common room-1 is located at north east corner. It is adjacent to living room. It has the square size of 12 feet side. common room-2 is located at north west side. It is adjacent to living room. It has the size of 10 feet width and 13 feet length. Living room is occupied the center area of the plan from north to south side and the area in front of the bath room too.  It has the area of around 590 sqr. feet. master room is located south east corner and next to living room.  It has the size of 12 feet width and 18 feet length.",
+  "total_square_footage": 0,
+  "id": "13000",
+  "source_annotation": "data/raw/annotations/13000.txt",
+  "source_image": "data/raw/images/13000.png"
+}

@@ -1,0 +1,84 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "southeast"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "The first balcony is on the north east corner of the apartment. It is 10\u00e2\u0080\u0098 x 3\u00e2\u0080\u0098 The second balcony is on the south side of the apartment next to the living room. It is 5\u00e2\u0080\u0098 x 15' The bathroom is on the east side of the apartment next to the master bedroom. It is 10' x 7' The common room is on the east side of the apartment next to the bathroom. It is 12\u00e2\u0080\u0098 x 15 feet The kitchen side of the apartment next to the living room. It is 10\u00e2\u0080\u0098 x 7\u00e2\u0080\u0098 The living room is on the west side of the apartment next to the kitchen. It is 20\u00e2\u0080\u0098 x 25' The master bedroom is on the southeast corner of the apartment next to the bathroom. It is 15' x 15 feet",
+  "total_square_footage": 0,
+  "id": "64781",
+  "source_annotation": "data/raw/annotations/64781.txt",
+  "source_image": "data/raw/images/64781.png"
+}

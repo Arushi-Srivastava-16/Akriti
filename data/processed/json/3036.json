@@ -1,0 +1,87 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "balcony is on the south side and on the bottom side of the common room 2. the size is 15 feet x 5 feet. bath room 1 is in between common room 1 and kitchen and is on the right side of the living room. the size of the room is 5 feet x 7 feet. bath room is on the right side of the living and between kitchen and master room. the size is 10 feet x 6 feet. common room 1 is on the north east side and top side  of bath 1. the size of the room is 10 feet x 15 feet. common room 2 is on the left side of master room and below side of living room. the size is 15 feet x 17 feet. kitchen is between the bath 1 and bath 2 and it is in the right side of the living room and above the master room. size is 10 feet x 6 feet. living room is in the left side and of size 15 feet x 30 feet. master room is on the right side and it is in the south east corner. size is 16 feet x 17 feet.",
+  "total_square_footage": 0,
+  "id": "3036",
+  "source_annotation": "data/raw/annotations/3036.txt",
+  "source_image": "data/raw/images/3036.png"
+}

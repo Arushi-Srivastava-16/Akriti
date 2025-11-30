@@ -1,0 +1,85 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "northwest",
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "southeast",
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "southwest",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "northeast",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "kitchen"
+      ],
+      "directions": [
+        "center",
+        "east",
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "west",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "The balcony is located on northwest elevation, west of living room and is approximately 120 square feet. The bathroom is located southeast elevation, south of kitchen is approximately  90 square feet. The common room is located southwest elevation, west of the bathroom and is approximately 225 square feet. The kitchen is located on the northeast elevation, east of living room and is approximately 130 square feet. The living room is located towards the center elevation, east of the master room, west of kitchen and is approximately 400 square feet. The master room is located north west, west of the living room and is approximately  250 square feet.",
+  "total_square_footage": 0,
+  "id": "11181",
+  "source_annotation": "data/raw/annotations/11181.txt",
+  "source_image": "data/raw/images/11181.png"
+}

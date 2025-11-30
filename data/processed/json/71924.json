@@ -1,0 +1,58 @@
+{
+  "rooms": [
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 5,
+  "raw_text": "bath room Located on inside of the living room facing north side with inside living room , Total size of 15 Feet length and 10 Feet Width. common room Located on south side with living on above , Total size of 10 Feet length and 10 Feet Width. kitchen Located on north side with living on below , Total size of 10 Feet length and 6 Feet Width. Living Room Located on east side coverieng entire plan with master on left , Total size of 30 Feet length and 30 Feet Width. Master Room Located on north west corner with living on right , Total size of 14 Feet length and 10 Feet Width.",
+  "total_square_footage": 0,
+  "id": "71924",
+  "source_annotation": "data/raw/annotations/71924.txt",
+  "source_image": "data/raw/images/71924.png"
+}

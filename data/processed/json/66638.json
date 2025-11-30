@@ -1,0 +1,65 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southeast"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northwest"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west",
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northeast"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "The balcony is located on the south side and next to the living. size is 12x6 The bathroom is located in the east side and between the master and com. size is 9x16 The common room is located in the southeast corner and next to the bath. size is 14x16 The kitchen is located in the northwest corner and next to the master. size is 10x15 west facing living The living room is located on the west side and next all other rooms. size is 18x32 The master room is located on the northeast corner and next to the bath. size is 15x15",
+  "total_square_footage": 0,
+  "id": "66638",
+  "source_annotation": "data/raw/annotations/66638.txt",
+  "source_image": "data/raw/images/66638.png"
+}

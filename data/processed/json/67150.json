@@ -1,0 +1,101 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southeast"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northeast"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "kitchen",
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 10,
+  "raw_text": "The Bathroom is in the southeast of the map. It is surrounded by the living room on the left; and kitchen on the top. It has an estimated area of 9 ft. x 9 ft. The Common Room is in the northeast of the map. It is surrounded by the living room on the left and bottom; kitchen on the bottom. It has an estimated area of 15 ft. x 15 ft. The Kitchen is in the east of the map. It is surrounded by the living room on the left; common room on the top; and bathroom on the bottom. It has an estimated area of 9 ft. x 9 ft. The Living Room is in the center of the map. It is surrounded by the common room, bathroom and kitchen on the right; and master room on the left. It has an estimated area of 20 ft. x 25 ft. The Master Room is in the west of the map. It is surrounded by the living room on the right. It has an estimated area of 15 ft. x 20 ft.",
+  "total_square_footage": 0,
+  "id": "67150",
+  "source_annotation": "data/raw/annotations/67150.txt",
+  "source_image": "data/raw/images/67150.png"
+}

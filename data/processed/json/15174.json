@@ -1,0 +1,161 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "common room"
+      ],
+      "directions": [
+        "east",
+        "north",
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "common room",
+        "common room",
+        "bathroom",
+        "kitchen"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 14,
+  "raw_text": "Bathroom 1 is in the center of house.it has living in north and common room 1 in south.it's dimensions are 5 feet in length and breadth. Bathroom 2 is in the west of house.it has living room in east, Master room is in the north and common room 2 in south.it's dimensions are 7 feet in length and 7 feet in breadth. Common room 1 is in the south east corner of house.it has living room and bathroom 1 in north .it's dimensions are 10 feet in length and 10 feet in breadth. Common room 2 is in the south west corner of house.it has bathroom 2 and living room in north.it's dimensions are 10 feet in length and 12 feet in breadth. Kitchen is in the north east corner of house.it has living room in both north and west side.it dimensions are 10 feet in length and 3 feet in breadth. Living room is in the north east side of house.it has master room,bathroom 2,common room 2 ,common room 1,bathroom 1 around it in anti clockwise direction in order,kitchen is in the east side.it's dimensions are 10 feet in length and 4 feet in breadth. Master room is in the north west corner of house.it has bathroom 2 in south and living room  in east.it's dimensions are 10 feet in length and 10 feet in breadth.",
+  "total_square_footage": 0,
+  "id": "15174",
+  "source_annotation": "data/raw/annotations/15174.txt",
+  "source_image": "data/raw/images/15174.png"
+}

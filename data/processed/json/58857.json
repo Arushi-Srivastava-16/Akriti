@@ -1,0 +1,86 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "living room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "living room",
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "balcony:  the balcony is located directly north of the living room and is approximately 15x3 ft. bathroom:  the bathroom is located to the left of the living room, and is between the master room and com room.  It is approximately 10 ft x 5 ft . common room:  the common room is located the far left corner of the living room.  It is approximately 15 ft x10 ft. kitchen:  the kitchen is located at the upper right of the living room and is approximately 10 ft x 15 ft. living room: the living room is located at the center of the floorplan, all other rooms surround it.  It is approximately 22-25 ft in width, and 35-40 ft in length.  It's right corner is cut in length by about 15 ft. master room: the master room is located at the left of the living room and to the left corner. It is approximately 10-15 ft in width, and 15-20 ft in length. storage:  the storage room is located south of the living room, west of the kitchen.  It is approximately 8x7 ft.",
+  "total_square_footage": 0,
+  "id": "58857",
+  "source_annotation": "data/raw/annotations/58857.txt",
+  "source_image": "data/raw/images/58857.png"
+}

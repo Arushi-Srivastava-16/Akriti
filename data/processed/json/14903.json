@@ -1,0 +1,87 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "balcony is located at north east corner and behind the master room. It has the size of 12 feet length and 5 feet width bathroom is located north west corner , next to kitchen  and adjacent to living room .  It has the square size of 8 feet side . Common room  is located at north west corner and adjacent to master room.  It has the size of 12 feet width and 15 feet length. Kitchen is located at north east side and adjacent to living room. \nIt has the square size of 8 feet side living room is occupied with rectangular area and adjacent to master and common room. It has the side of  25 feet length and 10 feet width.  It is in behind the  kitchen and bath room. master room is located at north east side and next to balcony. It has the size of 20 feet length and 12 feet width aproximately.",
+  "total_square_footage": 0,
+  "id": "14903",
+  "source_annotation": "data/raw/annotations/14903.txt",
+  "source_image": "data/raw/images/14903.png"
+}

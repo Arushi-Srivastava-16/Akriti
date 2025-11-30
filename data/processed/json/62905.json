@@ -1,0 +1,112 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northwest"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "common room",
+        "master bedroom",
+        "bathroom",
+        "balcony"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master bedroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 12,
+  "raw_text": "The balcony is located on the southwestern corner of the home. Has access from the living room. 15 ft wide and 5 ft long. The bathroom is located on the east side of the home. It is next to the master bedroom and has access from the living room. 8 ft long and 8 ft wide. The common room is located on the northeastern corner of the home. Next to the kitchen. 15 ft wide and 20 ft long. The kitchen is located in the northwest corner of the home. It has access from the living room and is next to the common room. 10 ft wide and 10 ft long. The front door to the living room is on the west side of the home. The living room has access to the kitchen, common room, master bedroom, bathroom, and balcony. 35 ft in a length and 15 ft in width. The master bedroom is located in the Southeastern corner of the home. It has access from the living room and is next to the bathroom. It is 15 ft wide and 20 ft long.",
+  "total_square_footage": 0,
+  "id": "62905",
+  "source_annotation": "data/raw/annotations/62905.txt",
+  "source_image": "data/raw/images/62905.png"
+}

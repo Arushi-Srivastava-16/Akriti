@@ -1,0 +1,100 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "middle"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 10,
+  "raw_text": "Balcony is located on south west corner of the house. Access from master bed room. approximately 40-60 sqft in size. Bathroom is centrally located on east side of the house. Approximately 40-60 sqft in size. Located next to common room two and living room. Common room one is located south side middle between master bed room and common bed room two. Approximately 100-120 sqft in size. Common room two is located on south east corner of the house. Approximately 80-100 sqft in size.Located next to common room one. Kitchen is located north west corner of the house. located next to living room. Approximately 80-100 sqft in size. Living room is located on north side from east to west side. Approximately 200-240 sqft in size. Access to all rooms on south side. Master bed room is located south west corner of the house. Located next to common room one. Approximately 120-140 sqft in size.",
+  "total_square_footage": 0,
+  "id": "38644",
+  "source_annotation": "data/raw/annotations/38644.txt",
+  "source_image": "data/raw/images/38644.png"
+}

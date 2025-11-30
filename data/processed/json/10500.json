@@ -1,0 +1,80 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "The bathroom is located between kitchen and common room 1. Its size should be 10 x 5ft. Common room 1 is located on right side of the living room. Common room 1 is located in front portion of the plan. Its size should be 10 x 7.5ft. Common room 2 is located between living room and master room. Its size should be 10 x 10ft. It is located after the kitchen room. Its size should be 10 x 10ft. The kitchen is located between bathroom and common room 3. Its size should be 10 x 5ft. The living room is located in left side on front portion of the plan. Its size should be 20 x 22.5ft. The master room is located nearby the common room 2 and the living room. Its size should be 15 x 7.5ft.",
+  "total_square_footage": 0,
+  "id": "10500",
+  "source_annotation": "data/raw/annotations/10500.txt",
+  "source_image": "data/raw/images/10500.png"
+}

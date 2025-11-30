@@ -1,0 +1,82 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northwest"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southwest"
+      ]
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "Measuring about 12x4ft, balcony 1 is located on the south end of the living space. Balcony 2 is located on the northern end, next to the kitchen and is about 8x3ft in size. The bathroom is located directly across the living room from the main entrance, on the west, and is about 6x5ft. Common room 1 is approximately 10x12ft and is locate next to the second common room on the northern end. The second common room is located on the northwest corner of the plan, off of the living, and is about 12x12ft. The kitchen is about 10x8ft and located in the northeastern corner, to the right of the entrance. The living room is made up of two conjoining areas that start at the main entrance and flows southwest. The spaces measure about 10x15ft and 14x20ft. The master room is about 12x12ft and is located near the living space, in the southwest corner.",
+  "total_square_footage": 0,
+  "id": "7785",
+  "source_annotation": "data/raw/annotations/7785.txt",
+  "source_image": "data/raw/images/7785.png"
+}

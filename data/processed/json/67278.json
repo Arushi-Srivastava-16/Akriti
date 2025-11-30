@@ -1,0 +1,84 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "common room"
+      ],
+      "directions": [
+        "east",
+        "north",
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "living room"
+      ],
+      "directions": [
+        "northeast",
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "living room"
+      ],
+      "directions": [
+        "southeast",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "southwest",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "balcony is in the north edge of the plan, adjoining living room to the south and approximately 5x10 feet in dimension. bathroom is in east edge of the plan, adjoining common room 1 to the north and common room 2 to the south, approximately 6x10 ft in dimension. common room 1 is in the northeast corner of the plan, adjoining bathroom to the south and living room to the west, approximately 10x10 ft in dimension. common room 2 is in the southeast corner of he plan, adjoining bathroom to the northand living room to the west, approximately 8x10 ft in dimension. kitchen is in southwest corner of the plan, adjoining living room to the east and approximately 10x10 feet in dimension. living room is in center portion of plan, serving as central hub to other rooms in the plan and approxiumately 20x15 feet in dimension.",
+  "total_square_footage": 0,
+  "id": "67278",
+  "source_annotation": "data/raw/annotations/67278.txt",
+  "source_image": "data/raw/images/67278.png"
+}

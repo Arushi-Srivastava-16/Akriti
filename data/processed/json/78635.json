@@ -1,0 +1,84 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "east",
+        "center",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "northwest",
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "northeast",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "northwest",
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "master bedroom"
+      ],
+      "directions": [
+        "west",
+        "west"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "east",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "The bathroom is located east towards center which is east of the living room  and is approximately 20 square feet. The common room 1  is located on the northwest which is north of the living room and is approximately 150 square feet. The common room 2  is located on the northeast corner which east of the common room 1 and is approximately 140 square feet. The kitchen  is located on the northwest corner which is north of the living room  and is approximately 30 square feet. The living room is located on the west side which is west of the common room 1 and master bedroom and is approximately 1200 square feet. The master bedroom  is located on the east side which is east  of the living room  and is approximately 350 square feet.",
+  "total_square_footage": 0,
+  "id": "78635",
+  "source_annotation": "data/raw/annotations/78635.txt",
+  "source_image": "data/raw/images/78635.png"
+}

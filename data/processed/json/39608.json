@@ -1,0 +1,84 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "north",
+        "north"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northeast"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "The balcony is to the south of the living room. It is approximately 4x10. The bathroom is against the west wall above the master room. It is approximately 6x8. Common room 1 is north of the bathroom. It is approximately 8x10. Common room 2 is against the north side north of Common room 1. It is approximately 10x10. The kitchen is in the northeast corner. It is approximately 10x12. The living room is against the east wall and is approximately 10x25. The master room is to the west of the living room and is approximately 10x15.",
+  "total_square_footage": 0,
+  "id": "39608",
+  "source_annotation": "data/raw/annotations/39608.txt",
+  "source_image": "data/raw/images/39608.png"
+}

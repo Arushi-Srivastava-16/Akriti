@@ -1,0 +1,86 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "northeast",
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "living room"
+      ],
+      "directions": [
+        "southwest",
+        "east",
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom",
+        "living room"
+      ],
+      "directions": [
+        "west",
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "living room"
+      ],
+      "directions": [
+        "southeast",
+        "west",
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room"
+      ],
+      "directions": [
+        "northwest",
+        "east",
+        "south"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "The balcony is in the northeast corner of the floorplan, and is bordered only by the common room to the west. It is approximately 2.5x10 feet, or 25 square feet. The bathroom is in the southwest corner of the floorplan, bordered by the kitchen to the east and the living room to the north. It is approximately 5x5 feet, or 25 square feet. This is the smallest room of the floorplan. The common room is in the northern part of the floorplan, bordered by the master bedroom to the west and the living room to the south. It is approximately 10x10 feet, or 100 square feet. The kitchen is in the southeast corner of the floorplan, bordered by the bathroom to the west and the living room to the north. It is approximately 10x5 feet, or 50 square feet. The living room is located in the center of the floorplan relative to the other rooms. It is also the largest, at approximately 30x15 feet, or 450 square feet. The master bedroom is in the northwest corner of the floorplan, bordered by the common room to the east and the living room to the south. It is approximately 15x10 feet, or 150 square feet. This is the second largest room of the floorplan.",
+  "total_square_footage": 0,
+  "id": "45695",
+  "source_annotation": "data/raw/annotations/45695.txt",
+  "source_image": "data/raw/images/45695.png"
+}

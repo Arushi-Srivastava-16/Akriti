@@ -1,0 +1,82 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "common room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "The bathroom is situated on the south side, which is to the south of the living room. It is about 65 square feet. Common room 1 is situated at the north western corner, which is to the west of the living room. It is about 135 square feet. Common room 1 is situated at the north eastern corner, which is to the east of the living room. It is about 70 square feet. The kitchen is situated at the south eastern corner, which is to the east of the living room. It is about 110 square feet. The living room is situated on the north side and is between common room 1 and common room 2. It is about 225 square feet. The master room is situated at the south western corner, which is to the west of the bathroom. It is about 155 square feet.",
+  "total_square_footage": 0,
+  "id": "28258",
+  "source_annotation": "data/raw/annotations/28258.txt",
+  "source_image": "data/raw/images/28258.png"
+}

@@ -1,0 +1,99 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "master room"
+      ],
+      "directions": [
+        "south",
+        "west",
+        "north",
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "master room",
+        "living room",
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "west",
+        "west",
+        "south",
+        "east",
+        "southeast",
+        "north",
+        "east",
+        "north",
+        "east",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "west",
+        "east",
+        "west",
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "kitchen"
+      ],
+      "directions": [
+        "east",
+        "south",
+        "south",
+        "east",
+        "east",
+        "north",
+        "east",
+        "north",
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "east",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 5,
+  "raw_text": "Balcony is located in the extreme south towards west having attached with the living room at its north end and master room is located towards its north east. bathroom is located in the extreme north and in between the kitchen at its west and common2 at its west and associated with living at its south Common room1 is located in extreme east of the property and master room at its southeast followed by common room2 at its north east and a gap in between which is associated by the living room Common room2 is located in the extreme north east with bath at its east side and a gap in between the common room1 associated with the living room. Kitchen is located in the north west corner of the property with bath on its east side and property edge at it west and associated with the living room at its south. Living room is located in the east corner of the property  and have attachment with the balcony which is extreme south, master at its south east , common1 at its east followed by common2 at its north east, bath at its extreme north and kitchen at its north west. master is located south east corner and  in between the balcony and corn1 which is associated with the living room at its west. Property edge is at its south east .",
+  "total_square_footage": 0,
+  "id": "75053",
+  "source_annotation": "data/raw/annotations/75053.txt",
+  "source_image": "data/raw/images/75053.png"
+}

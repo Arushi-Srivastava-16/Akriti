@@ -1,0 +1,88 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "master bedroom",
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "master bedroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "common room",
+        "common room",
+        "balcony"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master bedroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "common room",
+        "common room"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "The balcony is off the living room and is about 15 by three feet. The bathroom is off the living room and is about 8 feet by 8 feet. It is across from the common room 1. Common room one is about 13 by 13 feet and is off the living room and next to the master bedroom and kitchen. Common room 2 is in between the living room and the master bedroom and is about 13 by 13 feet. The kitchen is off the living room and is approximately 10 feet by 10 feet. The living room is the largest room in the house and is off the bathroom, common room 1, common room 2, and is off the balcony. It is approximately 12 by 30 feet. The master bedroom is off the living room and between common room one and common room two. It is approximately 10 * 12 feet.",
+  "total_square_footage": 0,
+  "id": "20797",
+  "source_annotation": "data/raw/annotations/20797.txt",
+  "source_image": "data/raw/images/20797.png"
+}

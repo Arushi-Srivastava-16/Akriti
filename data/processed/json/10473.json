@@ -1,0 +1,81 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "kitchen",
+        "common room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": [
+        "north"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "The balcony is located in the North east, directly above the master room and has a 15 feet length and 3 feet width. The bathroom is located in the south east corner, below the living room and has a 7 feet length and 7 feet width. The common room is located in the west side, on the left side of the master room  and has a 15 feet length and a 15 feet width. The kitchen is located in the North east corner, on the right side of the master room and has a 7 feet length and a 15 feet width. The living room is located in the south, directly below the master room, kitchen and common room and has a 36 feet length and 13 feet width. The master room is located in the North side,just below the Balcony  and has a 15 feet length and a 15 feet width.",
+  "total_square_footage": 0,
+  "id": "10473",
+  "source_annotation": "data/raw/annotations/10473.txt",
+  "source_image": "data/raw/images/10473.png"
+}

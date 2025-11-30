@@ -1,0 +1,132 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "dining room",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "dining room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "dining room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "dining room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master bedroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master bedroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "dining room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 14,
+  "raw_text": "The bathroom is located on the west side of the house. Near the kitchen, dining room, and common room. 15 feet wide and 8 feet long. Common room 1 is located on the south eastern corner of the home. Near the dining room and next to common room two. 15 ft wide and 10 ft long. Common room 2 is located in the southwestern corner of the home. This is the larger room of the two common rooms. It is 15 ft long and 15 ft wide. The dining room is located on the South Eastern side of the home. Access to dining room from living room. 12 ft long and 15 ft wide. The kitchen is located on the west side of the home. Access from the living room. In between the master bedroom and the bathroom. 8 feet long and 15 feet wide. The living room is located in the northeastern corner of the home. It has access to the master bedroom, kitchen, and dining room. 25 feet wide and 30 feet long. The master room is located in the North Western corner of the home. Access from the living room and next to the kitchen. 15 ft wide and 20 ft long.",
+  "total_square_footage": 0,
+  "id": "77308",
+  "source_annotation": "data/raw/annotations/77308.txt",
+  "source_image": "data/raw/images/77308.png"
+}

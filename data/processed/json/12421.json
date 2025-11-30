@@ -1,0 +1,88 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "southeast",
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "Balcony 1 is north of the living room and is 12 by 5 feet. Balcony 2 is south of the common room and is 10 by 4 feet. The bathroom is west of the living room and is 4 by 8 feet. The common room is southwest of the living room and is 10 by 15 feet. The kitchen is in the southeast corner just south of the living room and is 10 by 8 feet. The living room is north of the kitchen and is 15 by 20 feet, roughly. The master bedroom is west of the living room and is 12 by 15 feet.",
+  "total_square_footage": 0,
+  "id": "12421",
+  "source_annotation": "data/raw/annotations/12421.txt",
+  "source_image": "data/raw/images/12421.png"
+}

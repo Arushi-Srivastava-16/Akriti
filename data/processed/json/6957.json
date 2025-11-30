@@ -1,0 +1,98 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 10,
+  "raw_text": "Balcony  is entrance from living room .it is 15 feet length and 3 feet width aspect ratio as 5 over 1. Bathroom1 is entrance from living room .it is 5 feet length and 5 feet width aspect ratio as 4 over 4. Bathroom 2 in front room as master room.it is 5 feet length and 5 feet width aspect ratio as 4 over 4. Common room 1  is entrance from living room .it is 10 feet length and 10 feet width aspect ratio as 4 over 4. common room is near room as bathroom 2. Common room 2  is entrance from living room .it is 10 feet length and 15 feet width aspect ratio as 4 over 5. common room is near room as bathroom 1. living room is entrance from east side.it  is 20 feet length and 40 feet width aspect ratio as 7 over 9.it is the big place compared to other rooms . Master room is entrance from living room .it is 20 feet length and 15 feet width aspect ratio as 6 over 5.it is southwest corner room.master room near room as bathroom 2.",
+  "total_square_footage": 0,
+  "id": "6957",
+  "source_annotation": "data/raw/annotations/6957.txt",
+  "source_image": "data/raw/images/6957.png"
+}

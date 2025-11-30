@@ -1,0 +1,71 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "bathroom is located at the north side and it is next to common-2 room. It is the square size of  6 feet side. common-1 room is located at south west corner. It is next to master room. It has the square size of 15 feet side. common-2 room is located at north east corner. It is next to bathroom. It has the size of 10 feet width and 12 feet length. kitchen is located at the north west corner and adjacent to living room. It has the rectangular shaped size of 20 feet length and 5 feet width. living room is occupied the center area of the plan. It is between the kitchen and common-2  room. Its area is estimated  around 420 sqrt. feet. master room is located at south east corner so that It is near, between the common-1 and common-2 room. It has the size of 20 feet length and 13 feet width.",
+  "total_square_footage": 0,
+  "id": "22278",
+  "source_annotation": "data/raw/annotations/22278.txt",
+  "source_image": "data/raw/images/22278.png"
+}

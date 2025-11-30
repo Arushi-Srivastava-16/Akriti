@@ -1,0 +1,41 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "kitchen",
+        "living room",
+        "kitchen",
+        "balcony",
+        "master room"
+      ],
+      "directions": [
+        "north",
+        "south",
+        "south",
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 2,
+  "raw_text": "Balcony Location : South Side,in front of: living,  Area:50 sqrt feet   Sides: 10 feet width and 5 feet length. Bathroom location:  North Side, in parallel to Kitchen ,  Area:100 sqrt feet   Sides: 10 feet width and 10 feet length Common room1 location: South Side, Between Master and COm2  ,Area:300 sqrt feet   Sides: 15 feet width and 20 feet length Common room1 location: South East corner,  in parallel to Com1  ,Area:140 sqrt feet   Sides: 7 feet width and 20 feet length Kitchen location:  North Side, relatively between Living and bath ,  Area:100 sqrt feet   Sides: 10 feet width and 10 feet length Living room location: Central area, relatively between bath1, master,com2,com1,kitchen and balcony , Area:300 sqrt feet   Sides: 10 feet width and 30 feet length Master room location: South West Corner, in parallel to Com1, In front of living  ,Area:300 sqrt feet   Sides: 15 feet width and 20 feet length",
+  "total_square_footage": 0,
+  "id": "59718",
+  "source_annotation": "data/raw/annotations/59718.txt",
+  "source_image": "data/raw/images/59718.png"
+}

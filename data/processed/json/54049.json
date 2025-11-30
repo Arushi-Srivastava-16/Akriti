@@ -1,0 +1,90 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "master room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "kitchen"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "bathroom"
+      ],
+      "directions": [
+        "southeast"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "bathroom"
+      ],
+      "directions": [
+        "northeast"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "balcony"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "northwest"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "The balcony is approximately 120 square feet, located on the south side of the floor plan, and adjacent to the living room and master room. The bathroom is approximately 30 square feet, located on the south side of the floor plan, and adjacent to the living room and kitchen. The common room is approximately 100 square feet, located in the southeast corner of the floor plan, and adjacent to the living room and bathroom. The kitchen is approximately 80 square feet, located in the northeast corner of the floor plan, and adjacent to the living room and bathroom. The living room is approximately 400 square feet, located in the center of the floor plan, and adjacent to all rooms in the floor plan. The master room is approximately 150 square feet, located on the west side of the floor plan, and adjacent to the living room and balcony. The storage is approximately 10 square feet, located in the northwest corner of the floor plan, and adjacent to the living room and master room.",
+  "total_square_footage": 0,
+  "id": "54049",
+  "source_annotation": "data/raw/annotations/54049.txt",
+  "source_image": "data/raw/images/54049.png"
+}

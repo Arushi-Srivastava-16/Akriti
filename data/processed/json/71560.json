@@ -1,0 +1,82 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "balcony"
+      ],
+      "directions": [
+        "southeast",
+        "north"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "west",
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": [
+        "east",
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "west",
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": [
+        "southwest",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "The balcony holds the southeast corner of the house and the common room is to the north of the balcony. It measures around 6 feet long and 8 feet wide. The bathroom is on the west side of the home and has the master room to it's south. It measures in at about 6 feet long and 4 feet wide. The common room is the on the east side of the establishment and it keeps the balcony to it's south. It is 18 feet long and 8 feet wide. The kitchen is on the west wall and has the bathroom to the south. It's dimensions are roughly 6 feet long and 10 feet wide. The living room occupies most of the northern part of the home and the common room is to the south. It is 26 feet long and 22 feet wide. The master room makes up the southwest corner of the house and has the balcony to it's east. It measures about 16:16.",
+  "total_square_footage": 0,
+  "id": "71560",
+  "source_annotation": "data/raw/annotations/71560.txt",
+  "source_image": "data/raw/images/71560.png"
+}

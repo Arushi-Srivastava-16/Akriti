@@ -1,0 +1,96 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center",
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center",
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "bathroom",
+        "balcony"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 9,
+  "raw_text": "balcony is located at south east corner. It is adjacent to living room. It has the rectangular shaped size of 5 feet width and 15 feet length towards west side. bathroom is located at the center of the east side. It is in front of the master room. It is of the size of  12 feet length and 6 feet width. Common room  is located at north west corner and It is next to master room. It has the square size of 12 feet side. kitchen is located at the center of the west side. It is behind the bathroom. It has the square shaped size of 8 feet side. living room is occupied almost  southern area of the plan that is opposite to kitchen and bathroom, excluding balcony area. Its area is estimated  around 420 sqrt. feet. master room is located at north east corner so that It is behind the bathroom. It has the size of 18 feet length and 12 feet width.",
+  "total_square_footage": 0,
+  "id": "51609",
+  "source_annotation": "data/raw/annotations/51609.txt",
+  "source_image": "data/raw/images/51609.png"
+}

@@ -1,0 +1,100 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "common room"
+      ],
+      "directions": [
+        "west",
+        "south",
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "living room"
+      ],
+      "directions": [
+        "northwest",
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "living room"
+      ],
+      "directions": [
+        "northeast",
+        "west",
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "common room"
+      ],
+      "directions": [
+        "northeast",
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "living room"
+      ],
+      "directions": [
+        "southwest",
+        "north",
+        "center"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "balcony is in southern edge of the plan, adjoined by living room to its north, approximately 4x10 feet in dimension. bathroom is in west edge of the plan, adjoined by master room to the south and common room 1 to the north, approximately 8x8 feet in dimension. common room 1 is in the northwest corner of the plan, adjoined by bathroom to its south and living room to its east, approximately 10x10 feet in dimension. common room 2 is in the northeast corner of the plan, adjoined by kitchen to its west and living room to its south, approximately 10x5 feet in dimension. kitchen is in northeast corner of the plan, adjoined by living room the south and common room 2 to its east, approximately 10x5 feet in dimension. living room is in the center of the floor plan extending to each side in a t formation and acting as a hub for the other rooms in the house, approximately 30x20 feet in dimension. master room is in southwest corner of the plan, adjoined by bathroom to the north and living room in the center, approximately 15x10 feet in dimension",
+  "total_square_footage": 0,
+  "id": "598",
+  "source_annotation": "data/raw/annotations/598.txt",
+  "source_image": "data/raw/images/598.png"
+}

@@ -1,0 +1,135 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southeast"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east",
+        "north"
+      ]
+    }
+  ],
+  "total_rooms": 13,
+  "raw_text": "The balcony is at the absolute north east corner, measuring 10 feet wide by 5 feet tall.  Directly above the common room 2. Bathroom 1 is Located in the southeast corner of the plan, measuring 5 feet wide by 10 feet tall. It is surrounded by the living area on the west and north sides. Bathroom 2 is at the Absolute north west corner of the floor plan, measuring 5 feet wide by 5 feet tall. The master room lies adjacent to the south, and the community room 1 adjacent to the east. Measuring fifteen feet by 15 feet square, common room 1 lies directly to the east of bathroom 2.  The living area is adjacent to the east. Common room 2 is in the north east corner, immediately below the balcony, measuring 15 feet tall and 10'feet wide.  Immediately to the east of the kitchen. The kitchen is immediately to the west of the community room 2, measuring 5 feet wide by 15 feet tall.  The living room is adjacent to the south and west sides of the kitchen. The living room is an odd shaped design, basically filling out what's left of the floor plan. Draw this area last. The master room is at the absolute southwest corner of the plan.  Measuring 30 feet tall by 15 feet wide.  The living area is adherent to the east, To the north lies the community room 1 and bathroom 2.",
+  "total_square_footage": 0,
+  "id": "5454",
+  "source_annotation": "data/raw/annotations/5454.txt",
+  "source_image": "data/raw/images/5454.png"
+}

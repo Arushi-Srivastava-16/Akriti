@@ -1,0 +1,263 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom"
+      ],
+      "directions": [
+        "north",
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "living room",
+        "bathroom"
+      ],
+      "directions": [
+        "southeast",
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "master bedroom",
+        "bathroom"
+      ],
+      "directions": [
+        "southeast",
+        "south",
+        "north"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "north",
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom",
+        "balcony",
+        "living room"
+      ],
+      "directions": [
+        "east",
+        "north",
+        "south"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master bedroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "living room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "north",
+        "east",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west",
+        "east",
+        "north",
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom"
+      ],
+      "directions": [
+        "north",
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "west",
+        "east"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "bedroom",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "living room",
+        "balcony"
+      ],
+      "directions": [
+        "northeast",
+        "northwest",
+        "east"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 23,
+  "raw_text": "The Balcony, which is located along the entirety of the first common area's Southern wall, measures 3\" North to South and 12' West to East. It's southern boundary is flush with the SOuthern wall of the master. Together, the balcony and common area one are as tall North to South as the master bedroom. The first bathroom, located Southeast of the entry door, and South of the second bathroom is a small rectangle than connects to the living room on its Western wall and the first bathroom on its Southern wall. The The second bathroom, located Southeast of the entry door, is a small rectangle than connects to the living room on its Western wall, the master bedroom to the South, and the first bathroom on its North. This bathroom is 6' North to South and 8' wide, and it sits flush with the second bathroom's Southern wall. As noted elsewhere, both bathrooms extend 8' East of the entry door, living room, and kitchen. The first common room is located East of the master bedroom, North of the balcony, and South of the living room. It's Eastern wall is flush with the balcony, living room, and second common area. It's northern wall is flush with the master bedroom's Northern wall. The room measures roughly 14' West to East, and 12' North to South. The second common room is located in the Northwestern corner of the unit. Though it's Northern wall is flush with the kitchen's, it extends further South than the kitchen does, creating the jog in the living room. The second common area measures 12' by 12'. The kitchen is located at the North of the unit. While its North and East walls do not connect to any other rooms in the unit, it's important to note that the bathrooms and master bedroom are further East than the kitchen, as they extend outside the rest of the unit by roughly 8'. The kitchen is a small rectangle measuring 10' West to East and 8' North to South. To the South of the kitchen is the living room, and to the East is the second common area. The living room is located towards the center of the unit. To its North are the kitchen and second common area, to its South the second common area and master bedroom, and to its East both bathrooms. While the unit itself is shaped quite like Utah, the living room is shapes in the reverse; it has a taller Northeastern side where it connects with the kitchen, and shorter Northwestern side where it connects to the second common area. The Eastern wall, where the unit door is located, measures roughly 22' North to South. The Western wall measures roughly 18' North to South. From West to East the living room measures roughly 22', but it's important to note the jog on the Northmost wall to accommodate the larger second common area and the smaller kitchen. The master bedroom is a square, 15' by 15' room located in the Southeastern corner of the unit. The Master, like the two bathrooms, extends East of the entryway door and kitchen by about 8'. The bedroom's Northeast corner touches the first bathroom, its Northwest corner touches the living room, and due East is the first common area and balcony. The Northern wall of the master is flush with the Northern wall of the first common area. The Southern wall of the master is flush with the Southern wall of the balcony.",
+  "total_square_footage": 0,
+  "id": "79705",
+  "source_annotation": "data/raw/annotations/79705.txt",
+  "source_image": "data/raw/images/79705.png"
+}

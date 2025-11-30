@@ -1,0 +1,102 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "southeast",
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "west",
+        "middle",
+        "south",
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southwest",
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "bathroom"
+      ],
+      "directions": [
+        "northwest",
+        "west",
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "bathroom"
+      ],
+      "directions": [
+        "west",
+        "south"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "common room"
+      ],
+      "directions": [
+        "southeast",
+        "south",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "The balcony is in the southeast corner, south of the master room. It is about 10 feet across and 5 feet deep. The bathroom is about 9 feet square. It is on the west side of the floorplan in the middle, south of the kitchen and north of the common room. The common room is about 14 feet deep and 10 feet across. It is in the southwest corner, south of the bathroom and west of the master. The kitchen is in the northwest portion of the floorplan, west of the living room and north of the bathroom. It is about 15 feet long and 5 feet across. The living room takes up most of the northernmost part of the floorplan, with the kitchen and bathroom to the west and the rest of the rooms to the south. It is about 30 feet long and 14 feet wide. The master room is in the southeast portion of the floorplan, with the balcony to the south and the common room to the west. It is about 15 feet long and 10 feet wide.",
+  "total_square_footage": 0,
+  "id": "68615",
+  "source_annotation": "data/raw/annotations/68615.txt",
+  "source_image": "data/raw/images/68615.png"
+}

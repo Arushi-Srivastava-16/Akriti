@@ -1,0 +1,83 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "kitchen"
+      ],
+      "directions": [
+        "north",
+        "west",
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "northwest",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "northeast",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "kitchen"
+      ],
+      "directions": [
+        "center",
+        "north",
+        "south"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "The bathroom is located south elevation, south of living and approximately 60 square feet. The bathroom is located on the north elevation between common room to the west, and kitchen to the east and approximately 70 square feet. The bathroom is located on the northwest elevation, west of bathroom and approximately 140 square feet. The kitchen is located on the northeast corner, east of bathroom and is approximately 80 square feet. The living room is located towards the center and is directly north of master and south of bathroom and kitchen and is approximately 340 square feet. The master room is located on south elevation, directly sound of living room and is approximately 230 square feet.",
+  "total_square_footage": 0,
+  "id": "70029",
+  "source_annotation": "data/raw/annotations/70029.txt",
+  "source_image": "data/raw/images/70029.png"
+}

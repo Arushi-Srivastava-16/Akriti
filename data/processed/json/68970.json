@@ -1,0 +1,76 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northeast"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southeast"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northwest"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "east",
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southwest"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "Balcony 1 is located on the south side and next to the living. size is 13x5 Balcony 2 is located on the northeast corner and next to the com2. size is 13x5 The bathroom is located in the west side and between the master and com2. size is 6x8 Common room 1 is located in the southeast corner and next to living. size is 10x18 Common room 2 is located on the northwest corner and next to the balcony2. size is 12x12 east facing living room The living room is located on the east side and near to all other rooms. size is 15x36 The master room is located on the southwest corner and next to the bath. size is 12x18",
+  "total_square_footage": 0,
+  "id": "68970",
+  "source_annotation": "data/raw/annotations/68970.txt",
+  "source_image": "data/raw/images/68970.png"
+}

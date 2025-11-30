@@ -1,0 +1,95 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "north",
+        "west",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "middle",
+        "west",
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "middle",
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west",
+        "north",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "The bathroom is a 6x6 room on the south west corner of the home. It has the living room to it's east. The common room is on the north west corner of the house and has the master room to it's east. It is 22 feet long and 18 feet wide The kitchen occupies the middle west side of the home and has the bathroom to it's south side. It is 6 feet long and 12 feet wide. The living room takes up part of the middle of the home and extends to the south east corner. It is 18 feet long and 20 feet wide. The master room is to the north of the living room. The Master room is 18 feet long and 14 feet wide. Com1 is to the west of the master room and it is on the north east corner of the home.",
+  "total_square_footage": 0,
+  "id": "16228",
+  "source_annotation": "data/raw/annotations/16228.txt",
+  "source_image": "data/raw/images/16228.png"
+}

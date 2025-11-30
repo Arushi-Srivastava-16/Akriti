@@ -1,0 +1,77 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master bedroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master bedroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "The balcony is the first room that you will be entering from the front yard. The only room that is connected to it is the master bedroom. It is 10x5 feet. The bathroom is the third room on the left right past the master bedroom and right before the common room. It is 10x 12 Feet. The common room is the fourth room on the left right past the bathroom. it is also connected to the living room. It is 12x10 feet. The kitchen if off to the left of the living room. It is 10x5 feet. The living room is the biggest room of the house and it is connected to all of the rooms besides the balcony. It is 30x20 feet. The master bedroom is the first room after you exit the balcony. It is 12x12x12 feet.",
+  "total_square_footage": 0,
+  "id": "21614",
+  "source_annotation": "data/raw/annotations/21614.txt",
+  "source_image": "data/raw/images/21614.png"
+}

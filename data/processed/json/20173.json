@@ -1,0 +1,60 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "middle"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "The balcony is on top of the master room and is 5 feet tall and 10 feet wide. The bathroom is to the left of the living room and is 5 feet wide and 10 feet tall. The common room is at the bottom right and is 5 by 5 feet. The kitchen is at the bottom left and is 5 feet wide and 10 feet tall. The living room is in the middle and is 20 by 20 feet. The master room is on top of the living room and is 10 by 10 feet.",
+  "total_square_footage": 0,
+  "id": "20173",
+  "source_annotation": "data/raw/annotations/20173.txt",
+  "source_image": "data/raw/images/20173.png"
+}

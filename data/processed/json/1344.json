@@ -1,0 +1,92 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "northeast"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bedroom"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "living room"
+      ],
+      "directions": [
+        "northwest"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom",
+        "bathroom",
+        "common room"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "The balcony is a small area directly north of the living room in the Northeast corner. Its a small area measuring approximately 5ft x 6ft. The bathroom is on the west side, located in between the bedroom and common area. It can be accessed by both the living room and master bedroom and measures about 8ft x 7ft. The common room is in the northwest corner of the home and sits next to the bathroom and adjacent to the living room. It measures approximately 10ft x 12 ft. The living room is located on the east side of the house and is adjacent t the master bedroom, bathroom and common room. It is approzimately 10ft x 30ft and has direct access to a small balcony. The master room is in the southwest corner just off the living room. There is an attached shared bathroom and the room measures about 10ft x 15ft.",
+  "total_square_footage": 0,
+  "id": "1344",
+  "source_annotation": "data/raw/annotations/1344.txt",
+  "source_image": "data/raw/images/1344.png"
+}

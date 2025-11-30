@@ -1,0 +1,63 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "Balcony 1 is at the upper right and is 15 feet wide and 5 feet tall. balcony 2 is at the lower right is 5 by 5 feet. The bathroom is 7 feet wide and 5 feet tall and is below the master room. The common room is below the bathroom and is 10 feet wide and 7 feet tall. The kitchen is at the bottom and is 10 feet wide and 5 feet tall. The living room takes up most of the left side and is 15 wide by 30 feet tall. The master room is at the upper right corner and is 10 by 10 feet.",
+  "total_square_footage": 0,
+  "id": "4770",
+  "source_annotation": "data/raw/annotations/4770.txt",
+  "source_image": "data/raw/images/4770.png"
+}

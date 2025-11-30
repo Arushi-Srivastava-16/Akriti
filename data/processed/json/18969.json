@@ -1,0 +1,160 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "kitchen"
+      ],
+      "directions": [
+        "east",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "living room"
+      ],
+      "directions": [
+        "east",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west",
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southeast"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "common room"
+      ],
+      "directions": [
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 16,
+  "raw_text": "The balcony is approximately 16x6 feet. It is the northern most room on the floor plan. The balcony borders the living room to the north. The bathroom is approximately 5x10 feet. It is in the south portion of the floor plan. The bathroom is to the east of common room 2 and to the west of the kitchen. Common room 1 is approximately 12x13 feet. It is in the central north portion of the floor plan. Common room 1 is to the east of the master room and to the west of the living room. Common room 2 is approximately 11x11 feet. It is in the southwest corner of the floor plan. Common room 2 is to the west of the bathroom. The kitchen is approximately 8x6 feet. It is on the southeast portion of the floor plan. The kitchen is to the south of the living room. The living room is approximately 16x28 feet, not including the west and south hallways attached. It is the eastern most room and largest room on the floor plan. The living room is south of the balcony. Every room is accessible from the living room on the floor plan. The main entrance is on the southeast side of the living room on the floor plan. The master room is approximately 12x17 feet. It is the western most room on the floor plan. The master room is to the west of both the living room and common room 1.",
+  "total_square_footage": 0,
+  "id": "18969",
+  "source_annotation": "data/raw/annotations/18969.txt",
+  "source_image": "data/raw/images/18969.png"
+}

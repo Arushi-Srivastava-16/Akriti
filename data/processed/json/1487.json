@@ -1,0 +1,150 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "north"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "living room",
+        "common room"
+      ],
+      "directions": [
+        "north",
+        "east",
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room",
+        "master room"
+      ],
+      "directions": [
+        "west",
+        "north",
+        "northeast",
+        "east",
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "living room",
+        "bathroom"
+      ],
+      "directions": [
+        "northwest",
+        "east",
+        "southeast",
+        "southwest"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "kitchen"
+      ],
+      "directions": [
+        "northeast",
+        "southwest",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room",
+        "balcony"
+      ],
+      "directions": [
+        "north",
+        "east",
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "common room"
+      ],
+      "directions": [
+        "east",
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "master room",
+        "balcony"
+      ],
+      "directions": [
+        "west",
+        "south"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "living room"
+      ],
+      "directions": [
+        "southwest",
+        "north",
+        "northeast",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 10,
+  "raw_text": "Balcony 1 is on the south side with the living room to the north. It is approximately 12 feet wide by 8 feet high, giving it a square footage of 96. Balcony 2 is on the north side, with the kitchen to the east, living room to the south, and common room 1 to the west. It is approximately 8 feet wide by 8 feet high, giving it a square footage of 64. The bathroom is on the west side with common room 1 to the north and northeast, living room to the east and the master room to the south. It is approximately 8 feet wide by 8 feet high, giving it a square footage of 64. Common room 1 is in the northwest corner with balcony 2 to the east, the living room to the southeast corner and the bathroom as a knock out in the southwest corner. It is approximately 10 feet wide by 20 feet high, with an inset for the bathroom, giving it a square footage of 170. Common Room 2 is in the northeast corner with the living room to the southwest and the kitchen to the west. It is approximately 12 feet wide by 12 feet high, giving it a square footage of 144. The kitchen is on the north side, with common room 2 to the east, the living room to the south and balcony 2 to the west. It is approximately 10 feet wide by 8 feet high, giving it a square footage of 80. The living room is on the east side, with balcony2, the kitchen and common room 2 to the north respectively. Common room 1, the bathroom and the master room are to the west, and balcony 2 is to the south. It is approximately 15 feet wide by 20 feet high, with a few bump outs, giving it a square footage of 375. The master room is in the southwest corner, with the bathroom to the north, and the living room to the northeast and east. It is approximately 12 feet wide by 15 feet high, giving it a square footage of 300.",
+  "total_square_footage": 0,
+  "id": "1487",
+  "source_annotation": "data/raw/annotations/1487.txt",
+  "source_image": "data/raw/images/1487.png"
+}

@@ -1,0 +1,188 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southeast"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "master bedroom"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "master bedroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "master bedroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northwest"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "bathroom",
+        "master bedroom"
+      ],
+      "directions": [
+        "west",
+        "north"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northeast"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "balcony",
+        "living room"
+      ],
+      "directions": [
+        "east",
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "north",
+        "west",
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "west",
+        "south"
+      ]
+    }
+  ],
+  "total_rooms": 17,
+  "raw_text": "The balcony is in the southeast corner of the floor plan. It's estimated to be 10 feet by 3 feet. It is directly south of the living room and to the east of the master bedroom. The first bathroom is located north. It is to the west of the kitchen and living room. It is east of the common room. It is north of the balcony, second bathroom and master bedroom. Part of the living room is in between the first bathroom and master bedroom. The first bathroom is estimated 7 feet by 5 feet. The second bathroom is located between the common room and master bedroom. It's estimated size is 10 feet by 5 feet. It is located west on the floor plan. The common room is in the northwest corner of the floor plan. It's size is estimated 10 feet by 15 feet. It is located to the west of the first bathroom and living room, north of the second bathroom and master bedroom. The kitchen is located in the furthest northeast corner of the floor plan. It's estimated size is 10 feet by 10 feet. It is located to the east of the kitchen and north to the balcony but not connected to the balcony as the living room is in between. The living room is in the center and takes up the majority of the floor plan. It is north of the balcony, to the west of the kitchen, and to the east of the other rooms and bathrooms. The size is estimated 30 feet by 10 feet. The master room is located in the furthest southwest corner of the floor plan. It is to the west of the balcony and living room, and south of the bathrooms and common area. It's estimated size is 15 feet by 15 feet.",
+  "total_square_footage": 0,
+  "id": "45303",
+  "source_annotation": "data/raw/annotations/45303.txt",
+  "source_image": "data/raw/images/45303.png"
+}

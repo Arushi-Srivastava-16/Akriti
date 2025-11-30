@@ -1,0 +1,90 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "The balcony is in the north east side of the apartment next to the kitchen. It is 7 ft x 12 ft. The bathroom is in the south side of the apartment next to the living room. It is 5 ft x 5 ft. The first common room is in the south west side of the apartment next to the master room. It is 10 ft x 12 ft. The second common room is in the south side of the apartment next to the bathroom. It is 10 ft x 12 ft. The kitchen is in the east side of the apartment next to the living room. It is 10 ft x 5 ft. The living room is in the center of the apartment next to the bathroom. It is 25 ft x 30 ft. The master room is in the north west side of the apartment next to the living room. It is 15 ft x 15 ft.",
+  "total_square_footage": 0,
+  "id": "37546",
+  "source_annotation": "data/raw/annotations/37546.txt",
+  "source_image": "data/raw/images/37546.png"
+}

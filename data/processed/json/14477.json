@@ -1,0 +1,79 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "common room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "kitchen"
+      ],
+      "directions": [
+        "southwest",
+        "west",
+        "northeast"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "common room"
+      ],
+      "directions": [
+        "east",
+        "east",
+        "northeast"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "bathroom",
+        "kitchen"
+      ],
+      "directions": [
+        "northwest",
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "bathroom"
+      ],
+      "directions": [
+        "southwest",
+        "north",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 5,
+  "raw_text": "The bathroom is on the south side, between the master room and the common room. It is about 9 feet wide and 5 feet deep. The common room is in the southwest corner, with the bathroom on its west side and the kitchen to the northeast. It is about 10 feet square. The kitchen is on the east side, east of the living room and northeast of the common room. It is about 10 feet wide and 7 feet deep. The living room is in the northwest corner, with the master room, the bathroom, and the community room to the south and the kitchen to the east. It is about 30 feet long and 25 feet deep. The master room is in the southwest corner, with the living room to the north and the bathroom on its east side.  It is about 14 feet wide and 10 feet deep.",
+  "total_square_footage": 0,
+  "id": "14477",
+  "source_annotation": "data/raw/annotations/14477.txt",
+  "source_image": "data/raw/images/14477.png"
+}

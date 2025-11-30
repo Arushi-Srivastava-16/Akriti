@@ -1,0 +1,72 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "master bedroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "balcony"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "Balcony is located at south sides. It is located below master room. North and South side lenght is 18 feet. East and west side lenght is 2 feet. Bathroom is located in between kitchen and living room.  North and South side lenght is 8 feet. East and west side lenght is 10 feet. Kitchen is located at north side. It is located above living Room and bath room. North,  east,  west and South side lenght is 12 feet. Living Room is located in between kitchen and master bedroom.  North side lenght is 4 feet. South side lenght is 18 feet. East side lenght is 28 feet. West side lenght is 18 feet. Master room is located in between living Room and balcony. North,  east,  west and South side lenght is 18 feet.",
+  "total_square_footage": 0,
+  "id": "74152",
+  "source_annotation": "data/raw/annotations/74152.txt",
+  "source_image": "data/raw/images/74152.png"
+}

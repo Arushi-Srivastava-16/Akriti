@@ -1,0 +1,78 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "The bathroom is on the north side of the apartment next to the kitchen. It is 5\u00e2\u0080\u0098 x 5\u00e2\u0080\u0098 The first common room is on the west side of the apartment next to the living room. Is 10\u00e2\u0080\u0098 x 10\u00e2\u0080\u0098 The second common room is on the south east side of the apartment next to the master room. It is 12\u00e2\u0080\u0098 x 15' The kitchen is on the north side of the apartment next to the bathroom. It is 5\u00e2\u0080\u0098 x 12\u00e2\u0080\u0098 The living room is in the southwest side of the apartment next to the kitchen. It is 30\u00e2\u0080\u0098 x 20\u00e2\u0080\u0098 The master room is on the north east corner of the apartment next to the kitchen. It is 12' x 12'",
+  "total_square_footage": 0,
+  "id": "14038",
+  "source_annotation": "data/raw/annotations/14038.txt",
+  "source_image": "data/raw/images/14038.png"
+}

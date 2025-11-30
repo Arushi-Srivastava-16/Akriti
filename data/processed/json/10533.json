@@ -1,0 +1,68 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": [
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "Balcony location:South Side, Relationship:the location: Next to master,  Area:50 sqrt feet   Sides: 10 feet width and 5 feet length.. Bathroom location:South East corner, Relationship:the location: between ketchen and  living,  Area:100 sqrt feet   Sides: 10 feet width and 10 feet length.. Comon room location:North West Corner, Relationship:the location: Next to Kitchen and bath,  Area:150 sqrt feet   Sides: 10 feet width and 15 feet length.. Kitchen location:East Side, Relationship:the location: Next to bath and living,  Area:50 sqrt feet   Sides: 5 feet width and 10 feet length.. Living room location:Central region, Relationship:the location: relatively in the center of the rooms,  Area:600 sqrt feet   Sides: 30 feet width and 20 feet length.. Master room location:West side , Relationship:the location: between com and balcony ,  Area:200 sqrt feet   Sides: 20 feet width and 10 feet length.. Storage room location:South Side, Relationship:the location: Next to master,  Area:50 sqrt feet   Sides: 10 feet width and 5 feet length..",
+  "total_square_footage": 0,
+  "id": "10533",
+  "source_annotation": "data/raw/annotations/10533.txt",
+  "source_image": "data/raw/images/10533.png"
+}

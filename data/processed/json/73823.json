@@ -1,0 +1,72 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "south"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "balcony Located on north west corner with living on right , Total size of 17 Feet length and 2 Feet Width. bathroom Located on south west corner with living on above , Total size of 3 Feet length and 2 Feet Width. common room Located on north east corner with living on left , Total size of 10 Feet length and 10 Feet Width. kitchen Located on center of the plan slightly inward toward west side with living on right , Total size of 6 Feet length and 4 Feet Width. Living Room Located on east side covering entire plan with common room on right , Total size of 45 Feet length and 15 Feet Width. Master Room Located on south side extended little bit with kitchen on right , Total size of 14 Feet length and 12 Feet Width.",
+  "total_square_footage": 0,
+  "id": "73823",
+  "source_annotation": "data/raw/annotations/73823.txt",
+  "source_image": "data/raw/images/73823.png"
+}

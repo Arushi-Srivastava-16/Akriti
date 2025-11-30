@@ -1,0 +1,60 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "bathroom",
+        "balcony",
+        "living room",
+        "master room",
+        "bathroom",
+        "kitchen",
+        "common room",
+        "living room",
+        "kitchen",
+        "kitchen"
+      ],
+      "directions": [
+        "west",
+        "north",
+        "south",
+        "north",
+        "center",
+        "north",
+        "west",
+        "north",
+        "east",
+        "north",
+        "south",
+        "east",
+        "east",
+        "north",
+        "north",
+        "middle"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "balcony"
+      ],
+      "directions": [
+        "south",
+        "east",
+        "south"
+      ]
+    }
+  ],
+  "total_rooms": 2,
+  "raw_text": "Balcony 1 placed on the west side and north side kitchen and right side bathroom Balcony 2 placed on the south side and north side center living room and north west master room Bathroom room placed on the north east and north up side kitchen and south side master and east side balcony1 common room placed on the right corner east side placed left side living room Kitchen placed on the left corner north side North-facing living space is positioned in the middle of the layout, between the kitchen and the common area. Master room placed on the south east and Living room placed on the  and south side balcony 2",
+  "total_square_footage": 0,
+  "id": "51119",
+  "source_annotation": "data/raw/annotations/51119.txt",
+  "source_image": "data/raw/images/51119.png"
+}

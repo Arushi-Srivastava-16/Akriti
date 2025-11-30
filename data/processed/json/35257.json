@@ -1,0 +1,87 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "master room"
+      ],
+      "directions": [
+        "south",
+        "middle"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "middle",
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "balcony is located in the South East corner near to common room. The room size is 10x6. bathroom is in the North West near to common room 1.The room size is 10x6. common room1 is located in the North West corner near to the bathroom. The room size is 10x7 common room 2 is located in the South middle between the balcony and master room. The room size is 10x7 kitchen is located in the East corner. The room size is 10x6. living room is in the middle East connected with all other rooms. The room size is 10x20. Master room is located near to common room in the West. The room size is 10x8.",
+  "total_square_footage": 0,
+  "id": "35257",
+  "source_annotation": "data/raw/annotations/35257.txt",
+  "source_image": "data/raw/images/35257.png"
+}

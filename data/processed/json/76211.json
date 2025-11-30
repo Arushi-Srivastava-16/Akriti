@@ -1,0 +1,31 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "kitchen",
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "middle"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 2,
+  "raw_text": "bathroom: Right side south corner, attached with living and master room, dimensions 8x8 kitchen: left upper corner, dimensions 5x10 Living Room, middle of the home and left corner. dimensions 15x10, 5x20, 8x10 master room : upper right corner, dimensions 12x12",
+  "total_square_footage": 0,
+  "id": "76211",
+  "source_annotation": "data/raw/annotations/76211.txt",
+  "source_image": "data/raw/images/76211.png"
+}

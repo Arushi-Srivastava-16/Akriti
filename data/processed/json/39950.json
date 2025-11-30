@@ -1,0 +1,85 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "living room",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "bathroom"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west",
+        "north"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "The balcony is located on the south corner and behind the living room. size is 12*4. The bathroom is The bathroom is located inside living room and near to common room. size is 10*10. The common room is located on the north east corner and near to kitchen and bathroom. size is 10*16 The kitchen is located on the between common and master room. size is 10*4. The living room is located on the west side and north facing. near to bathroom and balcony. size is 12*36 The master room is located on the south east corner and near to living and kitchen room. size is 10*16",
+  "total_square_footage": 0,
+  "id": "39950",
+  "source_annotation": "data/raw/annotations/39950.txt",
+  "source_image": "data/raw/images/39950.png"
+}

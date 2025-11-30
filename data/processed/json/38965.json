@@ -1,0 +1,176 @@
+{
+  "rooms": [
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "master room"
+      ],
+      "directions": [
+        "north",
+        "east",
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "east",
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room"
+      ],
+      "directions": [
+        "west",
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "kitchen",
+        "bathroom",
+        "master room",
+        "balcony"
+      ],
+      "directions": [
+        "north",
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "middle"
+      ]
+    },
+    {
+      "room": "hallway",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "middle"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "hallway",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "balcony"
+      ],
+      "directions": [
+        "north",
+        "south"
+      ]
+    }
+  ],
+  "total_rooms": 16,
+  "raw_text": "Lining the southern wall of the master room is the balcony. It is a narrow area that measures 2ftx12ft. There is no other room that connects to the balcony. The bathroom is the smallest room and is located at the south-western most corner of the living room. It measures 5ftx8ft. The north and east wall of the bathroom is the living room and the master room is to the south. The common room is on the north-western corner of the house. It measures about 15ftx10 ft. It is adjacent to the kitchen on the east and the living room to the south. The kitchen is on the north-east corner of the house. it measures 10ft square. On the west side of the kitchen is the common room and to the south is the living room. Entry to the residence is through the central part of the eastern wall of the house into the living room. The living room divides the house in half with the common room and kitchen to the north and the bathroom master room, and balcony to the south. The living room is 30 feet at its longest on the northern side of the living room and narrows by 5 feet in the middle of the room. There is a small 5ftx2ft hallway in the middle of the southern living room wall. The living room is about 12 feet wide. The master room is on the southern most part of the house. It is at the end of the small hallway in the living room. It measures 15ftx12ft and borders the living room and bathroom to the north and the balcony to the south.",
+  "total_square_footage": 0,
+  "id": "38965",
+  "source_annotation": "data/raw/annotations/38965.txt",
+  "source_image": "data/raw/images/38965.png"
+}

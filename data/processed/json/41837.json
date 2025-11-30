@@ -1,0 +1,53 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "west",
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 4,
+  "raw_text": "Bathroom location:East side , Relationship:the location: Between Com and Living,  Area:100 sqrt feet   Sides: 10 feet width and 10 feet length.. Comon room location:North side, Relationship:the location: Next to kitchen and bath,  Area:100 sqrt feet   Sides: 10 feet width and 10 feet length.. Kitchen location:North west corner, Relationship:the location: Next to balcony,com2 and living,  Area:50 sqrt feet   Sides: 5 feet width and 10 feet length Living room location: South East corner, Relationship:the location: Next to Bath, Kitichen ,Com,Master,  Area:600 ,sqrt feet , Sides: 20 feet width and 30 feet length. Master room location:North West corner , Relationship:the location: next to living ,  Area:600 sqrt feet   Sides: 20 feet width and 30 feet length..",
+  "total_square_footage": 0,
+  "id": "41837",
+  "source_annotation": "data/raw/annotations/41837.txt",
+  "source_image": "data/raw/images/41837.png"
+}

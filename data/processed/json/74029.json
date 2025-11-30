@@ -1,0 +1,139 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master bedroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "master bedroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master bedroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "bedroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "balcony"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 15,
+  "raw_text": "The balcony is located at the top left hand side of the floorplan and is north facing. It is next to the common room 2 and to the left of the master bedroom. Its area is around 50 ft squared. Bathroom 1 is located the bottom right hand side of the floorplan and so is south facing. It is surrounded by the kitchen. It has an area of around 24 ft squared. bathroom 2 is found at the top center right of the floorplan. It follows on from the living room and is next to the master bedroom. Its area is around 24 ft squared. This room is located at the top center left of the floorplan. It is next to the living room and to the left of the master bedroom. It has an area of around 100 ft squared. This room is at the top left hand side of the floor plan. It is in between the common room 1 and the balcony. It is located to the left hand side of the master bedroom. Its area is about 100 ft squared. The kitchen is found at the bottom right hand side of the floorplan. It envelopes bath 1 and is attached to the living room. it measures an area of about 48 ft squared. The living room is shown on the lower center half of the floorplan. It is adjacent to the kitchen, the bath 2, common room 1 and the master bedroom. It is about 925 ft squared in area. The master bedroom is found at the top right of the floorplan and is north facing. To the left of this bedroom there is the common room 1 and 2 as well as the balcony. It is also next to bath 2. Its area is around 315 ft squared.",
+  "total_square_footage": 0,
+  "id": "74029",
+  "source_annotation": "data/raw/annotations/74029.txt",
+  "source_image": "data/raw/images/74029.png"
+}

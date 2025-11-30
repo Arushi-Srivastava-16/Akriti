@@ -1,0 +1,107 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "bathroom",
+        "common room",
+        "bathroom",
+        "kitchen",
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east",
+        "center"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 10,
+  "raw_text": "balcony 1 is in front of common room 2 .it is 10 feet length and 2 feet width . balcony 2 is is entrance from living room it is 15 feet length and 2 feet width aspect ratio as 4 over 2. bathroom is is entrance from living room it is 3 feet length and 3 feet width .master room and common room between as bathroom common room 1 in front as bathroom and kitchen it is entrance from living room it is 10 feet length and 15 feet width aspect ratio as 3 over 4. common room 2 is entrance from living room it is 10 feet length and 15 feet width aspect ratio as 3 over 4.it is near room as master room. kitchen is entrance from living room it is 5 feet length and 2 feet width aspect ratio as 2 over 1.it is important place it is small room compared to other rooms. living room is entrance from east side it is center of all rooms total 25 square feet .it is center of all the rooms. master room is the south west side corner room it is entrance from living room it is 15 feet length and 25 feet width aspect ratio as 5 over 6.master room near room as bath room and common room 2.",
+  "total_square_footage": 0,
+  "id": "27172",
+  "source_annotation": "data/raw/annotations/27172.txt",
+  "source_image": "data/raw/images/27172.png"
+}

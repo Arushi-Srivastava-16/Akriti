@@ -1,0 +1,78 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "kitchen"
+      ],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "master room"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "southeast"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "bathroom"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northeast"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "bathroom"
+      ],
+      "directions": [
+        "northwest"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "The balcony is approximately 40 square feet, located in the southwest corner of the floor plan, and adjacent to the bathroom and kitchen. The bathroom is approximately 60 square feet, located on the west side of the floor plan, and adjacent to the living room and master room. The common room is approximately 140 square feet, located in the southeast corner of the floor plan, and adjacent to the living room. The kitchen is approximately 60 square feet, located on the south side of the floor plan, and adjacent to the living room and bathroom. The living room is approximately 250 square feet, located in the northeast corner of the floor plan, and adjacent to all rooms. The master room is approximately 130 square feet, located in the northwest corner of the floor plan, and adjacent to the living room and bathroom.",
+  "total_square_footage": 0,
+  "id": "37283",
+  "source_annotation": "data/raw/annotations/37283.txt",
+  "source_image": "data/raw/images/37283.png"
+}

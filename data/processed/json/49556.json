@@ -1,0 +1,97 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "southeast",
+        "south"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "common room",
+        "master bedroom"
+      ],
+      "directions": [
+        "west",
+        "west",
+        "south",
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northwest",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "northeast",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "balcony"
+      ],
+      "directions": [
+        "east",
+        "north",
+        "south"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "southwest",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "The balcony 1 is located southeast corner which is south of the living room and is approximately 50 square feet. The balcony 2 is located north of the living room and is approximately 40 square feet. The bathroom is located west which is west of the living room, south common room, north of master bedroom and is approximately 40 square feet. The common is located northwest corner which is west of the living room and is approximately 150 square feet. The kitchen is located northeast corner which is east of the living room and is approximately 90 square feet. The living room is towards the east side which is north of the balcony 1 and south of balcony 2 and is approximately 600 square feet. The master bedroom is located southwest corner which is west of the living room and is approximately 150 square feet.",
+  "total_square_footage": 0,
+  "id": "49556",
+  "source_annotation": "data/raw/annotations/49556.txt",
+  "source_image": "data/raw/images/49556.png"
+}

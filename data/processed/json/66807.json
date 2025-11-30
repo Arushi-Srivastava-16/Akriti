@@ -1,0 +1,71 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "common room",
+        "master bedroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "living room"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "Balcony is located in north east corner.  North and South side lenght is 20 feet. East and west side lenght is 2 feet. Bathroom is located in between common room and living room.  North and South side lenght is 10 feet. East and west side lenght is 6 feet. Common room is located in north west corner.  North,  east,  west and South side lenght is 15 feet. Kitchen is located in South east corner.  North and South side lenght is 5 feet. East and west side lenght is 10 feet. Living Room is located at right side of bathroom and  down side of common room and master bedroom. North side lenght is 25 feet. South side lenght is 30 feet. East side lenght is 12 feet. West side lenght is 15 feet. Master room is located in between balcony and living room. North and South side lenght is 20 feet. East and west side lenght is 15 feet.",
+  "total_square_footage": 0,
+  "id": "66807",
+  "source_annotation": "data/raw/annotations/66807.txt",
+  "source_image": "data/raw/images/66807.png"
+}

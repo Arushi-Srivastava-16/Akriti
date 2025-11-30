@@ -1,0 +1,55 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "northeast"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "common room",
+        "living room"
+      ],
+      "directions": [
+        "center",
+        "north",
+        "west",
+        "south"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 4,
+  "raw_text": "The bathroom on the left as you enter from the north of this unit is a modest 5ft x 7ft space adjacent to the common room. The common room in the northeast corner passed the bathroom provides ample space at about 15ft x10ft. The kitchen is the center of this floorplan just north of the master room with the common room adjacent and bath directly across Flowing living room extends the length of the floorplan west of all the other rooms and further south approximately 12 feet across. The master room is the southernmost room approximately 10 x 12ft.",
+  "total_square_footage": 0,
+  "id": "32131",
+  "source_annotation": "data/raw/annotations/32131.txt",
+  "source_image": "data/raw/images/32131.png"
+}

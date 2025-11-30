@@ -1,0 +1,171 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "east",
+        "south"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "master room"
+      ],
+      "directions": [
+        "north",
+        "east",
+        "east",
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "living room",
+        "bathroom"
+      ],
+      "directions": [
+        "north",
+        "east",
+        "south",
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room"
+      ],
+      "directions": [
+        "west",
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "common room",
+        "master room",
+        "bathroom"
+      ],
+      "directions": [
+        "south",
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "north",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 14,
+  "raw_text": "The balcony 1 is in the north west of the map. It has kitchen on the east; and common room on the south. It is estimated to be 3 ft x 5 ft. The balcony 2 is in the south east of the map. It has living room on the south. It is estimated on 15 ft x 5 ft. The bathroom is in the west of the map.It has common room on the north; living room on the east; and master room on the east and north. It is estimated to be 9 ft x 9 ft. The common room is in the north west of the map. It has balcony 1 and kitchen on the north; living room on the east and south; and bathroom on the south. It is estimated to be 12 ft x 10 ft. The kitchen is in the north of the map. It has bathroom 1 on the west; common room and living room on the north. It is estimated to be 15 ft x 5 ft. The living room is in the east of the map. It has balcony 2 on the south; kitchen on the north; common room, master room and bathroom on the west. It is estimated to be 20 ft x 25ft. The master room is in the south west of the map. It has bathroom on the north; and living room on the north and west. It is estimated to be 12 ft x 15 ft.",
+  "total_square_footage": 0,
+  "id": "10241",
+  "source_annotation": "data/raw/annotations/10241.txt",
+  "source_image": "data/raw/images/10241.png"
+}

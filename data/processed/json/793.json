@@ -1,0 +1,38 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "bathroom",
+        "master room",
+        "common room",
+        "living room",
+        "common room",
+        "kitchen",
+        "living room",
+        "living room",
+        "kitchen",
+        "balcony",
+        "master room",
+        "bathroom"
+      ],
+      "directions": [
+        "south",
+        "west",
+        "north",
+        "north",
+        "south",
+        "south"
+      ]
+    }
+  ],
+  "total_rooms": 1,
+  "raw_text": "balcony at the right side of living room south west direction of home size 10*8 feet bathroom is between master room and common room north side of living room size 8*8 feet common room at north corner of home left side of bath room size 10*10 feet kitchen at left side of living room and south corner of home size 10*8 feet living room in front of home between kitchen and balcony biggest room of home size 20*12 feet master room south corner of home right side of bathroom size 12*12 feet",
+  "total_square_footage": 0,
+  "id": "793",
+  "source_annotation": "data/raw/annotations/793.txt",
+  "source_image": "data/raw/images/793.png"
+}

@@ -1,0 +1,102 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    }
+  ],
+  "total_rooms": 10,
+  "raw_text": "balcony is south east corner side. It is attached to kitchen and we can relax here after exhaustion.  Its approximately 8 feet width by 15 feet length or 120 square feet. bathroom is located in side. Compared to all the bathroom is very small and approximately 8 feet width by 12 feet length or  96 square feet adjacent to master room. common room is located at south west corner side. It is the highest spacious room from all rooms and occupied from west to south side. Its approximately 24 feet width by 10 feet length or 240 square feet. kitchen is located in south east side near to the balcony. It is approximately 9  feet width by 15 feet length or  135 square feet very spacious to cook and can feel some fresh air from balcony which is attached to this room. living room is located in south side and Very spacious every room in the house connected except balcony. It is 25 feet length and 18 feet width or 450 square feet. master room is  located in north west corner side. Its very spacious approximately 15 feet width by 12 feet length or 180 square feet. Its the second biggest room from all rooms. the bathroom is near to the north side of this room.",
+  "total_square_footage": 0,
+  "id": "70012",
+  "source_annotation": "data/raw/annotations/70012.txt",
+  "source_image": "data/raw/images/70012.png"
+}

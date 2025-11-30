@@ -1,0 +1,82 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "northeast"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "bathroom"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "The balcony is located on the south side and behind the living room. size is 15*4 Bathroom 1 is located in the living room near to the kitchen. size is 7*7 Bathroom 2 is located inside the master room. size is 10*8 The common room is located in the northeast corner and near to living and kitchen. size is 12*12 The kitchen is located on the south side and near to common room and bathroom. size is 12*12 The living room is located on the west facing. near to master ,bathroom1. size is 14*54 The master room is located on the south east corner and and attached bathroom2. size is 14*24",
+  "total_square_footage": 0,
+  "id": "43254",
+  "source_annotation": "data/raw/annotations/43254.txt",
+  "source_image": "data/raw/images/43254.png"
+}

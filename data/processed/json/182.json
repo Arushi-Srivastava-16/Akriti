@@ -1,0 +1,73 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "middle"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "Balcony is located north side centre of the house in between master bed room and common room 1. One bathroom is located in the middle corner of the house. Common room 1 is located in the north side corner of the house. Common room 2 is locate in the south side corner of the house. Kitchen is located near the entrance of the house with opening from living room. Living room is located at the centre of the house with master bed room one side and another bed room and balcony on another side. One corner of the house with opening from living room, the master bed room is located.",
+  "total_square_footage": 0,
+  "id": "182",
+  "source_annotation": "data/raw/annotations/182.txt",
+  "source_image": "data/raw/images/182.png"
+}

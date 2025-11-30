@@ -1,0 +1,157 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "common room"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "west",
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "master bedroom",
+        "common room",
+        "bathroom",
+        "balcony"
+      ],
+      "directions": [
+        "north",
+        "west",
+        "south"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 14,
+  "raw_text": "Balcony 1 is at the south corner.It is approximately 10 feet in length and 5 feet in width. It has kitchen at north side. Balcony 2 is at the north . It is approximately 15 feet in length and 5 feet in width. It has living room at the south side . Bathroom is at the south side.It is approximately 4 feet in length and 5 feet in width. Bathroom has living room at north side and  common room at the west side. common room  is at the south west corner. It is approximately 12 feet in length and 12 feet in width. It has master bedroom at north side and  bath room at the east side. Kitchen is at the south east corner.It is approximately 8 feet in length and 10 feet in width. Kitchen has living room at west side and  balcony1 at the south side. Living room is at the center of the floor plan. It lies in the east side of the floor plan. It is approximately around 10 feet in length and 30 feet in width. Living room is surrounded by balcony 2 in north side and  master bedroom ,Common room ,bathroom  in west side and balcony 1 in the south side. Master bedroom is at the west side. It is approximately 10 feet in length and 15 feet in width.It has common room 1 at south side and  living room at the east side",
+  "total_square_footage": 0,
+  "id": "2319",
+  "source_annotation": "data/raw/annotations/2319.txt",
+  "source_image": "data/raw/images/2319.png"
+}

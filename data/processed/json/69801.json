@@ -1,0 +1,99 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "living room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room"
+      ],
+      "directions": [
+        "northeast"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "balcony",
+        "living room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "bathroom",
+        "living room"
+      ],
+      "directions": [
+        "northeast",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "common room",
+        "common room",
+        "bathroom",
+        "master room",
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "bathroom"
+      ],
+      "directions": [
+        "southeast"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "The balcony measures approximately 77 square feet and is located to the north of the house, in front of common room 1 and the living room. Bathroom 1 measures approximately 54 square feet and is located on the south side of the house, between the master room and the living room. Bathroom 2 measures approximately 50 square feet and is located northeast of the house, between common room 2 and the master, near the living room. Common room 1 measures approximately 112 square feet and is located to the north of the house, near common room 2, the balcony and the living room. Common room 2 measures approximately 102 square feet and is located northeast east of the house, near common room 1, bathroom 2 and the living room. The living room measures approximately 619 square feet and connects to the balcony, common room 1, common room 2, bathroom 2, the master room and bathroom 1. The master measures approximately 194 square feet, is located on the southeast side of the house, near bathroom 2, the living room and bathroom 1",
+  "total_square_footage": 0,
+  "id": "69801",
+  "source_annotation": "data/raw/annotations/69801.txt",
+  "source_image": "data/raw/images/69801.png"
+}

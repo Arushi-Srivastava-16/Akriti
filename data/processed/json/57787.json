@@ -1,0 +1,47 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "balcony",
+        "living room",
+        "common room",
+        "master room",
+        "common room",
+        "kitchen",
+        "kitchen",
+        "common room",
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "south",
+        "west",
+        "northwest",
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "bathroom"
+      ],
+      "directions": [
+        "southwest"
+      ]
+    }
+  ],
+  "total_rooms": 2,
+  "raw_text": "balcony 1 is located at north side with 10 feet size attached with living room balcony 2 is located at south side attached with living room's down area bath room is located at west side between common room and master room common room is in Northwest corner between kitchen and bath room kitchen is located at north side near common room living room is located at east side connected with all the rooms. master room is in southwest corner between balcony 2 and bathroom",
+  "total_square_footage": 0,
+  "id": "57787",
+  "source_annotation": "data/raw/annotations/57787.txt",
+  "source_image": "data/raw/images/57787.png"
+}

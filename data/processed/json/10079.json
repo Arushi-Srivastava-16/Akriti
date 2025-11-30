@@ -1,0 +1,98 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room"
+      ],
+      "directions": [
+        "southeast"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "balcony"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 9,
+  "raw_text": "The balcony is on the Southeast corner of the house, next to the common room and at the end of the living room when walking in.  It is roughly 49 square feet in size. The bathroom will be to the right after the kitchen when walking into the living room.  It is in between the kitchen and part of the living room on the West side of the house and about 49 square feet in size. The common room is on the South side of the house in between the master room and the balcony.  The common room is roughly 100 square feet in size. The kitchen is directly to the right when walking into the front door and on the North side of the house.  It is roughly 100 square feet in size. The living room is the biggest room in the house and covers most of the East side of it.  It is roughly 360 square feet.   The front door comes into the living room on the North side of the house. The master room is to the right after walking into the living room and about midway into it.  It is on the West side of the house and about 144 square feet in size.",
+  "total_square_footage": 0,
+  "id": "10079",
+  "source_annotation": "data/raw/annotations/10079.txt",
+  "source_image": "data/raw/images/10079.png"
+}

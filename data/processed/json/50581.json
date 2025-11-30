@@ -1,0 +1,109 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "master room"
+      ],
+      "directions": [
+        "west",
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room",
+        "bathroom"
+      ],
+      "directions": [
+        "south",
+        "west",
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "living room"
+      ],
+      "directions": [
+        "east",
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "balcony"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "common room"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "The balcony is of the common and master rooms and in between the kitchen and bathroom 1. it is 5ft by 19ft in length. Bathroom 1 is west of the balcony and south of the master room. It is 5ft by 5ft. Bathroom 2 is south of common room 1, west of the living room, and north of bathroom 1. It is 6ft by 7ft in length. Common room 1 is north of bathroom 2 and west of the living room. It is 11ft x 14ft in length. Common Room 2 is east of the master room and south of the living room. It is about 11ft by 14ft in length. The kitchen is south of the living room and east of the balcony. it is 10ft by 9ft in length. The living room is in the north eastern part of the house. Starting from the bottom wall, the walls are 10ft x 14ft x 18ft x 7ft x 5ft x 14ft x 18ft x 21ft x 6ft x 14ft in length. The master bedroom is south of bathroom 2 and west of common room 2. It is 12ft x 14ft in length.",
+  "total_square_footage": 0,
+  "id": "50581",
+  "source_annotation": "data/raw/annotations/50581.txt",
+  "source_image": "data/raw/images/50581.png"
+}

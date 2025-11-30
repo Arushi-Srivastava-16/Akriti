@@ -1,0 +1,90 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "southeast"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "master room"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "master room"
+      ],
+      "directions": [
+        "northwest"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "northwest"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "south",
+        "northeast"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "bathroom"
+      ],
+      "directions": [
+        "southwest"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "The direction of the balcony is the southeast corner behind the living room. It measures approximately 50 square feet and is 10 feet in length by 5 feet in width. The direction of the bathroom is on the west corner in front of the living room beside the master room. It measures approximately 25 square feet and is 5 feet in length by 5 feet in width. The direction of room 1 is in the northwest corner in front of the kitchen, living room, master room, and room 2. It measures approximately 100 square feet and is 10 feet in length by 10 feet in width. The direction of room 2 is in the south corner in front of the living room and room 1, and beside the master room. It measures approximately 100 square feet and is 10 feet in length by 10 feet in width. The direction of the kitchen is the northwest corner in front of the living room and room 1. It measures approximately 25 square feet and is 5 feet in length by 5 feet in width. The living room direction is from the north to south with a northeast entrance between all the other rooms. It measures approximately 625 square feet and is 25 feet in length by 25 feet in width. The direction of the master room is the southwest corner in front of the living room, the bathroom, room 1, and beside room 2. It measures approximately 150 square feet and is 15 feet in length by 10 feet in width.",
+  "total_square_footage": 0,
+  "id": "52552",
+  "source_annotation": "data/raw/annotations/52552.txt",
+  "source_image": "data/raw/images/52552.png"
+}

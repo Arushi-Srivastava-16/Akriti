@@ -1,0 +1,93 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "middle",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northwest",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northeast"
+      ]
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "Bathroom 1 is attached to the living room and west side. size is 4*4 Bathroom 2 is attached to the master room in east side. size is 5*5 Common room 1 is located in the south east corner and near to the common2 and kitchen. size is 14*14 Common room 2 is located on the southwest corner and near to living and common1 room. size is 14*14 The kitchen is located on the middle of east side and near to the common1 and living room. size is 14*18 The living room is located on the northwest corner and west facing. near to master, kitchen and common room. size is 16*32 The master room is located on the the northeast corner and attached with  bathroom2. size is 14*18",
+  "total_square_footage": 0,
+  "id": "15407",
+  "source_annotation": "data/raw/annotations/15407.txt",
+  "source_image": "data/raw/images/15407.png"
+}

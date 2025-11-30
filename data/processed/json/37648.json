@@ -1,0 +1,65 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "kitchen",
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "center"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "bathroom is the small place room compared to other rooms it is the entrance from living room 3 feet length and 3 feet width ratio as 1 over 1. common room is the entrance from living room it is the 10 feet length and 20 feet width ratio as 4 over 6. kitchen is the entrance from living room kitchen room is in front room as bathroom  it is the 20 feet length and 5 feet width ratio as 8over 5. living room is the north side entrance it is the center room for all other rooms it is the 20 feet length and 30 feet width ratio as 6 over 8. master room is the entrance from living room it is the 15 feet length and 20 feet width ratio as 5 over 8.near room as bathroom .",
+  "total_square_footage": 0,
+  "id": "37648",
+  "source_annotation": "data/raw/annotations/37648.txt",
+  "source_image": "data/raw/images/37648.png"
+}

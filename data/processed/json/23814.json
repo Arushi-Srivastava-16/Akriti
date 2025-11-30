@@ -1,0 +1,92 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 9,
+  "raw_text": "balcony is the west side corner room .it is the entrance from living room 3 feet and 15 feet width. bathroom is the entrance from living room near room as master room 3 feet length and 3  feet width ratio as 2 over 2. common room 1 is the entrance from living room side room as common room 2 it is a square shape room 8 feet length and 8 feet width ratio as 3 over 3. common room 1 is the entrance from living room side room as common room 1 it is a square shape room 8 feet length and 8 feet width ratio as 3 over 3. kitchen room is near the entrance of the room 6 feet length and 3  feet width living room is the east side of the entrance .living room around all other rooms .it is center room big place compared to other rooms . 30 feet length and 15  feet width ratio as 9 over 8. master room is the entrance from living room .it is the square shape room 15 feet length and 15 feet width ratio as 7 over 7 master room near room as bathroom .",
+  "total_square_footage": 0,
+  "id": "23814",
+  "source_annotation": "data/raw/annotations/23814.txt",
+  "source_image": "data/raw/images/23814.png"
+}

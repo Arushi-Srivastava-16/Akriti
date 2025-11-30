@@ -1,0 +1,109 @@
+{
+  "rooms": [
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "middle",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "middle",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "middle",
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east",
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 11,
+  "raw_text": "LOCATED IN NORTH AND WEST SIDE. NEAR TO KITCHEN ROOM. SIZE IS 8X 4 SQ FT. LOCATED IN SOUTH AND WEST CORNER SIDE. NEAR TO LIVING ROOM. SIZ E IS 14 X 6 SQ FT. The bathroom is located in MIDDLE OF THE EAST SIDE. IN BETWEEN OF COMMON ROOM AND MASTER ROOM. SIZE IS 6X6 SQ FT. The common room is located in NORTH AND EAST CORNER. IN BETWEEN OF BATHROOM AND KITCHEN. SIZE IS 10X 12 SQ FT. The kitchen is located in MIDDLE OF THE WEST SIDE. IN BETWEEN OF LIVING ROOM AND BALCONY 1 . ROOM SIZE IS 8X8 SQ FT. NORTH FACING LIVING ROOM LOATED IN MIDDLE OF THE WEST SIDE. CONNECTED WITH ALL ROOMS. SIZE IS 16X 26 SQ FT. The master room is located in EAST AND SOUTH SIDE. IN BETWEEN OFLIVING ROOM AND BATHROOM . SIZE IS 12X16 SQ FT.",
+  "total_square_footage": 0,
+  "id": "22101",
+  "source_annotation": "data/raw/annotations/22101.txt",
+  "source_image": "data/raw/images/22101.png"
+}

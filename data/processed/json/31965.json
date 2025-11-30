@@ -1,0 +1,107 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "middle"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master bedroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 12,
+  "raw_text": "The balcony is located behind the master bedroom. This room is approximately 75 square feet in size. It is in the southern most location of the house and has no other access points. The bathroom is located next to the kitchen and has an entry way off of the living room. It has approximately 50 square feet. Common room 1 has an entry way off of the living room. It is approximately 25 square feet in size. It is adjacent to the kitchen. Common room 2 is located in the south western portion of the house. It is approximately 145 square feet in size. It has an entry way off of the living room and is adjacent to the master bedroom. The kitchen is in the front of the house. It is located between corn1 and bath. It is approximately 70 square feet in size. The living room is in the middle of the house. It is connected to every room except for the balcony. It is approximately 125 square feet in size. The master room is in the back of the apartment. This room is approximately 100 square feet in size. It is connected to the balcony. The master bedroom is adjacent to corn2.",
+  "total_square_footage": 0,
+  "id": "31965",
+  "source_annotation": "data/raw/annotations/31965.txt",
+  "source_image": "data/raw/images/31965.png"
+}

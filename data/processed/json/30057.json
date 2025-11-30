@@ -1,0 +1,99 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "middle"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "north",
+        "east",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master bedroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "bathroom"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom",
+        "bathroom",
+        "common room"
+      ],
+      "directions": [
+        "east",
+        "west"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "east",
+        "south"
+      ]
+    }
+  ],
+  "total_rooms": 9,
+  "raw_text": "The bathroom is in the bottom middle of the floor plan. The room is around 5 feet wide and 6 feet long. To the north east of the room is the living room, and to the west you'll find the common room. The common room is in the bottom left of the floor plan. It is around 11 feet wide and 13 feet long. To the north of the room is the master bedroom, and to the east is the living room and the bathroom. The kitchen is on the right side of the floor plan. It is around 6 feet wide and 15 feet long. To the west of the room is the living area. The living room is around 13 feet wide and 28 feet long. It is in the middle of the floor plan. To the east is the kitchen, to the west is the master bedroom, the bathroom, and the common room. The master bedroom is in the top left of the floor plan. It is around 12 feet wide and 14 feet long. To the east of the room is the living room and to the south is the common room.",
+  "total_square_footage": 0,
+  "id": "30057",
+  "source_annotation": "data/raw/annotations/30057.txt",
+  "source_image": "data/raw/images/30057.png"
+}

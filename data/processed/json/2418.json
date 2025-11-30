@@ -1,0 +1,81 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "Balcony is the front portion of the plan. Its size should be 10 x 3ft. Bathroom 1 is located nearby the kitchen and the living room. Its size should be of 5 x 5ft. Bathroom 2 is located nearby the living room, and between the area of commom room and master room. Common room is located in the opposite of kitchen and bath 1. Its size should be approximately 10 x 10ft. Kitchen is located in corner of the living room after bathroom 1. Its size should be 10 x 5ft. The living room is located after the balcony. The living room is the biggest area in house. Master room is located in left side of the living room. Its size shouls be of 10 x 10 ft.",
+  "total_square_footage": 0,
+  "id": "2418",
+  "source_annotation": "data/raw/annotations/2418.txt",
+  "source_image": "data/raw/images/2418.png"
+}

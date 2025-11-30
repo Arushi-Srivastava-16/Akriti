@@ -1,0 +1,78 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "Balcony is located in South West corner. North and South side lenght is 15 feet. East and west side lenght is 3 feet. Bathroom is located in between kitchen and common room. North and South side lenght is 5 feet. East and west side lenght is 15 feet. Common room is located in north east corner.  North ,east,  west and South side lenght is 15 feet. Kitchen is located in north west corner.  North and South side lenght is 10 feet. East and west side lenght is 8 feet. Living Room is located at left side of master room and storage. East and west side lenght is 32 feet. North side lenght is 10 feet . South side lenght is 15 feet. Master room is located in South east corner.  North and South side lenght is 15 feet. East and west side lenght is 20 feet. Storage is located in between common room and master bedroom. North and South side lenght is 6 feet. East and west side lenght is 5 feet.",
+  "total_square_footage": 0,
+  "id": "45732",
+  "source_annotation": "data/raw/annotations/45732.txt",
+  "source_image": "data/raw/images/45732.png"
+}

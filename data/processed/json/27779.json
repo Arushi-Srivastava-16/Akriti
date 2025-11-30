@@ -1,0 +1,79 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room",
+        "bathroom",
+        "common room",
+        "kitchen",
+        "bathroom",
+        "common room",
+        "master room",
+        "common room",
+        "living room",
+        "balcony",
+        "master room",
+        "bathroom",
+        "common room",
+        "bathroom",
+        "master room",
+        "bathroom",
+        "kitchen",
+        "living room",
+        "living room",
+        "kitchen",
+        "common room",
+        "balcony"
+      ],
+      "directions": [
+        "south",
+        "south",
+        "north",
+        "north",
+        "west",
+        "southeast",
+        "east",
+        "south",
+        "north",
+        "east",
+        "north",
+        "west",
+        "south",
+        "northeast",
+        "north",
+        "east",
+        "north",
+        "northwest",
+        "north",
+        "west",
+        "south",
+        "west",
+        "north",
+        "southeast"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "southeast",
+        "south",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 2,
+  "raw_text": "The balcony is located in the south of the structure, a 10ft x 3ft room, south of common room 1 and living room Bathroom 1 is a 7ft x 2ft room located in the north of the structure located north of common room1, west of common room 2 and southeast of the kitchen Bathroom 2 is a 6ft x 3ft room located in the east of the structure, south of common room 2 and north of the master room Common room 1 is a 7ft x 7ft room located in the central part of the structure, east of the living room, north of the balcony, west of the master room and south of bathroom 1 Common room 2 is located in the northeast of the structure, a 10ft x 6ft room, north of bathroom 2 and master room and east of bathroom 1 The kitchen is a 10ft x 3ft structure located in the north of the structure, northwest of bathroom1 and north of the living room The living room is a 35ft x 20ft room located in the west of the structure, south of the kitchen, west of common room 1 and north of the balcony but southeast of bathroom1. Master room, a 20ft x 15ft located in the southeast of the structure, south of common room2 and bathroom2 and east of common room 1",
+  "total_square_footage": 0,
+  "id": "27779",
+  "source_annotation": "data/raw/annotations/27779.txt",
+  "source_image": "data/raw/images/27779.png"
+}

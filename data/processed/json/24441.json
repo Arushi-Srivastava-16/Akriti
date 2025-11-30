@@ -1,0 +1,102 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 10,
+  "raw_text": "THE BATHROOM IS LOCATED ON NORTH EAST CORNER.THE BATHROOM IS LOCATED NEARBY MASTER ROOM.THE FLOOR AREA IS 72 SQUARE FEET. #REF! THE COMMON ROOM IS LOCATED ON SOUTH WEST CORNER.THE COMMON ROOM IS LOCATED NEARBY LIVING ROOM. THE FLOOR AREA IS 100 SQUARE FEET. THE KITCHEN IS LOCATED ON NORTH WEST CORNER.THE KITCHEN IS LOCATED NEARBY COMMON ROOM.THE FLOOR AREA IS 72 SQUARE FEET. THE LIVING ROOM IS LOCATED ON SOUTH SIDE.IT IS LOCTED IN BETWEEN COMMON ROOM AND MASTER ROOM.THE FLOOR AREA IS 330 SQUARE FEET. THE MASTER ROOM IS LOCATED ON SOUTH EAST CORNER.THE MASTER ROOM IS LOCATED NEARBY BATH ROOM.THE FLOOR AREA IS 150 SQUARE FEET.",
+  "total_square_footage": 0,
+  "id": "24441",
+  "source_annotation": "data/raw/annotations/24441.txt",
+  "source_image": "data/raw/images/24441.png"
+}

@@ -1,0 +1,85 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northeast"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northwest"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "west",
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southeast"
+      ]
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "The balcony is located on the southwest corner and next to living. size is 16x6 Bathroom 1 is located in the east side and attached with  master. size is 8x10 Bathroom 2 is located in the north side and next to the com2. size is 9x10 Common room 1 is located in the south side and next to master. size is 12x16 Common room 2 is located on the northeast corner and next to the bath2. size is 13x10 The kitchen is located in the northwest corner and next to the living. size is 10x10 west facing living room The living room is located on the west side and near to all other rooms. size is 16x36. unsized The master room is located on the southeast corner and attached with bath1. size is 15x16",
+  "total_square_footage": 0,
+  "id": "70389",
+  "source_annotation": "data/raw/annotations/70389.txt",
+  "source_image": "data/raw/images/70389.png"
+}

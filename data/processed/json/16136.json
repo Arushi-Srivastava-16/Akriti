@@ -1,0 +1,103 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "middle"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "middle"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 12,
+  "raw_text": "The bathroom is located in top middle of the floor plan.  Its dimension is 3 ft by 6 ft.  Directly to the right of it is the kitchen with the common room being on its left and the living room on its bottom. The common room is located in the top left corner of the floor plan.   Its dimension is 12 feet by 15 ft.  On its bottom and bottom right corner is the living room.  To the top right of this room is the bathroom. The kitchen is located in the top right corner of the floor plan.   Its dimension is 7 feet by 12 ft.  On its bottom  left side is the living room.  To the top left of this room is the bathroom. The living room is located in the middle of the floor plan.   Its total area is about 420 square feet.  It is surrounded by a common room and bathroom on it top.  Directly below it is the master. The master room is located on the bottom of the floor plan.   Its dimension is 18 feet by 15 ft.  Directly above it is the living room.",
+  "total_square_footage": 0,
+  "id": "16136",
+  "source_annotation": "data/raw/annotations/16136.txt",
+  "source_image": "data/raw/images/16136.png"
+}

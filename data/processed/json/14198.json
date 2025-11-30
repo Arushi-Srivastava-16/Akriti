@@ -1,0 +1,100 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "common room"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "common room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "common room",
+        "kitchen",
+        "bathroom",
+        "master room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "balcony"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "balcony is in north west corner of the house, next to master room, the size is 45 sqft. bathroom is in north east corner of the house, next to living room, the size is 64 sqft. common room 1 is in south west corner of the house, next to living room and common room 2, the size is 225 sqft. common room 2 is in south side of the house, inbetween common room 1 and common room 2, the size is 144 sqft. kitchen is in south east of the house, next to common room 2 and living room, the size is 140 sqft. living room is in north side of the house, next to common room 1, common room 2, kitchen, bathroom and master room, the size is 400 sqft. master room is in north west corner of the house, next to living room and balcony, the size is 225 sqft.",
+  "total_square_footage": 0,
+  "id": "14198",
+  "source_annotation": "data/raw/annotations/14198.txt",
+  "source_image": "data/raw/images/14198.png"
+}

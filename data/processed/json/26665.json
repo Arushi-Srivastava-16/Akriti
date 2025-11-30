@@ -1,0 +1,60 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "The bathroom is located between living room and common room 1. Its size should be 5 x 5ft. Common room 1 is located in left corner of the plan. Its size should be 12.5 x 10ft. Common room 2 is located between master room and common room 1. Its size should be 10 x 10ft. The kitchen is located in left side corner of the living room. Its size should be 10 x 2.5ft. The living room is the biggest portion in this plan. It connects all the rooms. Its size is approximately 25 x 20ft. The master room is located in front portion. Its size is 10 x 10ft.",
+  "total_square_footage": 0,
+  "id": "26665",
+  "source_annotation": "data/raw/annotations/26665.txt",
+  "source_image": "data/raw/images/26665.png"
+}

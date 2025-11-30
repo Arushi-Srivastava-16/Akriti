@@ -1,0 +1,127 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 13,
+  "raw_text": "balcony is the north west corner . balcony in front of room as kitchen.it is 5 feet length and 2 feet width. bathroom is entrance from living room .it is 2 feet length and 4 feet width .bathroom is between as kitchen and common room 2. common room 1 is the south east corner room .it is entrance from living room .it is 10 feet length and 15 feet width aspect ratio as 3 over 4. common room 2 is entrance from living room .it is 5 feet length and 3 feet width.near room as bath room opposite room as common room 2. kitchen is entrance from living room .it is north west corner room near as balcony.it is 5 feet length and 10 feet width aspect ratio as 2 over 3. living room is entrance from west side direction .it is center of all the room it is big place compared to all other rooms .it is 30 feet length and 25 feet width aspect ratio as 7 over 6. master room is entrance from living room .it is 10 feet length and 15 feet width aspect ratio as 3 over 4.it is a rectangular shape room .master room near as common room 1.",
+  "total_square_footage": 0,
+  "id": "54410",
+  "source_annotation": "data/raw/annotations/54410.txt",
+  "source_image": "data/raw/images/54410.png"
+}

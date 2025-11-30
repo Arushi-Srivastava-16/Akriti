@@ -1,0 +1,37 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "common room",
+        "common room",
+        "bathroom",
+        "kitchen",
+        "bathroom",
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "center"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    }
+  ],
+  "total_rooms": 2,
+  "raw_text": "balcony is located in the down floor of the image it is 10 feet Bathroom is located on the second floor of the image it located in north corner beside the common room common room is located on the second floor of the image it is beside the bathroom The kitchen is located on the third floor of the image beside the bathroom Living room is located on the center of the image .10 feet above Master room is located on the first floor on the north corner .",
+  "total_square_footage": 0,
+  "id": "69764",
+  "source_annotation": "data/raw/annotations/69764.txt",
+  "source_image": "data/raw/images/69764.png"
+}

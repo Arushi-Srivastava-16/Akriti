@@ -1,0 +1,12 @@
+{
+  "total_pairs": 4003,
+  "train_size": 3202,
+  "val_size": 400,
+  "test_size": 401,
+  "train_ratio": 0.8,
+  "val_ratio": 0.1,
+  "test_ratio": 0.1,
+  "avg_input_length": 1230.7854109417935,
+  "avg_output_length": 4041.598051461404,
+  "avg_rooms_per_plan": 9.701473894579065
+}

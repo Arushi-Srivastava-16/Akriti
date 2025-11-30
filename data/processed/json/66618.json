@@ -1,0 +1,69 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northwest"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east",
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "common room"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "located in the northwest corner, balcony 1 is about 8x4 and just off of the living area. Balcony 2 at 16x4 takes up much of the southern wall and is adjacent to the master on the east and living area to the north. Situated between the common room and master bed, the 12x8 bath is on the eastern side of the unit. At about 12x11, the common room is adjacent tot the bath and master bed with the living area off to its west. On the northern wall, the 3x11 kitchen is just north of the common room. The living area is just off to the west of it. The entire western side of the unit is taken up by the 30x18 living area. It abuts the balcony and kitchen to the north and master bed, common room and bath to the east. Located in the southeast corner, the master bed is adjacent to the bath on the north and living area on the west. It is about 16x16.",
+  "total_square_footage": 0,
+  "id": "66618",
+  "source_annotation": "data/raw/annotations/66618.txt",
+  "source_image": "data/raw/images/66618.png"
+}

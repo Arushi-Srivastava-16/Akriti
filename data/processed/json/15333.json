@@ -1,0 +1,158 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southeast"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northwest"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east",
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northeast"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "bathroom"
+      ],
+      "directions": [
+        "east",
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 14,
+  "raw_text": "The balcony lies along the southeast corner of the floor plan. It south of the living room and adjacent to the balcony, is the master on its west side. It is approximately 13 feet wide, and 4 feet long. The bathroom is located on the west side of the floor plan. It is located between the common room and master, with the common room to the north and the master to the south and the living room to the east. It is smaller than the common room, living room, and master, at approximately 8 feet wide and 5 feet in length. the common room occupies the northwest corner of the floor plan. It share a wall to the south with the bathroom and a wall to the east with the living room. It wider than the bathroom to its south, at approximately 12 feet wide, the same width as the master room, and 10 feet long. The kitchen runs along the east side of the floor plan, directly below an entryway and a wall on its south side that it does not share with any other room on the floor. It is surrounded by the living room to the west of it and it is not adjacent to any other room. It is approximately 10 feet long and 5 feet wide. The living room occupies the majority of the northeast side of the room. It is in between the kitchen, which is located along the east side of the room , and the common room, bathroom, and master, located along the west side of the room. it is approximately 13 square feet wide and about 25 feet long. the master room occupies the south west corner. It is directly south of the bathroom, sharing a wall with it, and west of the balcony, next to it. It is approximately 12 feet wide and 14 feet long.",
+  "total_square_footage": 0,
+  "id": "15333",
+  "source_annotation": "data/raw/annotations/15333.txt",
+  "source_image": "data/raw/images/15333.png"
+}

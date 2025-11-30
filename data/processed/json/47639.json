@@ -1,0 +1,85 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "center"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "center"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "balcony Located on South east corner with common room2 Room on above , Total size of 15 Feet length and 3 Feet Width. Bath Room Located on exact north center with living Room on right , Total size of 13 Feet length and 4 Feet Width. Common room1 Located on South east with living Room on above , Total size of 14 Feet length and 12 Feet Width. Common room 2 Located on South center with living Room on above , Total size of 14 Feet length and 2 Feet Width. Kitchen Room Located on North west corner with living Room on below , Total size of 13 Feet length and 4 Feet Width. Living Room Located on Covered almost north area in horizontal with bath Room on left , Total size of 30 Feet length and 20 Feet Width. Master Room Located on South west corner with living Room on above , Total size of 13 Feet length and 12 Feet Width.",
+  "total_square_footage": 0,
+  "id": "47639",
+  "source_annotation": "data/raw/annotations/47639.txt",
+  "source_image": "data/raw/images/47639.png"
+}

@@ -1,0 +1,89 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom",
+        "kitchen"
+      ],
+      "directions": [
+        "southeast"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "dining room",
+        "living room"
+      ],
+      "directions": [
+        "northeast"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "master bedroom",
+        "living room"
+      ],
+      "directions": [
+        "northeast"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "master bedroom",
+        "balcony"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": []
+    },
+    {
+      "room": "dining room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "balcony"
+      ],
+      "directions": [
+        "east",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "The balcony measures approximately 46 square feet and is located on the southeast side of the house, in front of the master bedroom and next to the kitchen. The bathroom is approximately 15 square feet and is located on the northeast side of the house next to the dining room and across from the living room. The common room measures approximately 61 square feet and is located between the bathroom and the master bedroom on the northeast side of the house and connects to the living room. The kitchen measures approximately 64 square feet and is located on the south side of the house, facing the living room and connects to the master bedroom and balcony. The living room measures approximately 314 sq. ft. and connects to the bath, com, master, kitchen and balcony. The master is approximately 143 square feet, located on the east side of the house, between the dining room and the balcony, and is located on the east side of the house, between the com room and the balcony.",
+  "total_square_footage": 0,
+  "id": "4631",
+  "source_annotation": "data/raw/annotations/4631.txt",
+  "source_image": "data/raw/images/4631.png"
+}

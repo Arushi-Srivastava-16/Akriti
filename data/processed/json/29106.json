@@ -1,0 +1,140 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "master room",
+        "balcony"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "bathroom",
+        "master bedroom",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "bathroom",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master bedroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": [
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 14,
+  "raw_text": "the balcony is accessible from the master room and common room 1. the balcony is west facing and is approximately 8ft by 3ft. the bathroom is accessible from the living room and is situated between the master rooma and common room 2. the bathroom is approximately 8ft by 6 ft. common room 1 is accessible from the living room and is next to the master room and balcony. common room 1 is approximatley 12 ft by 10ft. common room 2 is accessible from the living room and is situated next to the bathroom. common room 2 is approximately 10ft by 10ft. the kitchen is accessible from the living room and nest to the entrance. the kitchen is approximately 12 ft by 5 ft. the living room is open to the kitchen, bathroom, master bedroom and common room 1 and 2. the living room features a south facing entrance and is approximately 18 ft by 14 ft. the master room is accessible from the living room and is situated between the bathroom and common room 1. the master bedroom has a private west facing balcony and is approximately 12ft by 10ft.",
+  "total_square_footage": 0,
+  "id": "29106",
+  "source_annotation": "data/raw/annotations/29106.txt",
+  "source_image": "data/raw/images/29106.png"
+}

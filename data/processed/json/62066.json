@@ -1,0 +1,51 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southwest"
+      ]
+    }
+  ],
+  "total_rooms": 5,
+  "raw_text": "Balcony alocated south end of the house.The approximate size10\"*4\" Bathroom adjoint with masterroom its covered in livingroom .The approximate size 6\"*4\" Commonroom alocated center of the baroom and kitchen .The approximate size 16\"*10\" Kitchen alocated top of the house and its connected with living and commonroom.The approximate size 10\"*5\" livingroom alocated big size of the house its connected with all the part of the house The approximate size 30\"*10\" Masterroom southwest corner of the house its connected with living and balcony.The approximate size 15\"*10\"",
+  "total_square_footage": 0,
+  "id": "62066",
+  "source_annotation": "data/raw/annotations/62066.txt",
+  "source_image": "data/raw/images/62066.png"
+}

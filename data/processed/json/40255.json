@@ -1,0 +1,78 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "north",
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "bathroom is located at north west side and near to common room. . It has the square size of 6 feet side. Common room  is located at north west corner and next to master room. It has the size of 12 feet length and 8 feet width. kitchen is located north east side corner and near the living room.\n It has the size of 12 feet length and 5 feet width. living room is extended from north to south east side but behind the kitchen.  It has the size of 32 feet length and 12 feet width. master room is located at south west side and adjacent to living room. It is also adjacent to living room and It has the size of  12 feet length and 12 feet width.",
+  "total_square_footage": 0,
+  "id": "40255",
+  "source_annotation": "data/raw/annotations/40255.txt",
+  "source_image": "data/raw/images/40255.png"
+}

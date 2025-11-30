@@ -1,0 +1,143 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 15,
+  "raw_text": "Location:The absolute location of the bathroom in the floor plan is west side.\nRelationship:The absolute location of the bathroom in the floor plan is between common room and master room.\nSize:The area of the bathroom in floor plan is 10 sq rt feet. Location:The absolute location of the common room in the floor plan is south west corner.\nRelationship:The absolute location of the common room in the floor plan is next to kitchen and near bathroom.\nSize:The area of the common room in floor plan is 10 sq rt feet. Location:The absolute location of the kitchen in the floor plan is south east corner.\nRelationship:The absolute location of the kitchen in the floor plan is near common room.\nSize:The area of the kitchen in floor plan is 10 sq rt feet. Location:The absolute location of the living room in the floor plan is north east corner.\nRelationship:The absolute location of the living room in the floor plan is in front of master room and bathroom.\nSize:The area of the living room in floor plan is 10 sq rt feet. Location:The absolute location of the master room in the floor plan is north west  corner.\nRelationship:The absolute location of the master room in the floor plan is next to bathroom and near living room.\nSize:The area of the master room in floor plan is 10 sq rt feet.",
+  "total_square_footage": 0,
+  "id": "25423",
+  "source_annotation": "data/raw/annotations/25423.txt",
+  "source_image": "data/raw/images/25423.png"
+}

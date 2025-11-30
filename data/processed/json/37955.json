@@ -1,0 +1,59 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": [
+        "south"
+      ]
+    }
+  ],
+  "total_rooms": 5,
+  "raw_text": "Balcony location:South Side, Relationship:the location: Next to living,  Area:50 sqrt feet   Sides: 10 feet width and 5 feet length.. Bathroom location:North  side , Relationship:the location: next to living,  Area:100 sqrt feet   Sides: 10 feet width and 10 feet length.. Comon room 1 location:East side, Relationship:the location: Next to Living,  Area:100 sqrt feet   Sides: 10 feet width and 10 feet length.. Comon room 2 location:South side, Relationship:the location:next to com1  Area:100 sqrt feet   Sides: 10 feet width and 10 feet length.. Kitchen location:West Side, Relationship:the location: Next to master and living,  Area:50 sqrt feet   Sides: 5 feet width and 10 feet length.. Living room location: North side, Relationship:the location: next to bath,Kitchen and com1,  Area:500 sqrt feet   Sides: 25 feet width and 20 feet length. Master room location:South Side , Relationship:the location: next to balcony ,com2 and living ,  Area:400 sqrt feet   Sides: 20 feet width and 20 feet length..",
+  "total_square_footage": 0,
+  "id": "37955",
+  "source_annotation": "data/raw/annotations/37955.txt",
+  "source_image": "data/raw/images/37955.png"
+}

@@ -1,0 +1,36 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "common room",
+        "living room",
+        "kitchen",
+        "bathroom",
+        "living room",
+        "master bedroom",
+        "common room",
+        "master bedroom",
+        "living room"
+      ],
+      "directions": [
+        "northwest",
+        "north",
+        "east",
+        "north",
+        "west",
+        "center",
+        "southwest"
+      ]
+    }
+  ],
+  "total_rooms": 1,
+  "raw_text": "The bathroom is on the northwest side of the apartment next to the kitchen and it measures  7\u00e2\u0080\u0098 x 7\u00e2\u0080\u0098 The common room is on the north east side of the apartment next to the living room and it measures 12\u00e2\u0080\u0098 x 12' The kitchen is on the north west corner of the apartment next to the bathroom and it measures 15\u00e2\u0080\u0098 x 20\u00e2\u0080\u0098 The living room is in the center of the apartment between the master bedroom and the common room, it measures 20\u00e2\u0080\u0098 x 40\u00e2\u0080\u0098 The master bedroom is on the southwest corner of the apartment next to the living room and it measures 13\u00e2\u0080\u0098 x 20\u00e2\u0080\u0098",
+  "total_square_footage": 0,
+  "id": "37646",
+  "source_annotation": "data/raw/annotations/37646.txt",
+  "source_image": "data/raw/images/37646.png"
+}

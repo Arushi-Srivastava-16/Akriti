@@ -1,0 +1,79 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "northwest"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "northeast"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": [
+        "east",
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "balcony"
+      ],
+      "directions": [
+        "southwest"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "The Balcony has a direct connection to the Master Room, is 12 feet wide by 4 feet long and is located in the Southwest area of \u00e2\u0080\u008b\u00e2\u0080\u008bthe Residence. The Bathroom is located in the West area of \u00e2\u0080\u008b\u00e2\u0080\u008bthe Residence, it has a dimension of 6 feet wide by 6 feet long and its access is through the Living Room. The Common Room is located in the Northwest part of the House, it has a dimension of 12 feet wide by 15 feet long and its access is through the Living Room. The Kitchen measures 6 feet wide by 6 feet long, is located in the Northeast part of the House and is accessed through the Living Room. The Living Room has an approximate dimension of 15 feet wide by 30 feet long, it goes from the Central part to the East and South areas; The access to the Residence is through it and it is in the East part, it has access to each area of \u00e2\u0080\u008b\u00e2\u0080\u008bthe House with the exception of the Balcony. The Master Room has a dimension of 12 feet wide by 15 feet long, it is located in the Southwest part of the House and has a direct connection with the Living Room and the Balcony.",
+  "total_square_footage": 0,
+  "id": "23984",
+  "source_annotation": "data/raw/annotations/23984.txt",
+  "source_image": "data/raw/images/23984.png"
+}

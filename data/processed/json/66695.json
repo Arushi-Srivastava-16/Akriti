@@ -1,0 +1,66 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center",
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 5,
+  "raw_text": "bathroom Located on exact center on north side with living on below , Total size of 10 Feet length and 5 Feet Width. Common room Located on North west corner with kitchen on below , Total size of 12 Feet length and 12 Feet Width. Kitchen Located on South west corner with common room on above , Total size of 10 Feet length and 10 Feet Width. Living Room Located on South east corner with master on above , Total size of 35 Feet length and 15 Feet Width. Master Room Located on North east corner with bathroom on left , Total size of 15 Feet length and 9 Feet Width.",
+  "total_square_footage": 0,
+  "id": "66695",
+  "source_annotation": "data/raw/annotations/66695.txt",
+  "source_image": "data/raw/images/66695.png"
+}

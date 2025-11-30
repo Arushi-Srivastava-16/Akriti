@@ -1,0 +1,105 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "center",
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "dining room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "dining room"
+      ],
+      "directions": [
+        "center",
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 10,
+  "raw_text": "balcony is located at north west corner and \n adjacent to living room. It has the size of 13 feet length and 4 feet width. bathroom is located at the center of the east side which is protruding ahead so that it is between the master room and common-2 room. It is the size of  7 feet length and 6 feet width. common-1 room is located at north west side. It is next to master room. It has the size of 10 feet width and 15 feet length. common-2 room is located at south east corner. It is next to kitchen room. It has the size of 8 feet width and 14 feet length. dining room is found at south west corner. It is located left to the kitchen. It has the square size of 14 feet side. kitchen is located at the center of the south side so that It is in between the common-2 room and dining room. It has the rectangular shaped size of 14 feet length and 6 feet width. living room is occupied the northern west area of the plan except balcony. It has the long pathway which divides the the set of  common-1 and master rooms and the set of dining, kitchen, common-2 rooms. Its area is estimated  around 610 sqrt. feet. master room is located at north east corner so that It is next of the common-1 room. It has the size of 15 feet length and 12 feet width.",
+  "total_square_footage": 0,
+  "id": "59791",
+  "source_annotation": "data/raw/annotations/59791.txt",
+  "source_image": "data/raw/images/59791.png"
+}

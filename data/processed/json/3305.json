@@ -1,0 +1,42 @@
+{
+  "rooms": [
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "east",
+        "west",
+        "southwest",
+        "west",
+        "south"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "living room",
+        "kitchen"
+      ],
+      "directions": [
+        "west",
+        "south",
+        "south",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 2,
+  "raw_text": "It is in the square shape small room rear by kietchen it is situated in the north side of the plane and rectangle shape east west direction It is situated in the southwest side or the living room pathway It is in the square shape and it is in the mater room rear by and living room west corner It is located in the south direction of the plane. It is situated near the west side of balcony 1 It covers the major portion of the plane shape is reactangle and south phase of balcony 2 and living room to south direction enters kitchen It is located in the west direction of plane it is a second big size room in the plane it is also in rectangle shape",
+  "total_square_footage": 0,
+  "id": "3305",
+  "source_annotation": "data/raw/annotations/3305.txt",
+  "source_image": "data/raw/images/3305.png"
+}

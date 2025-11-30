@@ -1,0 +1,47 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "common room",
+        "kitchen",
+        "kitchen",
+        "common room"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "middle",
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "south"
+      ]
+    }
+  ],
+  "total_rooms": 3,
+  "raw_text": "The bathroom is attached to the living room and near to 10*8 The common room is located on the north side and and near to kitchen, size is 14*12 The kitchen is located on the west side and near to common room.10*10 The living room is located on the middle and east facing. near to all other rooms. size is 22*36 The master room is located on the south side and near to bathroom. size is 10*16",
+  "total_square_footage": 0,
+  "id": "50789",
+  "source_annotation": "data/raw/annotations/50789.txt",
+  "source_image": "data/raw/images/50789.png"
+}

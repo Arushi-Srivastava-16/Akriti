@@ -1,0 +1,78 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "northwest"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "master room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "kitchen",
+        "balcony"
+      ],
+      "directions": [
+        "west",
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "The balcony is on the northwest corner of the apartment next to the kitchen. It is approximately 3\u00e2\u0080\u0098 x 3\u00e2\u0080\u0098 The bathroom is in the center of the apartment next to the living room. It is approximately 10\u00e2\u0080\u0098 x 5\u00e2\u0080\u0098 The first common room is on the south side of the apartment between the living room and the master room. It is approximately 12\u00e2\u0080\u0098 x 10\u00e2\u0080\u0098 The second common room is on the west side of the apartment next to the bathroom and it is approximately 10\u00e2\u0080\u0098 x 10\u00e2\u0080\u0098 The kitchen is on the north side of the apartment next to the balcony. It is approximately 10\u00e2\u0080\u0098 x 10\u00e2\u0080\u0098 The living room is on the east side of the apartment next to the first common room. It is approximately 40\u00e2\u0080\u0098 x 20\u00e2\u0080\u0098 The master room is on the west side of the apartment next to the common rooms. It is approximately 10\u00e2\u0080\u0098 x 12\u00e2\u0080\u0098",
+  "total_square_footage": 0,
+  "id": "25895",
+  "source_annotation": "data/raw/annotations/25895.txt",
+  "source_image": "data/raw/images/25895.png"
+}

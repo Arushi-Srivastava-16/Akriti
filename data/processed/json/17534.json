@@ -1,0 +1,124 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northeast"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northeast"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "balcony",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "common room",
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southeast"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 12,
+  "raw_text": "The Balcony is in the northeast in the map. It is surrounded by kitchen on the left; and bathroom on the bottom. It is estimated to be 4 ft x 6 ft. The Bathroom is in the northeast in the map. It is surrounded by living room on the left; kitchen on the left and top; balcony on the top; and common room on the right and botom. It is estimated to be 5 ft x 10 ft. The Common Room is in the east in the map. It is surrounded by living room on the left; and master room on the left and bottom; bathroom on the left and top. It is estimated to be 12 ft x 12 ft. The Kitchen is in the north in the map. It is surrounded by living room on the left and bottom; balcony on the right; and bathroom on the right and bottom. It is estimated to be 10 ft x 10 ft. The Living Room is in the east in the map. It is surrounded by kitchen on the top; and bathroom, common room and master room on the right. It is estimated to be 20 ft x 25 ft. The Master Room is in the southeast in the map. It is surrounded by living room on the left and top; and common room on the top. It is estimated to be 10 ft x 15 ft.",
+  "total_square_footage": 0,
+  "id": "17534",
+  "source_annotation": "data/raw/annotations/17534.txt",
+  "source_image": "data/raw/images/17534.png"
+}

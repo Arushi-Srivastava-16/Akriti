@@ -1,0 +1,35 @@
+{
+  "rooms": [
+    {
+      "room": "master room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "common room",
+        "living room",
+        "kitchen",
+        "living room",
+        "living room",
+        "master room"
+      ],
+      "directions": [
+        "east",
+        "north",
+        "north",
+        "east",
+        "south",
+        "north",
+        "south",
+        "south",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 1,
+  "raw_text": "bathroom1 at  east direction upside of master room size 8*4 feet bathroom2 at north direction downside of  kitchen size 8*4 feet common room 1 at north east corner right side of bathroom2 size 15*10 feet common room2 at south direction right side of living room size 15*10 feet kitchen at north direction upside of living room and bathroom2 size 10*10 feet living room at south direction left side of bathroom2 and common room2 size 30*15 room master room at south east direction right side of common room2  size 15*12 feet",
+  "total_square_footage": 0,
+  "id": "34601",
+  "source_annotation": "data/raw/annotations/34601.txt",
+  "source_image": "data/raw/images/34601.png"
+}

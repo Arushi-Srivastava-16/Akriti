@@ -1,0 +1,80 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "balcony"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "Balcony is located at south east corner.  North and South side lenght is 4 feet. East and west side lenght is 12 feet. Bathroom is located at left side of common room 2 and above kitchen. North and South side lenght is 11 feet. East and west side lenght is 5 feet. Common room 1 is located in between bathroom and common room 2. North and South side lenght is 11 feet. East and west side lenght is 10 feet. Common room 2 is located above master bedroom and right side of common room 1. North,east, west and South side lenght is 15 feet. Kitchen is located below bathroom and left side of living room.  North and South side lenght is 6 feet. East and west side lenght is 8 feet. Living Room is located at south west corner.  North, east, west and South side lenght is 16 feet. Master room is located in between living Room and balcony.  North and South side lenght is 15 feet. East and west side lenght is 12 feet.",
+  "total_square_footage": 0,
+  "id": "33475",
+  "source_annotation": "data/raw/annotations/33475.txt",
+  "source_image": "data/raw/images/33475.png"
+}

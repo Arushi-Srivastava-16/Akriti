@@ -1,0 +1,97 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "southeast"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center",
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northeast"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center",
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 9,
+  "raw_text": "The balcony is the southeast corner below the master room. It is approximately 3x12. The bathroom is the center of the east wall. It is approximately 4x5 and between the master room and common room 1. Common room 1 is in the northeast corner. it is approximately 10x12. Common room 2 is west of the kitchen and approximately 10x12. The kitchen is the center of the north wall. It is approximately 4x10. It is between common room 1 and 2. The living room is on the southwest side. The south wall is approximately 12 feet. It is in the shape of a cross with the north side being about 10 feet. The east side is 6 feet. The west side is 4 feet. The master room is to the east of the living room. It is against the east wall. It is approximately 10x12.",
+  "total_square_footage": 0,
+  "id": "54181",
+  "source_annotation": "data/raw/annotations/54181.txt",
+  "source_image": "data/raw/images/54181.png"
+}

@@ -1,0 +1,112 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "common room"
+      ],
+      "directions": [
+        "east",
+        "south",
+        "north"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "north",
+        "west",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "common room"
+      ],
+      "directions": [
+        "northwest",
+        "west",
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "common room"
+      ],
+      "directions": [
+        "east",
+        "south",
+        "north"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "northwest",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center",
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "living room"
+      ],
+      "directions": [
+        "southeast",
+        "north",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "balcony resides in lower edge of the plan, adjoined by living room to the north and roughly 4x12 ft in dimension. bathroom 1 lies in the east edge of the plan, adjoined by master room to the south and common room 2 to the north, approximately 5x5 ft in dimension. bathroom 2 lies in the north part of the floor plan, adjoined by kitche to the west and common room 1 to the east, roughly 5x5 ft in dimension. common room 1 lies in the northwest corner of the plan, adjoined by bathroom 2 to the west and common room 1 to the south, approximately 15x10 ft in dimension. common room 2 lies in the east edge of the plan, adjoined by bathroom to the south and common room 1 to the north, approximately 10x10 ft in dimension. kitchen resides in the northwest corner, adjoined by bathroom 2 to the east, approximately, 15x10 feet in dimension. living room dominates the center-west portion of the floor plan and serves as a hub to access the other rooms, roughly 30x20 ft in dimension. master room resides in the southeast portion of the floor plan, adjoined by bathroom 2 to the north and living room to the west, approximately 15x15 ft in dimension.",
+  "total_square_footage": 0,
+  "id": "57572",
+  "source_annotation": "data/raw/annotations/57572.txt",
+  "source_image": "data/raw/images/57572.png"
+}

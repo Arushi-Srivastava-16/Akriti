@@ -1,0 +1,27 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "master room",
+        "living room",
+        "living room",
+        "kitchen",
+        "living room",
+        "master room"
+      ],
+      "directions": [
+        "center"
+      ]
+    }
+  ],
+  "total_rooms": 1,
+  "raw_text": "The balcony was locate in the left corner of the living room and it's size is 8*4 The bathroom1 was locate in the common room1 and it's size is 4*3 The bathroom2 was locate in the master room and it's size is 4*3 The common room1 was locate in the right side of the living room and it's size is 8*8 The common room2 was locate in the left side of the living room and it's size is 10*6 The kitchen was locate in the right side of the entrance and it's size is 10*6 The living room was locate in the center of the home and it's size is 25*15 The master room was locate in the left of the entrance and it's size is 15*10",
+  "total_square_footage": 0,
+  "id": "51845",
+  "source_annotation": "data/raw/annotations/51845.txt",
+  "source_image": "data/raw/images/51845.png"
+}

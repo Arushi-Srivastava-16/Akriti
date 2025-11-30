@@ -1,0 +1,200 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east",
+        "north"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west",
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west",
+        "north"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east",
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east",
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "middle"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 23,
+  "raw_text": "The balcony 1  is located on the east north  corner of the plan. It is next to the kitchen and common room2 .The balcony's 1  length is 7 feet and th with is 5 feet. The area is 35 feet . The aspect ratio is 5:7. The balcony 2 is located on the west south corner of the plan. It is next to the living room and master room .The balcony 's 2 length is 6 feet and th with is 26 feet. The area is 156 feet . The aspect ratio is 13:3. The bathroom is on the west north corner.It is located next to the kitchen and living room. The bathroom's length is 10 feet and the width is 8 feet. The area is 80 feet and the aspect ratio is 4:5. Common room 1 is located on the east south side of the plan. It is next to the living room and common room2 .The common room's 1 length is 18 feet and th with is 14 feet. The area is 252 feet . The aspect ratio is 7:9. Common room 2 is located on the east north side of the plan. It is next to the living room and common room1 .The common room's 2 length is 20 feet and th with is 14 feet. The area is 280 feet . The aspect ratio is 7:10. The kitchen is on the middle between balcony1 and bathroom . It is located on the north and is also next to the living room.The kitchen's length is 10 feet and the width is 8 feet. The area is 80 feet. The aspect ration is 4:5. The living room is on the west side of the plan. It is adjacent to all rooms.The living room's length is 34 feet and the width is 16 feet. The area is 544 feet. The aspect ratio is 8:17. The master room is located on the west side of the plan. It is next to the living room and balcony2.The master room's length is 18 feet and the width is 8 feet. The area is 144 feet and the aspect ratio is 4:9.",
+  "total_square_footage": 0,
+  "id": "39274",
+  "source_annotation": "data/raw/annotations/39274.txt",
+  "source_image": "data/raw/images/39274.png"
+}

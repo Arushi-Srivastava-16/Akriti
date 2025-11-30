@@ -1,0 +1,113 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "northwest",
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "southeast",
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom"
+      ],
+      "directions": [
+        "east",
+        "north",
+        "center"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": [
+        "northwest",
+        "north",
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "balcony"
+      ],
+      "directions": [
+        "northeast",
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "east",
+        "south",
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southeast",
+        "south"
+      ]
+    }
+  ],
+  "total_rooms": 9,
+  "raw_text": "Balcony 1 is the northwest corner, north of the community room and west of the kitchen. It is about 2 feet wide by 5 feet long. Balcony 2 is in the southeast corner, south of the living room. It is about 15 feet long and 5 feet wide. The bathroom is on the east side just north of the center, between the master bedroom and the community room. It is about 10 foot square. The community room is in the northwest corner, north of the bathroom and south of balcony 1. It is about 10 feet wide by 13 feet long. The kitchen is on the northeast side, north of the living room east of balcony 1. It is about 9 feet wide by 10 feet long. The living room is about 15 feet wide and about 40 feet long. It is on the east side of the floor plan, with balcony 2 to the south, the kitchen to the north, and all of the other rooms to the west. The master bedroom is about 13 feet wide and about 16 feet long. It is in the southeast corner, to the south of the bathroom.",
+  "total_square_footage": 0,
+  "id": "58802",
+  "source_annotation": "data/raw/annotations/58802.txt",
+  "source_image": "data/raw/images/58802.png"
+}

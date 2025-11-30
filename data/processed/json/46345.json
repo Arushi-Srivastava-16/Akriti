@@ -1,0 +1,103 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom",
+        "living room"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "common room"
+      ],
+      "directions": [
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 11,
+  "raw_text": "The balcony is 75 sq ft in area with an aspect ratio of 3:1. The balcony is located directly off of the master at the southernmost point of the home. The bathroom is located on the west side of the home, directly adjacent to the master bedroom, living room and common area 1. The aspect ratio is 2:3 and the room area is 175 sq ft. The area of the common room 1 is 100 sq ft with an aspect ratio of 1:1. This room is located in the northernmost corner of the home adjacent to the bathroom and the living room. Common room 2 is located in the southernmost corner of the home adjacent to the living room and master. The area of this room is 300 sq ft with an aspect ratio of 4:3. The kitchen is 50 sq ft with an aspect ratio of 2:1. This room is located at the northernmost point of the home, directly adjacent to the living room. The living room is shaped like an inverted \"T\" with a length of 30 ft and 15 ft at the greatest height. The aspect ratio of this area is 2:1 and the room area is 475 sq ft. The living room is located in the north central section of the home. The master is 225 sq ft in area with an aspect ratio of 3:1. This room is located on the west side of the home adjacent to the bathroom, living room and common room 2.",
+  "total_square_footage": 0,
+  "id": "46345",
+  "source_annotation": "data/raw/annotations/46345.txt",
+  "source_image": "data/raw/images/46345.png"
+}

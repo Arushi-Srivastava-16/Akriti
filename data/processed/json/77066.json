@@ -1,0 +1,118 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "hallway",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "hallway",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "common room",
+        "kitchen"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "hallway",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 13,
+  "raw_text": "Balcony is 10 x 5 ft and directly across from the entrance. It is also accessible from the living room, so guests may use it at all times. Bathroom is 15 x 5 ft and to the immediate west of the house entrance. This is welcoming as those in the living room or have just entered may use it. However, it is very far from the master room. Common room is 10 x 6 ft and is between the master room and kitchen. It is not too far from the end of the hallway. Kitchen is 10 x 5 ft. It is more accesible to those in the living room and common room. It is also almost directly across from the house entrance. Living room is 30 x 40 ft. It is one of the biggest spaces of most floor plans and has a nice hallway leading directly north to the master room, common room, and kitchen. Master room is 15 x 10 ft and the most north of the floor plan. It is at the end of the hallway, but the very far from the bathroom.",
+  "total_square_footage": 0,
+  "id": "77066",
+  "source_annotation": "data/raw/annotations/77066.txt",
+  "source_image": "data/raw/images/77066.png"
+}

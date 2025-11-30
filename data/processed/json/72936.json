@@ -1,0 +1,125 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master bedroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master bedroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 13,
+  "raw_text": "The balcony is found at the bottom left hand side of the image and is south facing. It is attached to the master bedroom and measures about 15 ft squared in area. the bathroom is shown to be at the center top of the floorplan. it is located in-between the kitchen and the common room 1 and is north facing. Its area is approximately 25 ft squared. This room is located at the top right hand corner of the image and is north facing. It is next to the bathroom and adjacent to the living room. It is estimated to have an area of roughly 400 ft squared. This room is located at the bottom right hand side of the floorplan. It is found next to the master bedroom and is south facing. It is about 300 ft squared in area. The kitchen is located at the top left hand corner of the floor plan. It is north facing and is next to the bathroom and the living room. It is about 150 ft squared in area. The living room is located in the center of the floorplan. It is between the master bedroom and the kitchen. It is about 750 ft^2 in area. the master bedroom is located at the bottom left corner of the floorplan. It is south facing with a balcony. It is adjacent to the common room 2 and the living room. It is approximately 225 ft squared in area",
+  "total_square_footage": 0,
+  "id": "72936",
+  "source_annotation": "data/raw/annotations/72936.txt",
+  "source_image": "data/raw/images/72936.png"
+}

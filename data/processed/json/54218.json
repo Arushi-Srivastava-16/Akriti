@@ -1,0 +1,74 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "common room"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northwest"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": [
+        "southeast"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "The balcony is situated at yhe south side of the floor plan in front of the livingroom. It has about 15 feet in lenght and 2 feet in width The bathroom is loacted at the east side of the floor plan sandwiched between the livingroom, master room a d the common room. Its has 5 feet in width and 8 feetin length The common room 1 is located at the north east side of the floor plan which is enclose by the livingroom and the bathroom. Is area size is about 150 sqrt feet The common room 2 is found at the southwest siade of the floor plan next to the livingroom and the balcony. Its size is about 9 feet in width and 15 feet in lenght The kitchen is found at the northwest side of the floor plan by the left side of the livingroom. It size is about 13 feet in lenght and 7 feet in width The livingroom is centrally located in between the other rooms. It is 30 feet in lenght and 20 feet in width The master room can be found at the southeast side of the floor plan by the right side of the balcony. It size is about 160 sqrt feet",
+  "total_square_footage": 0,
+  "id": "54218",
+  "source_annotation": "data/raw/annotations/54218.txt",
+  "source_image": "data/raw/images/54218.png"
+}

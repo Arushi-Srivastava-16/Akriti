@@ -1,0 +1,123 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "kitchen"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom",
+        "bathroom"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom",
+        "common room",
+        "bathroom",
+        "common room",
+        "kitchen"
+      ],
+      "directions": [
+        "west",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master bedroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "east",
+        "south"
+      ]
+    }
+  ],
+  "total_rooms": 10,
+  "raw_text": "The bathroom is located south and is right next to the front door. The bathroom is 80 feet and is connected to common room 2 to the west. Common room 1 is located north east of the floor plan and is connected to both the living room and kitchen. It is approximately 175 square feet. Common room 2 is approximately 110 square feet and is south of the master bedroom and west of the bathroom. The kitchen is located south east of the floor plan and is 30 square feet approximately. It is connected by common room 1 to the north and the living room to the east. The living room is centrally located and is connected to all rooms of the house with the master bedroom, common room 2, bathroom to the west and common room 1 and kitchen to the east. The living room is approximately 330 square feet. The master bedroom is approximately 200 square feet and is located north west of the floor plan. It is connected to the living room to the east and common room 2 to the south.",
+  "total_square_footage": 0,
+  "id": "78216",
+  "source_annotation": "data/raw/annotations/78216.txt",
+  "source_image": "data/raw/images/78216.png"
+}

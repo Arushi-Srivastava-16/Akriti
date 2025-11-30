@@ -1,0 +1,64 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "balcony is down north corner of the image.The absolute location of a room in the floor plan.4 feet width and 14 feet length.The length and width of a room in the floor plan. bathroom is next room of the master room.The relative location of a room with other rooms.4 feet width and 4 feet length.The length and width of a room in the floor plan. common room is upper south corner of the image.The absolute location of a room in the floor plan.10 feet width and 10 feet length.The length and width of a room in the floor plan. kitchen room is down south corner of the image.The absolute location of a room in the floor plan.5 feet width and 8 feet length.The length and width of a room in the floor plan. living room is next room of the kitchen room.The relative location of a room with other rooms.20 feet width and 15 feet length.The length and width of a room in the floor plan. master room is upper north of the image.The absolute location of a room in the floor plan.15 feet width and 8 feet length.The length and width of a room in the floor plan.",
+  "total_square_footage": 0,
+  "id": "19862",
+  "source_annotation": "data/raw/annotations/19862.txt",
+  "source_image": "data/raw/images/19862.png"
+}

@@ -1,0 +1,89 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "living room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "kitchen"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "master bedroom"
+      ],
+      "directions": [
+        "northeast"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "southeast"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "common room"
+      ],
+      "directions": [
+        "northwest"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "The balcony would be located west next to the master bedroom. It is 20 feet length and 5 feet width. The bathroom would be located south near kitchen and next to the living room. It is 7 feet length and 5 feet width. The common room 1 would be located west between common room 2 and the kitchen. It is 10 feet in length and 7 feet width. The common room 2 would be located northeast corner between common room 1 and master bedroom. It is 10 feet length and 10 feet width. The kitchen would be located southeast corner between bath and common room 1. It is 10 feet length and 7 feet width. The en suite living room would be located southwest corner and is 20 feet length and 15 feet width. The master bedroom would be located northwest between the balcony and common room 2. It is also 15 feet length and 15 feet width.",
+  "total_square_footage": 0,
+  "id": "69952",
+  "source_annotation": "data/raw/annotations/69952.txt",
+  "source_image": "data/raw/images/69952.png"
+}

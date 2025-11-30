@@ -1,0 +1,90 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "master bedroom"
+      ],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "kitchen",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master bedroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "common room",
+        "balcony"
+      ],
+      "directions": [
+        "south"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "Balcony 1 is located in the south of the house, is approximately 12ft x 10ft and is connected to the living room. Balcony 2 is located in the north of the house, is approximately 8ft x 8ft and is connected to the kitchen. The bathroom is located in center of the house, is approximately 5ft x 5ft and is connected to the common room and the master bedroom. The common room is located in north of the house, is approximately 12ft x 8ft and is connected to the living room and bath. The kitchen located in north of the house, is approximately 10ft x 10ft and is connected to the living room and bath. The living is centrally located upon the entrance, is approximately 250 sq ft, and is connected to master bedroom, balcony, bath, Kitchen and common room. The master bedroom is located in the south of the house, is approximately 15ft x 15ft and is connected to the living room, common room, balcony 2.",
+  "total_square_footage": 0,
+  "id": "70558",
+  "source_annotation": "data/raw/annotations/70558.txt",
+  "source_image": "data/raw/images/70558.png"
+}

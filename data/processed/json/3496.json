@@ -1,0 +1,36 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "bathroom",
+        "master room",
+        "common room",
+        "living room",
+        "common room",
+        "bathroom",
+        "kitchen",
+        "living room",
+        "living room",
+        "kitchen",
+        "common room",
+        "bathroom",
+        "bathroom"
+      ],
+      "directions": [
+        "south",
+        "west",
+        "south"
+      ]
+    }
+  ],
+  "total_rooms": 1,
+  "raw_text": "balcony is next to master room and it is south side bathroom is located front corner of common room2 and outside the master room common room is located in between living room and common room 2 and it is 9 feet common room2 is located right to the bathroom left to the common room1 and it is 10 feet in size kitchen located in west corner  which is next to living room and its about 7 feet living room is between kitchen and common room which is more spacious and there is a way to bathroom master is located south side and right to the bathroom and 10 feet and 12 meter in length",
+  "total_square_footage": 0,
+  "id": "3496",
+  "source_annotation": "data/raw/annotations/3496.txt",
+  "source_image": "data/raw/images/3496.png"
+}

@@ -1,0 +1,76 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "master room"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "middle"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west",
+        "middle"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "balcony is located in the South after the master room. The room size is 10x4. bathroom is located in the East between common room and master room. The room size is 10x3. common room is located in the East after kitchen. The room size is 10x6. kitchen is in the North middle attached to the living room. The room size is 10x4. living room is located in the West middle.The room size is 10x8. master room is located in the South East. The room size is 10x7.",
+  "total_square_footage": 0,
+  "id": "56986",
+  "source_annotation": "data/raw/annotations/56986.txt",
+  "source_image": "data/raw/images/56986.png"
+}

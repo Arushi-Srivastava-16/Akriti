@@ -1,0 +1,70 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "living room",
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "master room"
+      ],
+      "directions": [
+        "north",
+        "east",
+        "north"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "bathroom"
+      ],
+      "directions": [
+        "north",
+        "north"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 5,
+  "raw_text": "The bathroom is located centrally and is adjacent to the kitchen, living room, and the master room. It measures approximately 64 square feet. The common room is located on the north eastern corner, which is to the east of the living room and north of the master room. It measures approximately 120 square feet. The kitchen is located on the southern side, which is adjacent to the bathroom and the living room. It measures approximately 120 square feet. The living room is located on the north western corner, which is to the north of the kitchen and the bathroom. It measures approximately 396 square feet. The master room is located on the south eastern corner, which is to the east of the bathroom. It measures approximately 140 square feet.",
+  "total_square_footage": 0,
+  "id": "60132",
+  "source_annotation": "data/raw/annotations/60132.txt",
+  "source_image": "data/raw/images/60132.png"
+}

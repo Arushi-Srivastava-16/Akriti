@@ -1,0 +1,56 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 5,
+  "raw_text": "Balcony 1 location:South Side, Relationship:the location: Next to Living,  Area:50 sqrt feet   Sides: 10 feet width and 5 feet length.. Balcony 2 location:North side, Relationship:the location: Next to living,  Area:50 sqrt feet   Sides: 5 feet width and 10 feet length.. Bathroom 1 location:South Side, Relationship:the location: Next to com1 and master,  Area:50 sqrt feet   Sides: 5 feet width and 10 feet length.. Location:South Side, Relationship:the location: Next to  living and com2,  Area:50 sqrt feet   Sides: 5 feet width and 10 feet length.. Comon room 1 location:South side, Relationship:the location: between bath1 and bath2,  Area:100 sqrt feet   Sides: 10 feet width and 10 feet length.. Comon room 2 location:North side, Relationship:the location: Next to master and Living,  Area:100 sqrt feet   Sides: 10 feet width and 10 feet length Living room location: East side, Relationship:the location: Next to Bath2,com1,com2, Kitichen ,master and Balcony2,  Area:600 sqrt feet length. Master room location:West side , Relationship:the location: next bath and com2 ,  Area:200 sqrt feet   Sides: 20 feet width and 10 feet length..",
+  "total_square_footage": 0,
+  "id": "37752",
+  "source_annotation": "data/raw/annotations/37752.txt",
+  "source_image": "data/raw/images/37752.png"
+}

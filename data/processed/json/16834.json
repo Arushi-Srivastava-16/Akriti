@@ -1,0 +1,100 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "balcony",
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "balcony"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 10,
+  "raw_text": "balcony is the small place .it is south side corner near as common room and master room it is 15 feet length and 2 feet width. bathroom is near as kitchen room entrance from living room 3 feet length and 3 feet width . common room is entrance from living room near room as balcony and master room it is 10 feet length and 10 feet width ratio as 7 over 7. kitchen room is the important room .it is in north side corner .it is entrance from living room opposite room is bathroom .it is 5 feet length and 5 feet width. living room is entrance from west side .living room around all other rooms .it is the center of the room.It is 20 feet length and 20 feet width ratio as 9 over 9. master room is the west side corner it is entrance from living near room as common room and balcony 15 feet length and 15 feet width ratio as 8 over 8. storage room is in front of master room it is very small place .2 feet length and 2 feet width.",
+  "total_square_footage": 0,
+  "id": "16834",
+  "source_annotation": "data/raw/annotations/16834.txt",
+  "source_image": "data/raw/images/16834.png"
+}

@@ -1,0 +1,110 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "kitchen",
+        "master room",
+        "common room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 11,
+  "raw_text": "bathroom is the entrance from living room it is 10 feet length and 15 feet width ratio as 5 over 7.near room as common room 2. common room 1 is in front of common room 2  it is 10 feet length and 20 feet width ratio as 3 over 5.near room as storage room. common room 2 is the entrance from living room it is 10 feet length and 15 feet width ratio as 5 over 6.near room as bathroom and common room 1. kitchen is the entrance from living room it is 10 feet length and 15 feet width ratio as 5 over7.near room as master room. living room is south side entrance near room as bathroom kitchen,master room and common room 2  it is 15 feet length and 40 feet width ratio as 5 over 9. master room is the entrance from living room it is the east side corner room  it is 10 feet length and 20 feet width ratio as 5 over 7.master room near room as kitchen . storage room is in front room as bathroom  it is 10 feet length and 8 feet width ratio as 5 over 2.",
+  "total_square_footage": 0,
+  "id": "36929",
+  "source_annotation": "data/raw/annotations/36929.txt",
+  "source_image": "data/raw/images/36929.png"
+}

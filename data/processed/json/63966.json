@@ -1,0 +1,102 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "living room"
+      ],
+      "directions": [
+        "east",
+        "northeast"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "north",
+        "east",
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "common room"
+      ],
+      "directions": [
+        "northwest",
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "kitchen",
+        "common room"
+      ],
+      "directions": [
+        "west",
+        "northwest"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": [
+        "south",
+        "east",
+        "west",
+        "north",
+        "south",
+        "south"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "Balcony: is on the south side of the master room. Running the same length as the master room Bathroom: is on the east side approximately 10 feet from the northeast corner of the living room. It is 5 feet by 4 feet in size. North of the east entrance of the house Common room: is south of the kitchen on the west. Approximately 10 feet by 10 feet Kitchen: is in the northwest corner next to the living room and north of the common room. 10 feet long running north and 4 feet wide running west and east. Living room: approximately 30 feet long includes a bathroom on the west side wall, also includes the kitchen and a common room in the northwest corner. On the south side of the living room is the master room. Master room: is in the south end of the house, approximately 12 feet long on the east and west and approximately 10 feet wide on the north and south with the balcony on the south side of the room",
+  "total_square_footage": 0,
+  "id": "63966",
+  "source_annotation": "data/raw/annotations/63966.txt",
+  "source_image": "data/raw/images/63966.png"
+}

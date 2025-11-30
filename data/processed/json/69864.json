@@ -1,0 +1,78 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "master bedroom"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "bathroom"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master bedroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "bathroom"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "The balcony is on the south part of the apartment next to the master bedroom. It is approximately 15\u00e2\u0080\u0098 x 8\u00e2\u0080\u0098 Bathroom is on the east side of the apartment, in between the kitchen and the master bedroom. It is approximately 10\u00e2\u0080\u0098 x 7\u00e2\u0080\u0098 The common room is on the north east corner of the kitchen and the living room. It is approximately 12\u00e2\u0080\u0098 x 10\u00e2\u0080\u0098 The kitchen is on the east side of the apartment in between the common room and the bathroom. It is approximately 10\u00e2\u0080\u0098 x 4\u00e2\u0080\u0098 The living room is longer of the apartment, next to the common room and the kitchen. It is approximately 15\u00e2\u0080\u0098 x 20\u00e2\u0080\u0098 The master bedroom is on the southern part of the apartment, next to the balcony and the bathroom. It is approximately 15\u00e2\u0080\u0098 x 20\u00e2\u0080\u0098",
+  "total_square_footage": 0,
+  "id": "69864",
+  "source_annotation": "data/raw/annotations/69864.txt",
+  "source_image": "data/raw/images/69864.png"
+}

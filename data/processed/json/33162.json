@@ -1,0 +1,29 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room",
+        "living room",
+        "master room"
+      ],
+      "directions": [
+        "northeast",
+        "west",
+        "southwest",
+        "southeast",
+        "north",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 1,
+  "raw_text": "The bathroom is located in the northeast corner  side, It is next to  living , The size of the room is 5  feet width  and  8  feet length The common room is located in the west side, It is next to  living , The size of the room is 8 feet width  and  8 feet length The kitchenis located in the southwest corner, It is next to living room , The size of the room is 7 feet width  and 11  feet length The living room is located in the southeast corner, It is in front of all other rooms, The size of the room is 10 feet  width  and 17  feet length The master room is located in the north east corner , It is next to living  , The size of the room is 12 feet width  and 12  feet length",
+  "total_square_footage": 0,
+  "id": "33162",
+  "source_annotation": "data/raw/annotations/33162.txt",
+  "source_image": "data/raw/images/33162.png"
+}

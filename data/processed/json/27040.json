@@ -1,0 +1,66 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "common room",
+        "master room"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "common room",
+        "common room",
+        "living room",
+        "master room",
+        "common room",
+        "kitchen",
+        "bathroom"
+      ],
+      "directions": [
+        "north",
+        "east",
+        "north",
+        "east",
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 4,
+  "raw_text": "The balcony is in the south position and its 10 feet length The bathroom 1 is placed in between common room 2 and master room in the east side. The bathroom 2 is placed in between kitchen and common room 2 in the north side The common room 1 is located between the east side of the living room and left side master room The common room 2 is located between the north-east corner of the floor plan The kitchen is in the north-west side and left to the bathroom 2. The living room is in the west side. The master room is located in he south-east corner in the floor plan.",
+  "total_square_footage": 0,
+  "id": "27040",
+  "source_annotation": "data/raw/annotations/27040.txt",
+  "source_image": "data/raw/images/27040.png"
+}

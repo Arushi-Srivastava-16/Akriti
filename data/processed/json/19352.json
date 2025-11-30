@@ -1,0 +1,108 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northwest"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 11,
+  "raw_text": "Balcony 1 is in front room as bathroom.it is 2 feet length and 2 feet width aspect ratio as 1 over 1. Balcony 2 is entrance from living room .it is 15 feet length and 2 feet width aspect ratio as 4 over 1. Bathroom  is entrance from living room .it is 3 feet length and 5 feet width aspect ratio as 1 over 2.kitchen and master room between the room as bathroom. Common room  is entrance from living room .it is 12 feet length and 12 feet width aspect ratio as 4 over  4.  It is northeast corner room.common room is a square shape room. kitchen is entrance from living room .it is 15 feet length and 2 feet width aspect ratio as 5 over 1.Kitchen is northwest side corner room . living room is entrance from north side.it  is 15 feet length and 30 feet width aspect ratio as  5 over 8.living room around all other rooms it is a center room. Master room is entrance from living room .it is 10 feet length and 15 feet width aspect ratio as 4 over  5 .It is southwest corner room.",
+  "total_square_footage": 0,
+  "id": "19352",
+  "source_annotation": "data/raw/annotations/19352.txt",
+  "source_image": "data/raw/images/19352.png"
+}

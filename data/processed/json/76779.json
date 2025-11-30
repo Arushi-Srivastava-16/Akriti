@@ -1,0 +1,80 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "dining room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "dining room",
+        "bathroom"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east",
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "The balcony should be at the south east corner and next to the living room. The size is 10 feet length and 3.5 feet width. The bathroom should be at the west and next to master room. The size is 10 feet length and 6 feet width. The dining room should be at the north west corner and next to the kitchen. The size is 12 feet width and 10 feet length. The kitchen should be at the west side and in-between dining room and bathroom. The size is 10 feet length and 5 feet width. It should cover the east and north east side, it should be next to the balcony. The size is 10 feet width and 40 feet length The master room should be at south west corner and next to the bathroom. The size is 10 feet width and 12 feet length.",
+  "total_square_footage": 0,
+  "id": "76779",
+  "source_annotation": "data/raw/annotations/76779.txt",
+  "source_image": "data/raw/images/76779.png"
+}

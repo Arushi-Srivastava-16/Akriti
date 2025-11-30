@@ -1,0 +1,75 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "northwest",
+        "north"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "balcony"
+      ],
+      "directions": [
+        "northeast",
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "balcony"
+      ],
+      "directions": [
+        "east",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southwest"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "Located centrally on the eastern wall, the balcony is easily accessed off the living room. Positioned on the western wall between the common room and master bed is the bathroom. The northwest corner is occupied by the common room which is just off the living area and north of the bathroom. In the northeast corner is the kitchen which is just off the living room and north of the balcony. Central to the suite, the living room is adjacent to the kitchen and balcony on the east and master, bath and common to the west. Located in the southwest corner, the master is located off the living room and adjacent to the bath.",
+  "total_square_footage": 0,
+  "id": "35308",
+  "source_annotation": "data/raw/annotations/35308.txt",
+  "source_image": "data/raw/images/35308.png"
+}

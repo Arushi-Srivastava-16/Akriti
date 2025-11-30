@@ -1,0 +1,37 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "living room",
+        "common room",
+        "master room",
+        "kitchen",
+        "bathroom",
+        "living room",
+        "common room",
+        "master room",
+        "master room",
+        "common room"
+      ],
+      "directions": [
+        "north",
+        "west",
+        "north",
+        "west",
+        "south",
+        "center",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 1,
+  "raw_text": "Balcony is in front  at north side Bathroom is in west side of floor behind the living room Common room is in north west corner of floor near master room Kitchen is in south side of floor behind the bathroom Living room is in center of floor and behind the common room, master room Master room is in east side of floor near the common room",
+  "total_square_footage": 0,
+  "id": "46465",
+  "source_annotation": "data/raw/annotations/46465.txt",
+  "source_image": "data/raw/images/46465.png"
+}

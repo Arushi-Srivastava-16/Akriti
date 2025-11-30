@@ -1,0 +1,97 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "bathroom"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "master bedroom"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "north",
+        "west",
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "center"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "The balcony, which measures up to 10 X 4 feet, is located on the south west side, behind the common room. The bath room, which measures up to 6 X 7 feet, is located behind the kitchen and attached to the living room, and appears to be a common bathroom on the north east side. The common room, which measures up to 10 X 11 feet, is located behind the bathroom, attached to the master bedroom, and on the north west side. The kitchen room, which measures up to 7 X 7 feet, is located near the entrance and adjacent to the living room on the north east side. The living room, which measures up to 11 X 16 feet, is the first room in the north west \u00c2\u00a0The entrance is near the kitchen in the north-east corner. The master bedroom, which measures up to 10 X 11 feet, is located behind the living room on the north west side. The master bedroom is located on the center side, behind the living room.",
+  "total_square_footage": 0,
+  "id": "35991",
+  "source_annotation": "data/raw/annotations/35991.txt",
+  "source_image": "data/raw/images/35991.png"
+}

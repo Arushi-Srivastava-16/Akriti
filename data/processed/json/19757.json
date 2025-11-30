@@ -1,0 +1,73 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "north",
+        "west",
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "common room"
+      ],
+      "directions": [
+        "north",
+        "south"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 5,
+  "raw_text": "bathroom is located at north west side and next to master room towards south west side.  It has the size of 8 feet length and 7 feet width. Common room  is located at south east corner and next to kitchen. It has the size of 10 feet length and 8 feet width. kitchen is located north west side corner and adjacent to the living room.\n It has the size of 9 feet length and 6 feet width. living room is occupied the remaining main area that extends from north to south side but next to kitchen and common room. It has the size of 30 feet length and 20 feet width aproximately. master room is located at north west corner and adjacent to living room.  It has the square size of  13 feet side.",
+  "total_square_footage": 0,
+  "id": "19757",
+  "source_annotation": "data/raw/annotations/19757.txt",
+  "source_image": "data/raw/images/19757.png"
+}

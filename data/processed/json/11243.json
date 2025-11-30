@@ -1,0 +1,78 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "bedroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "master bedroom"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "The balcony is along the south wall of the master bedroom. It is 6ft x 14ft. The bathroom is south of the kitchen and east of the living room, along the eastern wall. It is 8ft x 10ft. The common bedroom is south of the bathroom and east of the master bedroom. It is 12ft x 18ft. The kitchen is in the north east corner of the floor plan. It is 6ft x 12ft. The living room is in the north west corner of the floor plan. It is 18ft x 25ft. The master bedroom is south of the living room, along the western wall. It is 14ft ft 18ft.",
+  "total_square_footage": 0,
+  "id": "11243",
+  "source_annotation": "data/raw/annotations/11243.txt",
+  "source_image": "data/raw/images/11243.png"
+}

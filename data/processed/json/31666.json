@@ -1,0 +1,96 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "master room"
+      ],
+      "directions": [
+        "west",
+        "north"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 9,
+  "raw_text": "Location: The bathroom is to the east of the floor plan.\nRelationship: It to the south of the kitchen.\nSize: It is about105 square feet. Location: The common room is on the North west of the floor plan.\nRelationship: The common room is to the west of the living room just to the north of the master room.\nSize: It is about 14 feet by 12 feet. Location: The kitchen is on the North east of the floor plan.\nRelationship: It is to the north of the bathroom.\nSize: It is about 130 square feet. Location: The living room is on the Eastern central part of the floor plan.\nRelationship: It on the East of the common and master rooms.\nSize: It is about 560 square feet. Location: The master room is to the south-west part of the floor plan.\nRelationship: It is to the west of the living room.\nSize: It is about 14feet by 14feet.",
+  "total_square_footage": 0,
+  "id": "31666",
+  "source_annotation": "data/raw/annotations/31666.txt",
+  "source_image": "data/raw/images/31666.png"
+}

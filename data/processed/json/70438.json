@@ -1,0 +1,87 @@
+{
+  "rooms": [
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 9,
+  "raw_text": "balcany 1 placed in north west side of the building and infront of the common room.its size about 10 feet length. the balcony 2 placed in front left portion of the house and left side of the kitchen. this room was placed inside and right most corner of the living room.this is less than 5 feet size. the common room was placed in north west side and also left to the master room.the length about 10 feet. kitchen was placed right side of the entrance which is almost 10 feet length and width.also right to the balcony 2. the huge living room placed center of the house which is nearly 20 feet length.Also attached with bathroom in east corner. this is placed in north east side of the building 10 feet length and 20 feet width.it is placed next to the common room.",
+  "total_square_footage": 0,
+  "id": "70438",
+  "source_annotation": "data/raw/annotations/70438.txt",
+  "source_image": "data/raw/images/70438.png"
+}

@@ -1,0 +1,159 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center",
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west",
+        "center"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "bathroom"
+      ],
+      "directions": [
+        "west",
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "master room"
+      ],
+      "directions": [
+        "north",
+        "west",
+        "west",
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "bathroom"
+      ],
+      "directions": [
+        "west",
+        "south"
+      ]
+    }
+  ],
+  "total_rooms": 14,
+  "raw_text": "Balcony 1 is in the center west side of the house.it has kitchen in the north side and bathroom in east.it's dimensions are about 5 feet in length and 2 feet in breadth. Balcony 2 is in the center south side of the house.it has living room  top north side.it's dimensions are about 5 feet in length and 10 feet in breadth. The bathroom sits in the west center of the house.it has living room in east side.It's dimensions are 5 to 5 feet in length and breadth. The common room  is in the north east corner of house.it has living room in west .it's dimensions are 10 feet in length and 8 feet in breadth. The kitchen is in the north west corner of house.it has living room in the west balcony 1 and bathroom in south.it's dimensions are about 5 feet in length and 8 feet in breadth. The living room is in center of house.it has kitchen on top north west side and bathroom in west,master room in west corner side.it's dimensions are 25 feet in length and 16 feet in breadth in average. The master room is in the south west corner of house.it has living room in the west balcony 1 and bathroom in south.it's dimensions are about 15 feet in length and 10 feet in breadth.",
+  "total_square_footage": 0,
+  "id": "46950",
+  "source_annotation": "data/raw/annotations/46950.txt",
+  "source_image": "data/raw/images/46950.png"
+}

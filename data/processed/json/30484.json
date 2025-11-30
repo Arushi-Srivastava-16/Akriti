@@ -1,0 +1,113 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "middle",
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "northeast",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "master room"
+      ],
+      "directions": [
+        "northwest"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "bathroom"
+      ],
+      "directions": [
+        "northwest",
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": [
+        "east",
+        "south",
+        "north"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "balcony"
+      ],
+      "directions": [
+        "southeast",
+        "east",
+        "north",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 9,
+  "raw_text": "The balcony is to the south of the living room, in the middle of the south side. It is about 10 feet across and 5 feet deep. The bathroom is on the northside between the kitchen and the common room. It is about 9 feet deep and 6 feet across. The common room is about 14 feet deep and 9 feet across. It is in the northeast corner, with the bathroom to the west. It is across the living room from the balcony and the northwest corner of the master room. The kitchen is in the northwest corner, north of the living room and west of the bathroom. It is about 9 feet square. The living room begins in the southwest corner and takes up most of the floorplan. The master room is to its east, the balcony is to its south, and all the other rooms are to its north. It is about 21 feet wide and 20 feet deep. The master room is in the southeast corner, east of the living room and north east of the balcony. It is about 11 feet square.",
+  "total_square_footage": 0,
+  "id": "30484",
+  "source_annotation": "data/raw/annotations/30484.txt",
+  "source_image": "data/raw/images/30484.png"
+}

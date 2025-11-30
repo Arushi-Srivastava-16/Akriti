@@ -1,0 +1,73 @@
+{
+  "rooms": [
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "balcony1 Room Located on South west corner with living Room on above , Total size of 12 Feet length and 2 Feet Width. Balcony2 Room Located on North east corner with Kitchen Room on below , Total size of 12 Feet length and 2 Feet Width. bath Room Located on exact west center with common1 Room on above , Total size of 5 Feet length and 5 Feet Width. Common Room Located on north west corner with Kitchen Room on right , Total size of 10 Feet length and 10 Feet Width. kitchen Room Located on north east with balcony2 Room on above , Total size of 10 Feet length and 10 Feet Width. Living Room Located on Covered almost west area with bath Room on above , Total size of 20 Feet length and 15 Feet Width. Master Room Located on South east corner with living Room on left , Total size of 12 Feet length and 10 Feet Width.",
+  "total_square_footage": 0,
+  "id": "73508",
+  "source_annotation": "data/raw/annotations/73508.txt",
+  "source_image": "data/raw/images/73508.png"
+}

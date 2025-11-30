@@ -1,0 +1,95 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "kitchen"
+      ],
+      "directions": [
+        "center",
+        "south",
+        "south",
+        "west",
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": [
+        "west",
+        "north",
+        "east",
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "The balcony is located on south side of the plan, with com2 on right side, the length of the room 23 feet and 5 feet width. The bathroom is located on center of the plan with slightly moved towards to south, with surrounded by balcony on south and kitchen on west and living on north and east, the exact size of the room is 10 feet width and 10 feet lenght. Common room 1 is located on east side, with living room on left side and com2 on below, master on above, with 14 feet length and 8 feet width. Common room 2 is located on south east corner, with living room on left side and com1 on above, with 14 feet length and 8 feet width. The kitchen is located on west corner of the plan with living surrounded on north side and bath on east side, balcony on south side, with 10 feet length and 10 feet width. The living room is located on north west corner of the plan, with kitchen on below and bath, with master on right, and com1, with 20 feet length and 14 feet width. The master room is located on north east corner of the plan, with com1 on below and living on left side, with 18 feet length and 10 feet width.",
+  "total_square_footage": 0,
+  "id": "65392",
+  "source_annotation": "data/raw/annotations/65392.txt",
+  "source_image": "data/raw/images/65392.png"
+}

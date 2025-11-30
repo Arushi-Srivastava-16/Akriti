@@ -1,0 +1,80 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "bathroom",
+        "kitchen"
+      ],
+      "directions": [
+        "middle",
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "balcony is situated at north west corner and adjacent to master room. It has the size of 12 feet length and 5 feet width. bath room is located at north west side of the plan but next to master room 1. It has the size of 10 feet length and 5 feet width. common room is located at south east corner and next to living room. It has the size of 12 feet length and 12 feet widt Kitchen is located at north east side and next to bath room. \nIt has the size of 15 feet length and 5 feet width. living room is located at middle of east side and next to master room and adjacent to bathroom and kitchen . It has the area of  450 sqrt feet. master room is located at north west side and next to balcony. It has the size of  12 feet width and 15 feet length.",
+  "total_square_footage": 0,
+  "id": "25438",
+  "source_annotation": "data/raw/annotations/25438.txt",
+  "source_image": "data/raw/images/25438.png"
+}

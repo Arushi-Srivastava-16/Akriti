@@ -1,0 +1,66 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "master bedroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "The balcony is located at the bottom of the corner room 2. The bathroom is located near the living room and the master bedroom. Common room 1 is located near the kitchen to the left. Common room 2 is located at the bottom near balcony number 2. The kitchen is located near the corner room 1 next to the left. The living room of the dwelling is the largest room in the house. The master room is located near the left bottom of the dwelling.",
+  "total_square_footage": 0,
+  "id": "78900",
+  "source_annotation": "data/raw/annotations/78900.txt",
+  "source_image": "data/raw/images/78900.png"
+}

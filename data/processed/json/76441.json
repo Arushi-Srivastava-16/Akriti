@@ -1,0 +1,69 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "master bedroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bedroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bedroom"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "the balcony lies along the southern wall of the living room. it measures 5ft x 16ft. the bathroom lies along the eastern wall of the floor plan, between the kitchen and master bedroom. it measures 8ft x 8ft. the common bedroom lies in the north west corner of the floor plan. it measures 16ft x 17ft. the kitchen lies along the eastern wall of the floor plan, south of the common bedroom. it is 9ft x 10ft. the living room lies along the north wall of the floor plan. it has 11 corners. the southern portion measures 16ft x 18ft. the center portion measures 7ft x 25ft. the northern portion measures 10ft x 12ft. the master bedroom is in the south east corner of the floor plan. it measures 17ft x 17ft. the storage room is roughly 5ft x 5ft (with a 2ft x 2ft cutout in the back north west corner)",
+  "total_square_footage": 0,
+  "id": "76441",
+  "source_annotation": "data/raw/annotations/76441.txt",
+  "source_image": "data/raw/images/76441.png"
+}

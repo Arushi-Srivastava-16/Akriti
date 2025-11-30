@@ -1,0 +1,72 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "bathroom"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "bathroom",
+        "master room",
+        "balcony",
+        "balcony",
+        "bathroom"
+      ],
+      "directions": [
+        "west",
+        "southeast"
+      ]
+    }
+  ],
+  "total_rooms": 5,
+  "raw_text": "balcony:south side facing living next to master room 15 feet wide and 05 feet long. bath:east side between kitchen and master room in front of living 08 feet wide and 08 feet long. comm:north-east corner in front of kitchen next to living 15 feet wide and 12 feet long. kitchen:north-east side between common room and bathroom in front of living 13 feet wide and 05 feet long. living:west side facing common room, kitchen, bathroom, master room and balcony 15 feet wide and 30 feet long master:southeast corner next to living in balcony, facing bathroom 14 feet wide and 15 feet long",
+  "total_square_footage": 0,
+  "id": "8647",
+  "source_annotation": "data/raw/annotations/8647.txt",
+  "source_image": "data/raw/images/8647.png"
+}

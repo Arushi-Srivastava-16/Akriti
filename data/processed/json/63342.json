@@ -1,0 +1,87 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "living room",
+        "kitchen",
+        "bathroom"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "middle"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "balcony"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "master room"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "balcony 1 located in living room and it conected to the living room The approximate size is 4\"*6* balcony2 between kitchen and bathroom corner of the house .The approximate size is 4\"*9\" bathroom alocated by living room top right corner.and its conected with balcony2 and  cooman room.The approximate size4\"*6\" cooman room conected with master room and its located bathroom right sideThe approximate size is 10\"*24\" kitchen is located by top of noth side.and left side of the balcony 2.The appriximate size6\"*10\" Living room is located at middle of house.living room located between kitchen and balcony.The approximate size of living room is 12\"*24\" master room is located at south west corner of houseLiving rooom right side alocated master room.The approximate size of living room is 10\"*16\"",
+  "total_square_footage": 0,
+  "id": "63342",
+  "source_annotation": "data/raw/annotations/63342.txt",
+  "source_image": "data/raw/images/63342.png"
+}

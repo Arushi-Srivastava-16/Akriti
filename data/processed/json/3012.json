@@ -1,0 +1,107 @@
+{
+  "rooms": [
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "bathroom"
+      ],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "bathroom"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "balcony"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "bathroom",
+        "kitchen"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "balcony"
+      ],
+      "directions": [
+        "south"
+      ]
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "nalcony 1 is in south side of the house, next to master room, the size is 32 sqft. balcony 2 is in north east corner of the house, next to kitchen, the size is 32 sqft. bathroom is in west side of the house, next to common room 2 and living room, the size is 48 sqft. common room 1 is in south west corner of the house, next to master room and bathroom, the size is 140 sqft. common room 2 is in north west corner of the house, next to living room and bathroom, the size is 120 sqft. kitchen is in north east corner of the house, next to living room and balcony, the size is 64 sqft. living room is in north side of the house, next to common room 2, bathroom and kitchen room, the size is 220 sqft. master room is in south side of the house, next to common room 1 and balcony, the size is 120 sqft.",
+  "total_square_footage": 0,
+  "id": "3012",
+  "source_annotation": "data/raw/annotations/3012.txt",
+  "source_image": "data/raw/images/3012.png"
+}

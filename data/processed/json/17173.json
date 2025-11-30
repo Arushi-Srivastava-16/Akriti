@@ -1,0 +1,59 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "living room",
+        "bathroom",
+        "bathroom",
+        "living room",
+        "bathroom",
+        "bathroom",
+        "master room",
+        "common room",
+        "living room"
+      ],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "master room"
+      ],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "bathroom",
+        "living room",
+        "balcony",
+        "bathroom",
+        "master room",
+        "living room",
+        "bathroom",
+        "bathroom"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 3,
+  "raw_text": "the Balcony is located in the center in front of the living room, for me the dimensions are small but it is comfortable because it is located near the living room bathroom 1 seems larger to me than bathroom two is centrally located next to the living room bathroom 2 is very small, opposite of bathroom 1 facing the master room the common room has smaller dimensions than the living room. it is similar in size to the Master room The Common room is located to the right of the master room in the center of the house. Dimensions range around five feet the kitchen is the smallest area of \u00e2\u0080\u008b\u00e2\u0080\u008bthe house on the opposite side of all the other rooms near the living room, between the bathroom 1 The living room is located near the balcony, in front it has two bathrooms, both to the right of the bathroom and two other room he master room is located to the left of the living room and opposite bathroom 1 and bathroom 2, its size is limited to ten feet",
+  "total_square_footage": 0,
+  "id": "17173",
+  "source_annotation": "data/raw/annotations/17173.txt",
+  "source_image": "data/raw/images/17173.png"
+}

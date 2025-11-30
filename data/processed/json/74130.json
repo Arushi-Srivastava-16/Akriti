@@ -1,0 +1,92 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "kitchen"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "master room",
+        "common room"
+      ],
+      "directions": [
+        "east",
+        "south",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "The balcony is situated at the south east side of the floor plan beneath the livingroom. It has an area size of 48 sqrt feet The bathroom 1 is found at the west side of the floor plan sandwiched between the common room1 and the master room. Its area size is 88 sqrt feet The bathroom 2 is situated at the north side of the floor plan sandwiched between the common room 1 and the kitchen.  Its area size 50 sqrt feet The common room 1 is situated at the north west side of the floor plan by the left side of the bathroom 2. It has an area size of 80 sqrt feet The common room 2 is located at the south side of the floor plan sandwiched between the livingroom and master room. It has an area size of 70 sqrt feet The kitchen is found at the north part of the floor plan by the right side of bathroom 2. Its area size is 42 sqrt feet The livingroom is found at the east side of the floor plan which is between the balcony and the kitchen with its lenght as 20 feet and width as 18 feet The master room is located at the south west side of the floor plan by the left side of the common room 2. It has the lenght 11 feet and width is 8 feet",
+  "total_square_footage": 0,
+  "id": "74130",
+  "source_annotation": "data/raw/annotations/74130.txt",
+  "source_image": "data/raw/images/74130.png"
+}

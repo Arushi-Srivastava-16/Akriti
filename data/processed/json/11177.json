@@ -1,0 +1,54 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 5,
+  "raw_text": "The bathroom is located between kitchen and master room. Its size should be 7.5 x 5ft. The common room is located in left side of the plan, nearby the living room. Its size should be 10 x 10ft. The kitchen is located in right end corner of the plan, between the area of bath and living room. Its size should be 7.5 x 7.5ft. The living room is located nearby all the rooms. Its size should be 12.5 x 20ft. The master room is located in right corner of the plan, nearby the living room. Its size should be 10 x 10ft.",
+  "total_square_footage": 0,
+  "id": "11177",
+  "source_annotation": "data/raw/annotations/11177.txt",
+  "source_image": "data/raw/images/11177.png"
+}

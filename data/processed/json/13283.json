@@ -1,0 +1,62 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "master bedroom",
+        "balcony",
+        "living room",
+        "bathroom",
+        "living room",
+        "living room",
+        "kitchen"
+      ],
+      "directions": [
+        "east",
+        "north",
+        "south",
+        "southeast",
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master bedroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bedroom"
+      ],
+      "directions": [
+        "north"
+      ]
+    }
+  ],
+  "total_rooms": 4,
+  "raw_text": "the balcony is  located on the east side of the  kitchen and on the north side of the master bedroom this  balcony is  located on the south side of the living room bathroom is located in the eastern part of living room the commen room is well squared to the southeast of the living room the kitchen is rectangular in shape in the north east corner. the living room is located on the left side with a balcony and a bath room. the master bedroom is well sized on the east side.and the balcony is located on the north side of the bedroom",
+  "total_square_footage": 0,
+  "id": "13283",
+  "source_annotation": "data/raw/annotations/13283.txt",
+  "source_image": "data/raw/images/13283.png"
+}

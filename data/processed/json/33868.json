@@ -1,0 +1,33 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "bathroom",
+        "master room",
+        "common room",
+        "living room",
+        "bathroom",
+        "living room",
+        "master room",
+        "living room"
+      ],
+      "directions": [
+        "southeast",
+        "east",
+        "northeast",
+        "west",
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 1,
+  "raw_text": "The balcony is located on the southeast corner,it is next to living and master room,The size of the room is 2 feet width  and 10  feet length The bathroom is located on the east side,it is between common and master room,The size of the room is 6 feet width  and 10  feet length The common room is located on the northeast corner,it is next to living room and bathroom,The size of the room is 10 feet width  and 13  feet length The living room is located on the west side,it is in front of all rooms,The size of the room is 10 feet width  and 28  feet length The master room is located on the east side,it is next to living room and bath,The size of the room is 10 feet width  and 13 feet length",
+  "total_square_footage": 0,
+  "id": "33868",
+  "source_annotation": "data/raw/annotations/33868.txt",
+  "source_image": "data/raw/images/33868.png"
+}

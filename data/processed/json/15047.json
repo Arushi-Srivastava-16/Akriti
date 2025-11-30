@@ -1,0 +1,76 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master bedroom"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "master bedroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": [
+        "east"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "The bathroom is east of the living room and is 4 by 8 feet. Common room 1 is south of the living room and is 10 by 12 feet. Common room 2 is north of the living room and is 10 by 8 feet. The kitchen is north of the living room and is 4 by 8 feet. The living room is north of the master bedroom and is 15 by 12 feet roughly. The master bedroom is east of the first common room and is 10 by 18 feet.",
+  "total_square_footage": 0,
+  "id": "15047",
+  "source_annotation": "data/raw/annotations/15047.txt",
+  "source_image": "data/raw/images/15047.png"
+}

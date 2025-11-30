@@ -1,0 +1,159 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "master room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony"
+      ],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    }
+  ],
+  "total_rooms": 16,
+  "raw_text": "BALCONY 1 IS LOCATED ON NORTH EAST CORNER.BALCONY 1 IS LOCATED NEARBY MASTER ROOM.THE FLOOR AREA IS 60 SQUARE FEET. BALCONY 2 IS LOCATED ON SOUTH SIDE.BALCONY 2 IS LOCATED NEARBY KITCHEN.THE FLOOR AREA IS 32 SQUARE FEET. THE BATHROOM IS LOCATED ON SOUTH SIDE.THE BATHROOM IS LOCATED NEARBY COMMON ROOM 2.THE FLOOR AREA IS 36 SQUARE FEET. #REF! COMMON ROOM 1 IS LOCATED ON WEST SIDE.COMMON ROOM 1 IS LOCATED IN BETWEEN COMMON ROOM 2 AND MASTER ROOM.THE FLOOR AREA IS 100 SQUARE FEET. COMMON ROOM 2 IS LOCATED ON SOUTH WEST CORNER.COMMON ROOM 2 IS LOCATED NEARBY COMMON ROOM 1.THE FLOOR AREA IS 100 SQUARE FEET. THE KITCHEN IS LOCATED ON SOUTH EAST CORNER.THE KITCHEN IS LOCATED NEARBY BALCONY 2.THE FLOOR AREA IS 80 SQUARE FEET. THE LIVING ROOM IS LOCATED ON EAST SIDE.THE LIVING ROOM IS LOCATED NEARBY BALCONY 1.THE FLOOR AREA IS 500 SQUARE FEET. THE MASTER ROOM IS LOCATED ON NORTH WEST CORNER.THE MASTER ROOM IS LOCATED NEARBY COMMON ROOM 1.THE FLOOR AREA IS 250 SQUARE FEET.",
+  "total_square_footage": 0,
+  "id": "12488",
+  "source_annotation": "data/raw/annotations/12488.txt",
+  "source_image": "data/raw/images/12488.png"
+}

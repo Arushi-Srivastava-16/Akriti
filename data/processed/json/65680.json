@@ -1,0 +1,108 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master bedroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "south"
+      ]
+    }
+  ],
+  "total_rooms": 11,
+  "raw_text": "Balcony is the northern most room on the floor plan. To its south is the living room. It's roughly 12ft by 5ft. Bathroom is central along the western wall of the floor plan. To its east is the living room. It's roughly 8ft by 4ft. Common room is in the south east corner of the floor plan. To its west is the living room. It's roughly 10ft by 18ft. Kitchen is in the south west corner of the floor plan. To its north is bathroom. It's roughly 12ft by 12ft. The living room is central stretching from the northern wall of the floor plan to the southern wall. It's roughly 18ft by 25ft. Master bedroom is in the North West corner of the floor plan. To its south is the bathroom and kitchen. It's roughly 16ft by 16ft.",
+  "total_square_footage": 0,
+  "id": "65680",
+  "source_annotation": "data/raw/annotations/65680.txt",
+  "source_image": "data/raw/images/65680.png"
+}

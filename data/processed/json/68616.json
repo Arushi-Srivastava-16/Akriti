@@ -1,0 +1,76 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen",
+        "bathroom"
+      ],
+      "directions": [
+        "south",
+        "east",
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "common room"
+      ],
+      "directions": [
+        "south",
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "master room",
+        "kitchen"
+      ],
+      "directions": [
+        "north",
+        "west",
+        "north"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room",
+        "bathroom"
+      ],
+      "directions": [
+        "north",
+        "east",
+        "north"
+      ]
+    }
+  ],
+  "total_rooms": 5,
+  "raw_text": "The bathroom is located at the eastern side between the master room and the common room. It measures approximately 56 square feet. The common room is located at the south eastern corner, which is to the east of the kitchen and south of the bathroom. It measures approximately 143 square feet. The kitchen is located at the south western corner, which is to the south of the living room and west of the common room. It measures approximately 63 square feet. The living room is located at the north western corner, which is to the west of the master room and north of the kitchen. It measures approximately 410 square feet. The master room is located at the north eastern corner, which is to the east of the living room and north of the bathroom. It measures approximately 144 square feet.",
+  "total_square_footage": 0,
+  "id": "68616",
+  "source_annotation": "data/raw/annotations/68616.txt",
+  "source_image": "data/raw/images/68616.png"
+}

@@ -1,0 +1,80 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north",
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom"
+      ],
+      "directions": [
+        "north",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "north",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "The balcony is on the north south east side of the apartment next to the living room. It is 12' x 5'. The bathroom is on the north side of the apartment next to the living room. It is 10' x 5'. The common room is on the north east side of the apartment next to the bathroom. It is 12' x 15'. The kitchen is on the west side of the apartment next to the living room. It is 10' x 7'. The living room is on the south side of the apartment next to the kitchen. It is 30' x 20'. The master room is on the north west side of the apartment next to the kitchen. It is 12' x 12'.",
+  "total_square_footage": 0,
+  "id": "62672",
+  "source_annotation": "data/raw/annotations/62672.txt",
+  "source_image": "data/raw/images/62672.png"
+}

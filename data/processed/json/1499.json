@@ -1,0 +1,96 @@
+{
+  "rooms": [
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 10,
+  "raw_text": "The bath room 1 is located at south side of the house. It is placed  between the  common room 1 and the common room 2. Its size is approximately 7 x 10 feet. The bath room 2 is located at east side of the house. It is  placed between the kitchen and the common room 2. Its size is approximately 5x5 feet. The common room is located at south east corner of the house .It is placed after the bath room 2.Its size is approximately 10 x10 feet. The common room 2 is located at south west corner of the house. It is placed after the master room .Its size is approximately 14x 10 feet. The kitchen is located at east side of the house . It is placed near the bath room 2 . Its size is approximately 5 x5 feet. The living room is located at north side of the house. It is placed before to the master room . Its size is approximately 30 x18 feet. The master room is located at west side of the house. It is placed  before the common room 2 . Its size is approximately 19 x10 feet.",
+  "total_square_footage": 0,
+  "id": "1499",
+  "source_annotation": "data/raw/annotations/1499.txt",
+  "source_image": "data/raw/images/1499.png"
+}

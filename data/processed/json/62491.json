@@ -1,0 +1,96 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "living room",
+        "kitchen"
+      ],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room",
+        "balcony"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room"
+      ],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "northwest",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "living room",
+        "common room"
+      ],
+      "directions": [
+        "northwest"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "southeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "southeast"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "balcony",
+        "living room"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "northeast",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "bathroom",
+        "kitchen"
+      ],
+      "directions": [
+        "northeast"
+      ]
+    }
+  ],
+  "total_rooms": 7,
+  "raw_text": "The balcony is in the southwest portion, between the bathroom, living room and kitchen, and is approximately 40 square feet. The bathroom is in the west central portion, between the common room 2, living room, and balcony, and is approximately75 square feet. The common room 1 is in the north central portion, between the common room 2, and living room, and is approximately 150 square feet. The common room 2 is in the northwest corner, between the bathroom, living room, and common room 1, and is approximately 140 square feet. The common room 3 is in the southeast corner, adjacent to the living room, and is approximately 125 square feet. The kitchen is in the south central portion, between the balcony, and living room, and is approximately 150 square feet. The living room is in the northeast corner, between the bathroom, common area 2, common area 1, common area 3, and kitchen, and is approximately 300 square feet.",
+  "total_square_footage": 0,
+  "id": "62491",
+  "source_annotation": "data/raw/annotations/62491.txt",
+  "source_image": "data/raw/images/62491.png"
+}

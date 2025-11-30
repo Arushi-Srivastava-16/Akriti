@@ -1,0 +1,128 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "living room"
+      ],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "balcony",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    }
+  ],
+  "total_rooms": 13,
+  "raw_text": "Location: Balcony 1 is on the Southern east of the floor plan.\nRelationship: It is to the South of the Living room.\nSize: It is about 40 square feet. Location: Balcony 2 is on the North West of the floor plan.\nRelationship: It on the west of the kitchen.\nSize: It is about 3 feet by 2 feet. Location: The bathroom is on the west of the floor plan.\nRelationship: It is in between the master room and the common room just to the west of the living room.\nSize: it about 8feet by 7 feet. Location: The common room is on the west of the floor plan.\nRelationship: It is on the Northern side of the bathroom.\nSize: It is about 120 square feet. Location: The kitchen is on the Northern part of the floor plan.\nRelationship: It is on the west of the balcony 2.\nSize: It is about 8 feet by 10 feet. Location: The living room is to the East of the floor plan.\nRelationship: It is to the east of the Master and common rooms.\nSize: It is about 400square feet. Location: The master room is on the south west of the floor plan.\nRelationship: It is to the south of the bathroom.\nSize: It is about 225 square feet.",
+  "total_square_footage": 0,
+  "id": "62454",
+  "source_annotation": "data/raw/annotations/62454.txt",
+  "source_image": "data/raw/images/62454.png"
+}

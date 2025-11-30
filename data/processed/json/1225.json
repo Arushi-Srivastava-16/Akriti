@@ -1,0 +1,85 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room",
+        "master room"
+      ],
+      "directions": [
+        "middle"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "living room",
+      "position": "middle",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "middle"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "west",
+        "south",
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 8,
+  "raw_text": "The balcony which is at the north side of the house is too small compare to the total area of the house. The size is estimated to be 6ft x 3ft only. The bathroom which located exactly opposite to the entrance door might have a size of 8ft x 6ft. The bathroom is located to the middle of the common room and master room. The common room which is at the north west corner of the house may have a good ventilation since 2 windows can be provided. The cross ventilation will works fine for the common room. The size is estimated to be 20ft x 10ft. The living room is of uneven geometric shape, the length of the living room extends to the length of the house. The entrance door is located to the middle of the living room. The length is estimated to be 50 ft. The master room is which is at the south west corner can have two windows one at the south wall and other at the west side wall. The size of the room is estimated to be 20 ft. x 10 ft.",
+  "total_square_footage": 0,
+  "id": "1225",
+  "source_annotation": "data/raw/annotations/1225.txt",
+  "source_image": "data/raw/images/1225.png"
+}

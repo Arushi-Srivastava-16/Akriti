@@ -1,0 +1,109 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west",
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "east",
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "center",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "center"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "living room"
+      ],
+      "directions": [
+        "east",
+        "south"
+      ]
+    }
+  ],
+  "total_rooms": 10,
+  "raw_text": "The bathroom is in the north side. It is to the east of the doorway and west of the kitchen. It is also north of the living room. The sides are 8 ft by 10 ft. The common room is in the south east side. It is to the west of the master and to the south of the living room. The sides are 12 ft by 15 ft. The kitchen is in the north eat corner. It is to the east of the bathroom and north of the living room. The sides are 5 ft by 10 ft. The living room is in the center of the floor plan. It is between the bath and kitchen and the common room and master. The area of the room is the largest. Its width is 10 ft on the west side and 15 ft on the right. Its length is 30 ft. The master is in the south east corner. It is to the east of the common room and south of the living room. The sides are 15 ft by 15 ft.",
+  "total_square_footage": 0,
+  "id": "72290",
+  "source_annotation": "data/raw/annotations/72290.txt",
+  "source_image": "data/raw/images/72290.png"
+}

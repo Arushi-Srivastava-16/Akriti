@@ -1,0 +1,112 @@
+{
+  "rooms": [
+    {
+      "room": "bathroom",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "bathroom",
+      "position": "east",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [
+        "common room"
+      ],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "southwest",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "southwest"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "common room",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "common room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    },
+    {
+      "room": "master room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north",
+        "west"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": null,
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": []
+    }
+  ],
+  "total_rooms": 12,
+  "raw_text": "BATHROOM 1 IS LOCATED ON WEST SIDE.IT IS LOCATED IN BETWEEN MASTER AND COMMON ROOM 1.THE FLOOR AREA IS 20 SQUARE FEET. BATHROOM 2 IS LOCATED ON EAST SIDE.IT IS LOCATED IN BETWEEN KITCHEN AND COMMON ROOM 2.THE FLOOR AREA IS 24 SQUARE FEET. COMMON ROOM 1 IS LOCATED ON SOUTHWEST CORNER.IT IS LOCATED NEARBY BATHROOM 1.THE FLOOR AREA IS 120 SQUARE FEET. COMMON ROOM 2 IS LOCATED ON SOUTH EAST CORNER.IT IS LOCATED NEARBY BATH ROOM 2.THE FLOOR AREA IS 150 SQUARE FEET. THE KITCHEN I LOCATED ON NORTH EAT CORNER.IT IS LOCATED NEARBY BATH ROOM 2.THE FLOOR AREA IS 120 SQUARE FEET. THE LIVING ROOM IS LOCATED ON NORTH SIDE.IT IS LOCATED NEARBY COMMON ROOM 2.THE FLOOR AREA IS 500 SQUARE FEET. THE MASTER ROOM IS LOCATED ON NORTH  WEST CORNER.IT IS LOCATED NEARBY LIVING ROOM.THE FLOOR AREA IS 120 SQUARE FEET.",
+  "total_square_footage": 0,
+  "id": "28734",
+  "source_annotation": "data/raw/annotations/28734.txt",
+  "source_image": "data/raw/images/28734.png"
+}

@@ -1,0 +1,66 @@
+{
+  "rooms": [
+    {
+      "room": "balcony",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [
+        "kitchen"
+      ],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "balcony",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "bathroom",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "position": "south",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "south"
+      ]
+    },
+    {
+      "room": "living room",
+      "position": "north",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "north"
+      ]
+    },
+    {
+      "room": "master room",
+      "position": "west",
+      "dimensions": {},
+      "adjacent_rooms": [],
+      "directions": [
+        "west"
+      ]
+    }
+  ],
+  "total_rooms": 6,
+  "raw_text": "Balcony 1 location:South Side, Relationship:the location: Next to kitchen,  Area:50 sqrt feet   Sides: 10 feet width and 5 feet length.. Balcony 2 location:North Side, Relationship:the location: Next to Living,  Area:50 sqrt feet   Sides: 10 feet width and 5 feet length.. Bathroom location:South Side, Relationship:the location: Next to com2 and Living,  Area:100 sqrt feet   Sides: 10 feet width and 10 feet length.. Comon room 1 location:South side, Relationship:the location: between living and master,  Area:100 sqrt feet   Sides: 10 feet width and 10 feet length.. Comon room 2 location:South west Corner, Relationship:the location: Next to bath and master,  Area:200 sqrt feet   Sides: 10 feet width and 20 feet length.. Kitchen location:South Side, Relationship:the location: Next to  living,  Area:50 sqrt feet   Sides: 5 feet width and 10 feet length.. Living room location: North side, Relationship:the location: next to com1 and bath,  Area:500 sqrt feet   Sides: 25 feet width and 20 feet length. Master room location:West side , Relationship:the location: next to  com1 ,  Area:200 sqrt feet   Sides: 20 feet width and 10 feet length..",
+  "total_square_footage": 0,
+  "id": "33834",
+  "source_annotation": "data/raw/annotations/33834.txt",
+  "source_image": "data/raw/images/33834.png"
+}
