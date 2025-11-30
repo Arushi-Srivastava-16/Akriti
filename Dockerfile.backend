@@ -1,0 +1,34 @@
+# Stage 1: Base
+FROM python:3.10-slim as base
+
+WORKDIR /app
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    && rm -rf /var/lib/apt/lists/*
+
+# Stage 2: Dependencies
+FROM base as dependencies
+
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+RUN python -m spacy download en_core_web_sm
+
+# Stage 3: Application
+FROM dependencies as application
+
+# Copy application code
+COPY backend/ ./backend/
+COPY models/ ./models/
+COPY preprocessing/ ./preprocessing/
+
+# Create directories for data and checkpoints
+RUN mkdir -p data/processed data/training checkpoints logs
+
+# Expose port
+EXPOSE 8000
+
+# Run the application
+CMD ["uvicorn", "backend.main:app", "--host", "0.0.0.0", "--port", "8000"]
+
