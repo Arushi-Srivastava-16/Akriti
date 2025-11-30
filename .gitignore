@@ -46,8 +46,8 @@ checkpoints/*.pth
 
 # Data - ignore large raw images, but keep preprocessed data and annotations
 data/raw/images/
-# Keep data/processed/ and data/training/ - they will be tracked
-# Keep data/raw/annotations/ - they will be tracked
+data/processed/ and data/training/
+data/raw/annotations/
 
 # Logs
 *.log
